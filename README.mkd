@@ -11,7 +11,9 @@ Once this is more mature, you will be able to install using:
 
 And in the code, use:
 
+```javascript
     var tf2logsparser = require('tf2logparser');
+```
 
 More information to come here as the project is developed.
 
@@ -22,7 +24,9 @@ This project **will** be using TDD/BDD principles. If you submit a pull request,
 Be sure your commits messages are descriptive.
 
 As of right now, this project will be using Expresso and Should.
+
 http://visionmedia.github.com/expresso/ and http://tjholowaychuk.com/post/656851606/expresso-tdd-framework-for-nodejs
+
 http://github.com/visionmedia/should.js
 
 In order to run the tests, you will need to have Node and NPM installed.
