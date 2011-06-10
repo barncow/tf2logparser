@@ -3,4 +3,27 @@ tf2logparser
 
 A log parser for the game Team Fortress 2, written in Javascript for use with node.js. It retrieves stats and game events, and then outputs the data to JSON format.
 
+**this project is not yet in npm, the text below is just demonstrated the end usage.**
+
+Once this is more mature, you will be able to install using:
+    npm install tf2logparser
+
+And in the code, use:
+```javascript
+    var tf2logsparser = require('tf2logparser');
+```
+
 More information to come here as the project is developed.
+
+Developer Notes
+===============
+In order to run the tests, you will need to have Node and NPM installed.
+In the base directory, run the following commands:
+    npm install expresso
+    npm install should
+    npm install -g expresso #I needed to do this in order to get the "expresso" command in the shell. YMMV
+
+Once that is done, while still in the base directory, run:
+    expresso
+
+This will run everything in the test directory (well, the files named *.test.js).
