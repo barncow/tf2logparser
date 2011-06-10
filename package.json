@@ -1,0 +1,16 @@
+{
+  "author": "Brian Barnekow",
+  "name": "tf2logparser",
+  "description": "A log parser for the game Team Fortress 2. It retrieves stats and game events and outputs the data to JSON format.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/barncow/tf2logparser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/barncow/tf2logparser.git"
+  },
+  "engines": {
+    "node": ">=v0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
