@@ -1,0 +1,540 @@
+﻿L 11/23/2010 - 16:28:49: Log file started (file "logs/L1123010.log") (game "/home/DAVIDB/orangebox/tf") (version "4394")
+L 11/23/2010 - 16:28:51: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" changed role to "pyro"
+L 11/23/2010 - 16:29:23: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "scattergun" (attacker_position "-1600 -484 -415") (victim_position "-1957 -708 -415")
+L 11/23/2010 - 16:29:23: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1299 -531 -415") (victim_position "-1577 -449 -415")
+L 11/23/2010 - 16:29:25: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "deflect_rocket" (attacker_position "-1395 417 -409") (victim_position "-1174 550 -384")
+L 11/23/2010 - 16:29:25: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1995 -729 -401") (attacker_position "-1395 417 -409") (victim_position "-1174 550 -384")
+L 11/23/2010 - 16:29:27: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1098 -827 -415") (victim_position "-936 -426 -415")
+L 11/23/2010 - 16:29:29: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_rocket" (attacker_position "-718 410 -415") (victim_position "-599 714 -415")
+L 11/23/2010 - 16:29:29: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-260 559 -367") (attacker_position "-718 410 -415") (victim_position "-599 714 -415")
+L 11/23/2010 - 16:29:31: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "scattergun" (attacker_position "-678 259 -415") (victim_position "-648 615 -415")
+L 11/23/2010 - 16:29:31: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "744") (ubercharge "0")
+L 11/23/2010 - 16:29:31: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "flamethrower" (attacker_position "-599 714 -401") (victim_position "-436 872 -391")
+L 11/23/2010 - 16:29:31: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-890 327 -268") (attacker_position "-599 714 -401") (victim_position "-436 872 -391")
+L 11/23/2010 - 16:29:32: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "shotgun_soldier" (attacker_position "-883 394 -268") (victim_position "-457 830 -399")
+L 11/23/2010 - 16:29:32: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-768 511 -415") (attacker_position "-883 394 -268") (victim_position "-457 830 -399")
+L 11/23/2010 - 16:29:43: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" changed role to "soldier"
+L 11/23/2010 - 16:29:52: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "1") (player1 "kraka<12><STEAM_0:1:956144><Red>") (position1 "-1575 0 -376") 
+L 11/23/2010 - 16:29:54: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" changed role to "pyro"
+L 11/23/2010 - 16:29:56: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" changed role to "soldier"
+L 11/23/2010 - 16:30:01: Team "Red" triggered "pointcaptured" (cp "1") (cpname "Granary_cap_blue_cp2") (numcappers "2") (player1 "Tagg^<9><STEAM_0:1:10005539><Red>") (position1 "-1480 2909 -408") (player2 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position2 "-1419 2835 -415") 
+L 11/23/2010 - 16:30:01: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_pipe_remote" (attacker_position "-534 4130 -370") (victim_position "-1004 3655 -415")
+L 11/23/2010 - 16:30:29: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "tf_projectile_rocket" (attacker_position "-883 4627 -359") (victim_position "-1010 4593 -439")
+L 11/23/2010 - 16:30:29: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:30:29: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:30:31: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "scattergun" (attacker_position "-1337 4496 -179") (victim_position "-1310 4711 -216")
+L 11/23/2010 - 16:30:31: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-1079 4416 -389") (attacker_position "-1337 4496 -179") (victim_position "-1310 4711 -216")
+L 11/23/2010 - 16:30:32: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "world" (attacker_position "-1560 4939 -433") (victim_position "-1256 5315 -407")
+L 11/23/2010 - 16:30:34: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1682 4794 -461") (victim_position "-1587 5143 -339")
+L 11/23/2010 - 16:30:34: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assister_position "-1294 4785 -470") (attacker_position "-1682 4794 -461") (victim_position "-1587 5143 -339")
+L 11/23/2010 - 16:30:35: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "969") (ubercharge "0")
+L 11/23/2010 - 16:30:35: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_rocket" (attacker_position "-2007 5289 -371") (victim_position "-2199 5447 -365")
+L 11/23/2010 - 16:30:35: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_rocket" (attacker_position "-2057 5399 -384") (victim_position "-2095 5470 -415")
+L 11/23/2010 - 16:30:39: Team "Red" triggered "pointcaptured" (cp "0") (cpname "Granary_cap_blue_cp1") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1557 5198 -404") (player2 "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>") (position2 "-1708 5261 -411") (player3 "kraka<12><STEAM_0:1:956144><Red>") (position3 "-1544 5123 -404") 
+L 11/23/2010 - 16:30:39: World triggered "Round_Win" (winner "Red")
+L 11/23/2010 - 16:30:39: World triggered "Round_Length" (seconds "110.02")
+L 11/23/2010 - 16:30:39: Team "Red" current score "1" with "6" players
+L 11/23/2010 - 16:30:39: Team "Blue" current score "0" with "6" players
+L 11/23/2010 - 16:30:40: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "shotgun_soldier" (attacker_position "-1928 4355 -476") (victim_position "-2190 4170 -455")
+L 11/23/2010 - 16:30:40: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1712 4918 -436") (attacker_position "-1928 4355 -476") (victim_position "-2190 4170 -455")
+L 11/23/2010 - 16:30:45: World triggered "Round_Start"
+L 11/23/2010 - 16:31:17: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "534") (ubercharge "0")
+L 11/23/2010 - 16:31:17: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_rocket" (attacker_position "-1914 455 -415") (victim_position "-1053 640 -365")
+L 11/23/2010 - 16:31:17: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-2111 -697 -415") (attacker_position "-1914 455 -415") (victim_position "-1053 640 -365")
+L 11/23/2010 - 16:31:21: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "scattergun" (attacker_position "-788 -164 -415") (victim_position "-862 38 -268")
+L 11/23/2010 - 16:31:25: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "scattergun" (attacker_position "-1002 104 -119") (victim_position "-938 483 -268")
+L 11/23/2010 - 16:31:25: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-719 -253 -240") (attacker_position "-1002 104 -119") (victim_position "-938 483 -268")
+L 11/23/2010 - 16:31:30: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "tf_projectile_rocket" (attacker_position "-1796 -225 -380") (victim_position "-1300 517 -415")
+L 11/23/2010 - 16:31:30: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assister_position "-1203 -87 -383") (attacker_position "-1796 -225 -380") (victim_position "-1300 517 -415")
+L 11/23/2010 - 16:31:30: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "tf_projectile_rocket" (attacker_position "-1480 -455 -383") (victim_position "-1757 -552 -415")
+L 11/23/2010 - 16:31:30: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-1680 -520 -386") (attacker_position "-1480 -455 -383") (victim_position "-1757 -552 -415")
+L 11/23/2010 - 16:31:37: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "shotgun_soldier" (attacker_position "-1019 -234 -119") (victim_position "-903 -2 -268")
+L 11/23/2010 - 16:31:37: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-1191 -103 -373") (attacker_position "-1019 -234 -119") (victim_position "-903 -2 -268")
+L 11/23/2010 - 16:31:47: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "4") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1741 138 -383") (player2 "Tagg^<9><STEAM_0:1:10005539><Red>") (position2 "-1539 49 -376") (player3 "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>") (position3 "-1561 194 -348") (player4 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position4 "-1203 55 -371") 
+L 11/23/2010 - 16:31:50: "kraka<12><STEAM_0:1:956144><Red>" changed role to "pyro"
+L 11/23/2010 - 16:31:51: "kraka<12><STEAM_0:1:956144><Red>" changed role to "scout"
+L 11/23/2010 - 16:32:08: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-2354 2175 -415") (victim_position "-2087 2375 -415")
+L 11/23/2010 - 16:32:08: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-2261 2177 -415") (attacker_position "-2354 2175 -415") (victim_position "-2087 2375 -415")
+L 11/23/2010 - 16:32:10: Team "Red" triggered "pointcaptured" (cp "1") (cpname "Granary_cap_blue_cp2") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1403 3091 -415") (player2 "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>") (position2 "-1515 2846 -412") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1557 2855 -371") 
+L 11/23/2010 - 16:32:17: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:32:17: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:32:26: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "shotgun_soldier" (attacker_position "-1540 4856 -451") (victim_position "-1773 5003 -75")
+L 11/23/2010 - 16:32:28: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "world" (attacker_position "-2010 5312 -415") (victim_position "-2250 4177 -472")
+L 11/23/2010 - 16:32:28: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "captureblocked" (cp "0") (cpname "Granary_cap_blue_cp1") (position "-1523 5076 -411")
+L 11/23/2010 - 16:32:28: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "scattergun" (attacker_position "-1523 5076 -411") (victim_position "-1638 5071 -407")
+L 11/23/2010 - 16:32:28: "verticaL looking<25><STEAM_0:0:21479647><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-1786 5020 -59") (attacker_position "-1523 5076 -411") (victim_position "-1638 5071 -407")
+L 11/23/2010 - 16:32:29: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1154") (ubercharge "0")
+L 11/23/2010 - 16:32:29: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_pipe" (attacker_position "-1722 4720 -474") (victim_position "-2036 5486 -334")
+L 11/23/2010 - 16:32:29: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-1327 4660 -478") (attacker_position "-1722 4720 -474") (victim_position "-2036 5486 -334")
+L 11/23/2010 - 16:32:31: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "tf_projectile_pipe_remote" (attacker_position "-2042 5310 -366") (victim_position "-2383 4795 -446")
+L 11/23/2010 - 16:32:37: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_pipe" (attacker_position "-2120 5512 -415") (victim_position "-1479 4961 -428")
+L 11/23/2010 - 16:32:39: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "captureblocked" (cp "0") (cpname "Granary_cap_blue_cp1") (position "-1751 5179 -411")
+L 11/23/2010 - 16:32:40: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "2387") (ubercharge "0")
+L 11/23/2010 - 16:32:40: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "captureblocked" (cp "0") (cpname "Granary_cap_blue_cp1") (position "-1887 5332 -415")
+L 11/23/2010 - 16:32:40: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "shotgun_soldier" (attacker_position "-1887 5332 -415") (victim_position "-1639 5219 -400")
+L 11/23/2010 - 16:32:40: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-2123 5589 -415") (attacker_position "-1887 5332 -415") (victim_position "-1639 5219 -400")
+L 11/23/2010 - 16:32:51: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1412 4953 -264") (victim_position "-1641 5210 -362")
+L 11/23/2010 - 16:32:53: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1895 5308 -415") (victim_position "-1743 5198 -411")
+L 11/23/2010 - 16:32:53: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" (assister_position "-1717 5267 -319") (attacker_position "-1895 5308 -415") (victim_position "-1743 5198 -411")
+L 11/23/2010 - 16:33:27: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-761 4025 -415") (victim_position "-867 4337 -425")
+L 11/23/2010 - 16:33:37: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:33:38: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_rocket" (attacker_position "-2343 4184 -474") (victim_position "-1858 4023 -428")
+L 11/23/2010 - 16:33:55: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "pistol_scout" (attacker_position "-975 4936 -437") (victim_position "-1061 5180 -385")
+L 11/23/2010 - 16:33:56: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1687 3445 -215") (victim_position "-1418 3922 -188")
+L 11/23/2010 - 16:33:56: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-1429 3971 -215") (attacker_position "-1687 3445 -215") (victim_position "-1418 3922 -188")
+L 11/23/2010 - 16:33:56: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:33:56: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "scattergun" (attacker_position "-838 5008 -423") (victim_position "-714 4510 -311")
+L 11/23/2010 - 16:33:56: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "kraka<12><STEAM_0:1:956144><Red>" (assister_position "-1339 4962 -232") (attacker_position "-838 5008 -423") (victim_position "-714 4510 -311")
+L 11/23/2010 - 16:33:56: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:34:01: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:34:01: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:34:08: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "1418") (ubercharge "0")
+L 11/23/2010 - 16:34:08: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "tf_projectile_rocket" (attacker_position "-1439 4940 -432") (victim_position "-1397 5027 -422")
+L 11/23/2010 - 16:34:08: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-1625 5163 -404") (attacker_position "-1439 4940 -432") (victim_position "-1397 5027 -422")
+L 11/23/2010 - 16:34:10: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "tf_projectile_rocket" (attacker_position "-2078 5284 -347") (victim_position "-2084 5512 -377")
+L 11/23/2010 - 16:34:10: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1228 4844 -459") (attacker_position "-2078 5284 -347") (victim_position "-2084 5512 -377")
+L 11/23/2010 - 16:34:10: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1407 4837 -459") (victim_position "-2011 4851 -397")
+L 11/23/2010 - 16:34:10: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-1340 4620 -209") (attacker_position "-1407 4837 -459") (victim_position "-2011 4851 -397")
+L 11/23/2010 - 16:34:13: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_rocket" (attacker_position "-2065 5209 -415") (victim_position "-1997 5363 -344")
+L 11/23/2010 - 16:34:13: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-1818 4892 -441") (attacker_position "-2065 5209 -415") (victim_position "-1997 5363 -344")
+L 11/23/2010 - 16:34:15: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "captureblocked" (cp "0") (cpname "Granary_cap_blue_cp1") (position "-1718 5280 -411")
+L 11/23/2010 - 16:34:16: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "2003") (ubercharge "0")
+L 11/23/2010 - 16:34:16: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_pipe" (attacker_position "-1659 4863 -448") (victim_position "-1644 5037 -411")
+L 11/23/2010 - 16:34:16: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-1559 4718 -478") (attacker_position "-1659 4863 -448") (victim_position "-1644 5037 -411")
+L 11/23/2010 - 16:34:16: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" committed suicide with "tf_projectile_pipe" (attacker_position "-1659 4863 -448")
+L 11/23/2010 - 16:34:18: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "pistol_scout" (attacker_position "-1376 4966 -427") (victim_position "-1681 5235 -393")
+L 11/23/2010 - 16:34:18: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1659 4863 -434") (attacker_position "-1376 4966 -427") (victim_position "-1681 5235 -393")
+L 11/23/2010 - 16:34:19: Team "Red" triggered "pointcaptured" (cp "0") (cpname "Granary_cap_blue_cp1") (numcappers "1") (player1 "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>") (position1 "-1639 5059 -411") 
+L 11/23/2010 - 16:34:19: World triggered "Round_Win" (winner "Red")
+L 11/23/2010 - 16:34:19: World triggered "Round_Length" (seconds "214.20")
+L 11/23/2010 - 16:34:19: Team "Red" current score "2" with "6" players
+L 11/23/2010 - 16:34:19: Team "Blue" current score "0" with "6" players
+L 11/23/2010 - 16:34:21: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "shotgun_soldier" (attacker_position "-1582 5086 -404") (victim_position "-1534 5088 -405")
+L 11/23/2010 - 16:34:24: World triggered "Round_Start"
+L 11/23/2010 - 16:35:00: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "695") (ubercharge "0")
+L 11/23/2010 - 16:35:00: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "scattergun" (attacker_position "-2240 -442 -415") (victim_position "-1938 -739 -371")
+L 11/23/2010 - 16:35:01: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-2312 -142 -415") (victim_position "-2210 -482 -415")
+L 11/23/2010 - 16:35:01: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "domination" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>"
+L 11/23/2010 - 16:35:01: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "717") (ubercharge "0")
+L 11/23/2010 - 16:35:01: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_rocket" (attacker_position "-754 -118 -415") (victim_position "-717 -260 -415")
+L 11/23/2010 - 16:35:01: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "world" (attacker_position "-671 -43 -415") (victim_position "-754 -118 -415")
+L 11/23/2010 - 16:35:01: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_pipe" (attacker_position "-1766 -25 -383") (victim_position "-659 -39 -415")
+L 11/23/2010 - 16:35:01: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-754 -118 -381") (attacker_position "-1766 -25 -383") (victim_position "-659 -39 -415")
+L 11/23/2010 - 16:35:03: "Big Bird<27><STEAM_0:1:27062850><>" connected, address "75.4.202.233:27005"
+L 11/23/2010 - 16:35:03: "Big Bird<27><STEAM_0:1:27062850><>" STEAM USERID validated
+L 11/23/2010 - 16:35:04: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-2279 378 -415") (victim_position "-2157 410 -415")
+L 11/23/2010 - 16:35:06: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_pipe" (attacker_position "-1389 -450 -415") (victim_position "-1912 -736 -415")
+L 11/23/2010 - 16:35:08: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "shotgun_soldier" (attacker_position "-1635 -366 -338") (victim_position "-1179 -552 -332")
+L 11/23/2010 - 16:35:08: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1415 -238 -415") (attacker_position "-1635 -366 -338") (victim_position "-1179 -552 -332")
+L 11/23/2010 - 16:35:11: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_rocket" (attacker_position "-1431 493 -408") (victim_position "-1359 -254 -268")
+L 11/23/2010 - 16:35:11: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-1112 -556 -327") (attacker_position "-1431 493 -408") (victim_position "-1359 -254 -268")
+L 11/23/2010 - 16:35:12: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_rocket" (attacker_position "-1186 593 -393") (victim_position "-1166 123 -383")
+L 11/23/2010 - 16:35:17: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "shotgun_soldier" (attacker_position "-1537 157 -369") (victim_position "-1633 -601 -382")
+L 11/23/2010 - 16:35:50: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "BananaNinja":3<18><STEAM_0:1:13619848><Blue>") (position1 "-1572 23 -376") (player2 "Snips ||AG||<24><STEAM_0:1:15560087><Blue>") (position2 "-1608 58 -376") (player3 "verticaL looking<25><STEAM_0:0:21479647><Blue>") (position3 "-1537 71 -376") 
+L 11/23/2010 - 16:36:08: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:36:09: "Big Bird<27><STEAM_0:1:27062850><>" entered the game
+L 11/23/2010 - 16:36:21: "Big Bird<27><STEAM_0:1:27062850><Unassigned>" joined team "Spectator"
+L 11/23/2010 - 16:37:20: "Tagg^<9><STEAM_0:1:10005539><Red>" say "Hows life guys?"
+L 11/23/2010 - 16:37:24: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" say "decent"
+L 11/23/2010 - 16:37:25: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" say "you"
+L 11/23/2010 - 16:37:30: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" say "sexy"
+L 11/23/2010 - 16:37:32: "Tagg^<9><STEAM_0:1:10005539><Red>" say "I just got on break"
+L 11/23/2010 - 16:37:36: "Tagg^<9><STEAM_0:1:10005539><Red>" say "its pretty pro"
+L 11/23/2010 - 16:37:37: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:37:38: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:37:38: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_rocket" (attacker_position "-2644 -1261 -415") (victim_position "-2277 -1550 -369")
+L 11/23/2010 - 16:37:38: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "kraka<12><STEAM_0:1:956144><Red>" (assister_position "-2271 -1683 -79") (attacker_position "-2644 -1261 -415") (victim_position "-2277 -1550 -369")
+L 11/23/2010 - 16:37:39: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" say "because you're in 6th grade"
+L 11/23/2010 - 16:37:41: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:37:41: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:37:45: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "world" (attacker_position "-507 -2377 -331") (victim_position "-627 -2699 -414")
+L 11/23/2010 - 16:37:45: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-506 -2325 -417") (attacker_position "-507 -2377 -331") (victim_position "-627 -2699 -414")
+L 11/23/2010 - 16:37:48: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "shotgun_soldier" (attacker_position "-2144 -2514 -414") (victim_position "-1915 -2713 -415")
+L 11/23/2010 - 16:37:48: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-2008 -2570 -419") (attacker_position "-2144 -2514 -414") (victim_position "-1915 -2713 -415")
+L 11/23/2010 - 16:37:48: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1059 -2380 -413") (victim_position "-760 -2291 -418")
+L 11/23/2010 - 16:37:51: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "tf_projectile_rocket" (attacker_position "-1477 -2780 -415") (victim_position "-1294 -2767 -415")
+L 11/23/2010 - 16:37:51: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1557 -2906 -408") (attacker_position "-1477 -2780 -415") (victim_position "-1294 -2767 -415")
+L 11/23/2010 - 16:37:52: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "scattergun" (attacker_position "-889 -2336 -416") (victim_position "-1292 -2112 -407")
+L 11/23/2010 - 16:37:58: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "2819") (ubercharge "0")
+L 11/23/2010 - 16:37:58: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_rocket" (attacker_position "-1683 -2234 -340") (victim_position "-1441 -2236 -373")
+L 11/23/2010 - 16:38:00: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "shotgun_soldier" (attacker_position "-1768 -1755 -244") (victim_position "-1665 -2260 -408")
+L 11/23/2010 - 16:38:00: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1972 -2473 -369") (attacker_position "-1768 -1755 -244") (victim_position "-1665 -2260 -408")
+L 11/23/2010 - 16:38:02: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "shotgun_soldier" (attacker_position "-1525 -2498 -414") (victim_position "-890 -2535 -417")
+L 11/23/2010 - 16:38:25: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:38:27: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1670 -3 -383") (player2 "kraka<12><STEAM_0:1:956144><Red>") (position2 "-1496 109 -378") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1533 -70 -335") 
+L 11/23/2010 - 16:38:49: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_rocket" (attacker_position "-872 2244 -280") (victim_position "-1163 1851 -415")
+L 11/23/2010 - 16:38:56: "Ɖ™ 'looking<28><STEAM_0:1:26362471><>" connected, address "65.184.154.124:27005"
+L 11/23/2010 - 16:38:56: "Ɖ™ 'looking<28><STEAM_0:1:26362471><>" STEAM USERID validated
+L 11/23/2010 - 16:39:06: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:39:06: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:39:08: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:39:08: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:39:13: "Tagg^<9><STEAM_0:1:10005539><Red>" say "I am on break till Janurary now, pretty cool"
+L 11/23/2010 - 16:39:16: "Ɖ™ 'looking<28><STEAM_0:1:26362471><>" entered the game
+L 11/23/2010 - 16:39:17: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "4466") (ubercharge "0")
+L 11/23/2010 - 16:39:17: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "scattergun" (attacker_position "-785 597 -415") (victim_position "-514 752 -415")
+L 11/23/2010 - 16:39:19: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "scattergun" (attacker_position "-740 423 -415") (victim_position "-411 594 -415")
+L 11/23/2010 - 16:39:22: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1110 1891 -370") (victim_position "-1363 1764 -415")
+L 11/23/2010 - 16:39:22: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-1163 2091 -415") (attacker_position "-1110 1891 -370") (victim_position "-1363 1764 -415")
+L 11/23/2010 - 16:39:23: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Unassigned>" joined team "Spectator"
+L 11/23/2010 - 16:39:24: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-564 1490 -415") (victim_position "-737 1569 -384")
+L 11/23/2010 - 16:39:25: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1436") (ubercharge "0")
+L 11/23/2010 - 16:39:25: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "scattergun" (attacker_position "-688 1585 -377") (victim_position "-845 1703 -415")
+L 11/23/2010 - 16:39:25: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_rocket" (attacker_position "-836 1690 -415") (victim_position "-703 1596 -366")
+L 11/23/2010 - 16:39:27: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "scattergun" (attacker_position "-486 788 -415") (victim_position "-445 1336 -382")
+L 11/23/2010 - 16:39:27: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-452 781 -415") (attacker_position "-486 788 -415") (victim_position "-445 1336 -382")
+L 11/23/2010 - 16:39:34: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "scattergun" (attacker_position "-1336 459 -414") (victim_position "-1433 243 -382")
+L 11/23/2010 - 16:39:34: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-1030 467 -415") (attacker_position "-1336 459 -414") (victim_position "-1433 243 -382")
+L 11/23/2010 - 16:39:45: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "BananaNinja":3<18><STEAM_0:1:13619848><Blue>") (position1 "-1612 50 -376") (player2 "Snips ||AG||<24><STEAM_0:1:15560087><Blue>") (position2 "-1582 19 -376") (player3 "verticaL looking<25><STEAM_0:0:21479647><Blue>") (position3 "-1683 -19 -383") 
+L 11/23/2010 - 16:39:50: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" changed role to "pyro"
+L 11/23/2010 - 16:39:50: "\.=. pre<22><STEAM_0:0:15376618><Blue>" changed role to "pyro"
+L 11/23/2010 - 16:39:51: "\.=. pre<22><STEAM_0:0:15376618><Blue>" changed role to "demoman"
+L 11/23/2010 - 16:39:52: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" changed role to "medic"
+L 11/23/2010 - 16:39:53: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1126 -1463 -417") (victim_position "-1181 -1095 -415")
+L 11/23/2010 - 16:40:06: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><>" connected, address "76.213.242.87:27005"
+L 11/23/2010 - 16:40:06: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><>" STEAM USERID validated
+L 11/23/2010 - 16:40:10: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:40:14: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_pipe" (attacker_position "-1348 -93 -383") (victim_position "-2144 -253 -136")
+L 11/23/2010 - 16:40:14: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" (assister_position "-1708 -187 -268") (attacker_position "-1348 -93 -383") (victim_position "-2144 -253 -136")
+L 11/23/2010 - 16:40:24: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-2632 -962 -391") (victim_position "-2497 -681 -415")
+L 11/23/2010 - 16:40:34: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:40:50: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:40:50: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:40:53: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:40:53: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:40:55: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-2110 -2776 -417") (victim_position "-2527 -1316 -419")
+L 11/23/2010 - 16:40:58: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_rocket" (attacker_position "-1964 -1824 -377") (victim_position "-2245 -1846 -222")
+L 11/23/2010 - 16:40:58: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1910 -2094 -415") (attacker_position "-1964 -1824 -377") (victim_position "-2245 -1846 -222")
+L 11/23/2010 - 16:41:00: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1561") (ubercharge "0")
+L 11/23/2010 - 16:41:00: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "scattergun" (attacker_position "-786 -1592 -406") (victim_position "-1326 -1611 -384")
+L 11/23/2010 - 16:41:00: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-1101 -1546 -412") (attacker_position "-786 -1592 -406") (victim_position "-1326 -1611 -384")
+L 11/23/2010 - 16:41:01: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "tf_projectile_rocket" (attacker_position "-1597 -1578 -299") (victim_position "-1481 -1528 -407")
+L 11/23/2010 - 16:41:05: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><>" entered the game
+L 11/23/2010 - 16:41:05: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "tf_projectile_rocket" (attacker_position "-1059 -1362 -361") (victim_position "-1340 -1200 -274")
+L 11/23/2010 - 16:41:19: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Unassigned>" joined team "Spectator"
+L 11/23/2010 - 16:41:24: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "scattergun" (attacker_position "-1448 2379 -415") (victim_position "-1901 2300 -350")
+L 11/23/2010 - 16:41:24: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" (assister_position "-985 2446 -415") (attacker_position "-1448 2379 -415") (victim_position "-1901 2300 -350")
+L 11/23/2010 - 16:41:24: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "domination" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>"
+L 11/23/2010 - 16:41:26: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "274") (ubercharge "0")
+L 11/23/2010 - 16:41:26: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1030 2701 -415") (victim_position "-1355 2423 -415")
+L 11/23/2010 - 16:41:26: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "domination" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>"
+L 11/23/2010 - 16:41:28: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "1") (player1 "kraka<12><STEAM_0:1:956144><Red>") (position1 "-1651 10 -380") 
+L 11/23/2010 - 16:41:31: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_pipe_remote" (attacker_position "-907 2655 -374") (victim_position "-1044 2049 -383")
+L 11/23/2010 - 16:41:31: "verticaL looking<25><STEAM_0:0:21479647><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-2028 2468 -415") (attacker_position "-907 2655 -374") (victim_position "-1044 2049 -383")
+L 11/23/2010 - 16:41:32: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "2090") (ubercharge "0")
+L 11/23/2010 - 16:41:32: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "scattergun" (attacker_position "-983 1699 -415") (victim_position "-763 1547 -367")
+L 11/23/2010 - 16:41:32: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-944 2234 -385") (attacker_position "-983 1699 -415") (victim_position "-763 1547 -367")
+L 11/23/2010 - 16:41:36: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1196 1878 -369") (victim_position "-1288 1709 -415")
+L 11/23/2010 - 16:41:36: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-1055 1873 -415") (attacker_position "-1196 1878 -369") (victim_position "-1288 1709 -415")
+L 11/23/2010 - 16:41:36: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "pistol_scout" (attacker_position "-1408 1432 -415") (victim_position "-968 2074 -415")
+L 11/23/2010 - 16:41:36: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-1288 1709 -401") (attacker_position "-1408 1432 -415") (victim_position "-968 2074 -415")
+L 11/23/2010 - 16:41:48: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "maxgun" (attacker_position "-2096 3224 -215") (victim_position "-2104 2718 -207")
+L 11/23/2010 - 16:42:32: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:43:05: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "scattergun" (attacker_position "-2306 2547 -415") (victim_position "-2543 1629 -415")
+L 11/23/2010 - 16:43:05: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-2376 1879 -415") (attacker_position "-2306 2547 -415") (victim_position "-2543 1629 -415")
+L 11/23/2010 - 16:43:05: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "domination" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>"
+L 11/23/2010 - 16:43:07: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "tf_projectile_rocket" (attacker_position "-2512 1672 -415") (victim_position "-2483 1915 -355")
+L 11/23/2010 - 16:43:07: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-2252 1579 -385") (attacker_position "-2512 1672 -415") (victim_position "-2483 1915 -355")
+L 11/23/2010 - 16:43:07: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "domination" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>"
+L 11/23/2010 - 16:43:12: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:43:12: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:43:13: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:43:13: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:43:15: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe" (attacker_position "-1409 2225 -415") (victim_position "-1401 2383 -415")
+L 11/23/2010 - 16:43:15: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-2487 2302 -415") (victim_position "-2104 2610 -415")
+L 11/23/2010 - 16:43:15: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "revenge" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>"
+L 11/23/2010 - 16:43:23: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "1559") (ubercharge "0")
+L 11/23/2010 - 16:43:23: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "tf_projectile_rocket" (attacker_position "-2264 2657 -407") (victim_position "-1971 2617 -395")
+L 11/23/2010 - 16:43:27: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_rocket" (attacker_position "-2374 3408 -447") (victim_position "-2001 3535 -308")
+L 11/23/2010 - 16:43:27: "kraka<12><STEAM_0:1:956144><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "2104") (ubercharge "0")
+L 11/23/2010 - 16:43:27: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "scattergun" (attacker_position "-800 2602 -320") (victim_position "-659 2288 -415")
+L 11/23/2010 - 16:43:47: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "shotgun_soldier" (attacker_position "-2112 3250 -215") (victim_position "-2088 1916 -207")
+L 11/23/2010 - 16:43:52: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "scattergun" (attacker_position "-2092 2016 -207") (victim_position "-2100 1860 -207")
+L 11/23/2010 - 16:44:30: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:44:38: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "tf_projectile_pipe" (attacker_position "-2485 2878 -434") (victim_position "-2536 2729 -416")
+L 11/23/2010 - 16:44:38: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assister_position "-2599 2773 -396") (attacker_position "-2485 2878 -434") (victim_position "-2536 2729 -416")
+L 11/23/2010 - 16:44:38: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "revenge" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>"
+L 11/23/2010 - 16:44:39: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "tf_projectile_rocket" (attacker_position "-2101 3336 -215") (victim_position "-2127 3286 -215")
+L 11/23/2010 - 16:44:41: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "884") (ubercharge "0")
+L 11/23/2010 - 16:44:41: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "scattergun" (attacker_position "-2061 2633 -399") (victim_position "-2407 2632 -415")
+L 11/23/2010 - 16:44:41: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-2536 2729 -402") (attacker_position "-2061 2633 -399") (victim_position "-2407 2632 -415")
+L 11/23/2010 - 16:44:42: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_rocket" (attacker_position "-1166 3498 -415") (victim_position "-1614 2842 -415")
+L 11/23/2010 - 16:44:42: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" (assister_position "-1164 3363 -415") (attacker_position "-1166 3498 -415") (victim_position "-1614 2842 -415")
+L 11/23/2010 - 16:44:46: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:44:46: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "scattergun" (attacker_position "-1506 3404 -415") (victim_position "-1213 3253 -322")
+L 11/23/2010 - 16:44:46: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "kraka<12><STEAM_0:1:956144><Red>" (assister_position "-1191 3441 -415") (attacker_position "-1506 3404 -415") (victim_position "-1213 3253 -322")
+L 11/23/2010 - 16:44:46: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:44:47: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:44:50: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe" (attacker_position "-1903 3211 -354") (victim_position "-1746 3423 -415")
+L 11/23/2010 - 16:44:54: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1824 3281 -366") (victim_position "-1491 3509 -171")
+L 11/23/2010 - 16:44:54: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-1947 3264 -375") (attacker_position "-1824 3281 -366") (victim_position "-1491 3509 -171")
+L 11/23/2010 - 16:44:54: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "revenge" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assist "1")
+L 11/23/2010 - 16:45:12: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "captureblocked" (cp "2") (cpname "Granary_cap_cp3") (position "-1797 -213 -383")
+L 11/23/2010 - 16:45:13: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "captureblocked" (cp "1") (cpname "Granary_cap_blue_cp2") (position "-1376 3023 -415")
+L 11/23/2010 - 16:45:13: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "scattergun" (attacker_position "-1376 3023 -415") (victim_position "-1445 3007 -408")
+L 11/23/2010 - 16:45:16: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "\.=. *CHE<23><STEAM_0:1:10466109><Blue>") (position1 "-1195 -69 -383") (player2 "Snips ||AG||<24><STEAM_0:1:15560087><Blue>") (position2 "-1524 69 -376") (player3 "t00l'looking<26><STEAM_0:0:42903><Blue>") (position3 "-1225 133 -383") 
+L 11/23/2010 - 16:45:39: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1102 -1486 -416") (victim_position "-1130 -1414 -415")
+L 11/23/2010 - 16:45:48: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:45:54: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:45:54: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:45:57: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "scattergun" (attacker_position "-1818 -379 -404") (victim_position "-1848 -497 -415")
+L 11/23/2010 - 16:45:57: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-2063 -528 -415") (attacker_position "-1818 -379 -404") (victim_position "-1848 -497 -415")
+L 11/23/2010 - 16:46:09: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "tf_projectile_rocket" (attacker_position "-1776 -664 -102") (victim_position "-2121 -578 -415")
+L 11/23/2010 - 16:46:09: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-2151 -467 -415") (attacker_position "-1776 -664 -102") (victim_position "-2121 -578 -415")
+L 11/23/2010 - 16:46:14: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "shotgun_soldier" (attacker_position "-2394 -434 -415") (victim_position "-2615 -962 -391")
+L 11/23/2010 - 16:46:15: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-2308 181 -415") (victim_position "-1862 33 -312")
+L 11/23/2010 - 16:46:17: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_pipe_remote" (attacker_position "-2020 -99 -119") (victim_position "-2309 -197 -367")
+L 11/23/2010 - 16:46:21: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:46:21: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:46:24: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "tf_projectile_rocket" (attacker_position "-2233 -1560 -415") (victim_position "-1738 -1629 -405")
+L 11/23/2010 - 16:46:24: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-2167 -1676 -416") (attacker_position "-2233 -1560 -415") (victim_position "-1738 -1629 -405")
+L 11/23/2010 - 16:46:52: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:46:52: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:46:52: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "scattergun" (attacker_position "-570 -2952 -444") (victim_position "-863 -3046 -447")
+L 11/23/2010 - 16:46:52: "verticaL looking<25><STEAM_0:0:21479647><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-1880 -2321 -416") (attacker_position "-570 -2952 -444") (victim_position "-863 -3046 -447")
+L 11/23/2010 - 16:46:55: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "1744") (ubercharge "0")
+L 11/23/2010 - 16:46:55: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "tf_projectile_rocket" (attacker_position "-1790 -3130 -415") (victim_position "-1904 -3515 -415")
+L 11/23/2010 - 16:46:55: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-1556 -2913 -408") (attacker_position "-1790 -3130 -415") (victim_position "-1904 -3515 -415")
+L 11/23/2010 - 16:46:57: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_rocket" (attacker_position "-1548 -3284 -415") (victim_position "-1280 -3167 -415")
+L 11/23/2010 - 16:46:57: "verticaL looking<25><STEAM_0:0:21479647><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-1596 -2769 -415") (attacker_position "-1548 -3284 -415") (victim_position "-1280 -3167 -415")
+L 11/23/2010 - 16:46:58: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "tf_projectile_rocket" (attacker_position "-1661 -2911 -355") (victim_position "-1665 -2612 -415")
+L 11/23/2010 - 16:46:58: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1101 -2641 -399") (victim_position "-1169 -2664 -399")
+L 11/23/2010 - 16:46:58: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" triggered "kill assist" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assister_position "-1670 -2911 -357") (attacker_position "-1101 -2641 -399") (victim_position "-1169 -2664 -399")
+L 11/23/2010 - 16:46:59: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "scattergun" (attacker_position "-639 -2144 -418") (victim_position "-616 -2702 -414")
+L 11/23/2010 - 16:46:59: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "revenge" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>"
+L 11/23/2010 - 16:47:00: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_pipe" (attacker_position "-1489 -2954 -408") (victim_position "-1679 -2863 -399")
+L 11/23/2010 - 16:47:00: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-1491 -2940 -403") (attacker_position "-1489 -2954 -408") (victim_position "-1679 -2863 -399")
+L 11/23/2010 - 16:47:02: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-710 -2407 -419") (victim_position "-560 -2170 -417")
+L 11/23/2010 - 16:47:08: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "Granary_cap_red_cp2") (numcappers "2") (player1 "\.=. pre<22><STEAM_0:0:15376618><Blue>") (position1 "-1522 -3022 -408") (player2 "\.=. *CHE<23><STEAM_0:1:10466109><Blue>") (position2 "-1470 -2949 -408") 
+L 11/23/2010 - 16:47:16: Team "Blue" triggered "pointcaptured" (cp "4") (cpname "Granary_cap_red_cp1") (numcappers "1") (player1 "t00l'looking<26><STEAM_0:0:42903><Blue>") (position1 "-1565 -5207 -404") 
+L 11/23/2010 - 16:47:16: World triggered "Round_Win" (winner "Blue")
+L 11/23/2010 - 16:47:16: World triggered "Round_Length" (seconds "771.33")
+L 11/23/2010 - 16:47:16: Team "Red" current score "2" with "6" players
+L 11/23/2010 - 16:47:16: Team "Blue" current score "1" with "6" players
+L 11/23/2010 - 16:47:17: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_rocket" (attacker_position "-1603 -5100 -411") (victim_position "-1409 -5154 -404")
+L 11/23/2010 - 16:47:22: World triggered "Round_Start"
+L 11/23/2010 - 16:47:55: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-897 292 -268") (victim_position "-717 417 -376")
+L 11/23/2010 - 16:47:59: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1942 747 -415") (victim_position "-1723 902 -336")
+L 11/23/2010 - 16:48:01: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "shotgun_soldier" (attacker_position "-1275 -243 -119") (victim_position "-1390 -219 -87")
+L 11/23/2010 - 16:48:01: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-1018 177 -119") (attacker_position "-1275 -243 -119") (victim_position "-1390 -219 -87")
+L 11/23/2010 - 16:48:04: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "world" (attacker_position "-1014 -314 -119") (victim_position "-715 -362 -413")
+L 11/23/2010 - 16:48:06: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-763 -490 -415") (victim_position "-774 77 -415")
+L 11/23/2010 - 16:48:07: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_pipe" (attacker_position "-1639 -1 -376") (victim_position "-1017 295 -119")
+L 11/23/2010 - 16:48:07: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1635 -565 -415") (attacker_position "-1639 -1 -376") (victim_position "-1017 295 -119")
+L 11/23/2010 - 16:48:07: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "domination" against "t00l'looking<26><STEAM_0:0:42903><Blue>"
+L 11/23/2010 - 16:48:14: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "4") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1510 0 -376") (player2 "Tagg^<9><STEAM_0:1:10005539><Red>") (position2 "-1498 -10 -376") (player3 "kraka<12><STEAM_0:1:956144><Red>") (position3 "-1653 211 -348") (player4 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position4 "-1573 207 -383") 
+L 11/23/2010 - 16:48:28: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" changed role to "sniper"
+L 11/23/2010 - 16:48:31: Team "Red" triggered "pointcaptured" (cp "1") (cpname "Granary_cap_blue_cp2") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1448 3090 -403") (player2 "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>") (position2 "-1571 2913 -408") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1431 2803 -415") 
+L 11/23/2010 - 16:48:37: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:48:37: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:48:41: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:48:41: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:48:42: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "scattergun" (attacker_position "-1404 4202 -140") (victim_position "-1319 4573 -151")
+L 11/23/2010 - 16:48:42: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-1331 4510 -83") (attacker_position "-1404 4202 -140") (victim_position "-1319 4573 -151")
+L 11/23/2010 - 16:48:46: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1519 4835 -455") (victim_position "-1714 4996 -340")
+L 11/23/2010 - 16:48:47: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "smg" (attacker_position "-1593 4821 -458") (victim_position "-1552 4659 -483")
+L 11/23/2010 - 16:48:47: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-1702 5351 -392") (attacker_position "-1593 4821 -458") (victim_position "-1552 4659 -483")
+L 11/23/2010 - 16:48:47: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "revenge" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assist "1")
+L 11/23/2010 - 16:48:49: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-1174 4861 -455") (victim_position "-1372 5097 -401")
+L 11/23/2010 - 16:48:49: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1131 5126 -431") (attacker_position "-1174 4861 -455") (victim_position "-1372 5097 -401")
+L 11/23/2010 - 16:48:50: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "1796") (ubercharge "0")
+L 11/23/2010 - 16:48:50: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "sniperrifle" (customkill "headshot") (attacker_position "-2219 4688 -458") (victim_position "-878 4698 -402")
+L 11/23/2010 - 16:48:54: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1631") (ubercharge "0")
+L 11/23/2010 - 16:48:54: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "shotgun_soldier" (attacker_position "-1195 5292 -426") (victim_position "-1418 5251 -403")
+L 11/23/2010 - 16:48:57: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "scattergun" (attacker_position "-1201 4981 -438") (victim_position "-1808 5105 -415")
+L 11/23/2010 - 16:48:57: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1486 4969 -427") (attacker_position "-1201 4981 -438") (victim_position "-1808 5105 -415")
+L 11/23/2010 - 16:49:00: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "pistol_scout" (attacker_position "-1575 5183 -404") (victim_position "-2394 5074 -420")
+L 11/23/2010 - 16:49:01: Team "Red" triggered "pointcaptured" (cp "0") (cpname "Granary_cap_blue_cp1") (numcappers "3") (player1 "Tagg^<9><STEAM_0:1:10005539><Red>") (position1 "-1516 5130 -404") (player2 "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>") (position2 "-1667 5258 -404") (player3 "kraka<12><STEAM_0:1:956144><Red>") (position3 "-1651 5182 -404") 
+L 11/23/2010 - 16:49:01: World triggered "Round_Win" (winner "Red")
+L 11/23/2010 - 16:49:01: World triggered "Round_Length" (seconds "98.96")
+L 11/23/2010 - 16:49:01: Team "Red" current score "3" with "6" players
+L 11/23/2010 - 16:49:01: Team "Blue" current score "1" with "6" players
+L 11/23/2010 - 16:49:05: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" changed role to "scout"
+L 11/23/2010 - 16:49:06: World triggered "Round_Start"
+L 11/23/2010 - 16:49:40: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-2343 76 -415") (victim_position "-1872 96 -383")
+L 11/23/2010 - 16:49:41: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "tf_projectile_rocket" (attacker_position "-1147 -720 -359") (victim_position "-1032 -1191 -415")
+L 11/23/2010 - 16:49:43: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "captureblocked" (cp "2") (cpname "Granary_cap_cp3") (position "-1953 -236 -119")
+L 11/23/2010 - 16:49:43: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "shotgun_soldier" (attacker_position "-1953 -236 -119") (victim_position "-1823 107 -383")
+L 11/23/2010 - 16:49:43: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-2246 -620 -415") (attacker_position "-1953 -236 -119") (victim_position "-1823 107 -383")
+L 11/23/2010 - 16:49:48: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1790 237 -119") (victim_position "-1989 168 -330")
+L 11/23/2010 - 16:49:50: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_rocket" (attacker_position "-858 -270 -119") (victim_position "-745 -353 -411")
+L 11/23/2010 - 16:49:50: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "domination" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>"
+L 11/23/2010 - 16:49:57: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-2272 -159 -185") (victim_position "-2049 -376 -77")
+L 11/23/2010 - 16:49:57: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-2095 -143 -178") (attacker_position "-2272 -159 -185") (victim_position "-2049 -376 -77")
+L 11/23/2010 - 16:50:06: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1805 88 -383") (player2 "kraka<12><STEAM_0:1:956144><Red>") (position2 "-1560 48 -376") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1637 -56 -364") 
+L 11/23/2010 - 16:50:14: "kraka<12><STEAM_0:1:956144><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1196") (ubercharge "1")
+L 11/23/2010 - 16:50:14: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "scattergun" (attacker_position "-1174 2267 -415") (victim_position "-926 2333 -366")
+L 11/23/2010 - 16:50:14: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:50:16: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:50:16: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:50:19: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1030 2137 -415") (victim_position "-1118 2809 -414")
+L 11/23/2010 - 16:50:19: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1226 1881 -415") (attacker_position "-1030 2137 -415") (victim_position "-1118 2809 -414")
+L 11/23/2010 - 16:50:26: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "scattergun" (attacker_position "-1467 205 -383") (victim_position "-1533 159 -383")
+L 11/23/2010 - 16:50:26: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "domination" against "Tagg^<9><STEAM_0:1:10005539><Red>"
+L 11/23/2010 - 16:50:26: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "tf_projectile_rocket" (attacker_position "-1186 508 -365") (victim_position "-1477 227 -399")
+L 11/23/2010 - 16:50:26: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assister_position "-1522 159 -345") (attacker_position "-1186 508 -365") (victim_position "-1477 227 -399")
+L 11/23/2010 - 16:50:26: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "revenge" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assist "1")
+L 11/23/2010 - 16:50:31: Team "Red" triggered "pointcaptured" (cp "1") (cpname "Granary_cap_blue_cp2") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1577 2995 -408") (player2 "kraka<12><STEAM_0:1:956144><Red>") (position2 "-1650 2810 -415") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1498 2841 -414") 
+L 11/23/2010 - 16:50:39: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_pipe" (attacker_position "-2054 4066 -444") (victim_position "-2362 3834 -463")
+L 11/23/2010 - 16:50:52: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "tf_projectile_pipe" (attacker_position "-2071 3762 -383") (victim_position "-1719 3608 -415")
+L 11/23/2010 - 16:50:52: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-2032 4135 -460") (attacker_position "-2071 3762 -383") (victim_position "-1719 3608 -415")
+L 11/23/2010 - 16:50:54: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-2009 3784 -415") (victim_position "-2154 4102 -424")
+L 11/23/2010 - 16:50:54: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1719 3608 -401") (attacker_position "-2009 3784 -415") (victim_position "-2154 4102 -424")
+L 11/23/2010 - 16:51:20: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:51:20: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:51:21: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1987 4780 -461") (victim_position "-2167 4875 -445")
+L 11/23/2010 - 16:51:22: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "scattergun" (attacker_position "-1812 4715 -367") (victim_position "-2080 5223 -392")
+L 11/23/2010 - 16:51:22: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "verticaL looking<25><STEAM_0:0:21479647><Blue>" (assister_position "-1039 4403 -442") (attacker_position "-1812 4715 -367") (victim_position "-2080 5223 -392")
+L 11/23/2010 - 16:51:24: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:51:25: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "captureblocked" (cp "0") (cpname "Granary_cap_blue_cp1") (position "-2036 5515 -415")
+L 11/23/2010 - 16:51:25: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_pipe_remote" (attacker_position "-2036 5515 -415") (victim_position "-1694 5096 -409")
+L 11/23/2010 - 16:51:25: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-1485 5326 -247") (attacker_position "-2036 5515 -415") (victim_position "-1694 5096 -409")
+L 11/23/2010 - 16:51:26: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1130") (ubercharge "0")
+L 11/23/2010 - 16:51:26: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_pipe" (attacker_position "-1448 4781 -469") (victim_position "-1765 5166 -374")
+L 11/23/2010 - 16:51:26: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-2376 5263 -415") (attacker_position "-1448 4781 -469") (victim_position "-1765 5166 -374")
+L 11/23/2010 - 16:51:26: "kraka<12><STEAM_0:1:956144><Red>" triggered "domination" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assist "1")
+L 11/23/2010 - 16:51:26: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:51:27: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe_remote" (attacker_position "-2062 5451 -393") (victim_position "-1785 5211 -414")
+L 11/23/2010 - 16:51:28: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-2096 5097 -401") (victim_position "-1936 4723 -467")
+L 11/23/2010 - 16:51:28: "kraka<12><STEAM_0:1:956144><Red>" triggered "domination" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>"
+L 11/23/2010 - 16:51:29: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "scattergun" (attacker_position "-1218 5095 -341") (victim_position "-1356 5300 -255")
+L 11/23/2010 - 16:51:29: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1899 4841 -452") (attacker_position "-1218 5095 -341") (victim_position "-1356 5300 -255")
+L 11/23/2010 - 16:51:32: Team "Red" triggered "pointcaptured" (cp "0") (cpname "Granary_cap_blue_cp1") (numcappers "2") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1638 5092 -404") (player2 "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>") (position2 "-1497 5282 -411") 
+L 11/23/2010 - 16:51:32: World triggered "Round_Win" (winner "Red")
+L 11/23/2010 - 16:51:32: World triggered "Round_Length" (seconds "145.60")
+L 11/23/2010 - 16:51:32: Team "Red" current score "4" with "6" players
+L 11/23/2010 - 16:51:32: Team "Blue" current score "1" with "6" players
+L 11/23/2010 - 16:51:33: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-2329 5270 -299") (victim_position "-2060 5396 -415")
+L 11/23/2010 - 16:51:38: World triggered "Round_Start"
+L 11/23/2010 - 16:52:08: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "621") (ubercharge "0")
+L 11/23/2010 - 16:52:08: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "tf_projectile_rocket" (attacker_position "-2215 175 -387") (victim_position "-2304 -492 -415")
+L 11/23/2010 - 16:52:08: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-2387 -326 -415") (attacker_position "-2215 175 -387") (victim_position "-2304 -492 -415")
+L 11/23/2010 - 16:52:09: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "tf_projectile_pipe_remote" (attacker_position "-2412 -395 -415") (victim_position "-2154 -523 -415")
+L 11/23/2010 - 16:52:09: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "domination" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>"
+L 11/23/2010 - 16:52:11: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "619") (ubercharge "0")
+L 11/23/2010 - 16:52:11: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_pipe" (attacker_position "-1644 -620 -415") (victim_position "-2132 544 -415")
+L 11/23/2010 - 16:52:11: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-2183 336 -183") (attacker_position "-1644 -620 -415") (victim_position "-2132 544 -415")
+L 11/23/2010 - 16:52:12: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "scattergun" (attacker_position "-1553 -335 -415") (victim_position "-1447 -566 -415")
+L 11/23/2010 - 16:52:12: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-2248 604 -368") (attacker_position "-1553 -335 -415") (victim_position "-1447 -566 -415")
+L 11/23/2010 - 16:52:12: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-2251 192 -415") (victim_position "-2291 588 -390")
+L 11/23/2010 - 16:52:15: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "scattergun" (attacker_position "-2052 -577 -415") (victim_position "-2325 -471 -415")
+L 11/23/2010 - 16:52:15: "verticaL looking<25><STEAM_0:0:21479647><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-2104 229 -119") (attacker_position "-2052 -577 -415") (victim_position "-2325 -471 -415")
+L 11/23/2010 - 16:52:17: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-2333 95 -415") (victim_position "-2348 -158 -415")
+L 11/23/2010 - 16:52:17: "kraka<12><STEAM_0:1:956144><Red>" triggered "domination" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>"
+L 11/23/2010 - 16:52:20: "kraka<12><STEAM_0:1:956144><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "world" (attacker_position "-2089 67 -375") (victim_position "-2030 700 -415")
+L 11/23/2010 - 16:52:22: "kraka<12><STEAM_0:1:956144><Red>" triggered "captureblocked" (cp "2") (cpname "Granary_cap_cp3") (position "-1550 -198 -338")
+L 11/23/2010 - 16:52:22: "kraka<12><STEAM_0:1:956144><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "scattergun" (attacker_position "-1550 -198 -338") (victim_position "-1382 27 -383")
+L 11/23/2010 - 16:52:25: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1367 308 -395") (victim_position "-1895 345 -415")
+L 11/23/2010 - 16:52:40: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "2") (player1 "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>") (position1 "-1623 16 -376") (player2 "kraka<12><STEAM_0:1:956144><Red>") (position2 "-1639 25 -376") 
+L 11/23/2010 - 16:52:41: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" changed role to "engineer"
+L 11/23/2010 - 16:52:41: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" changed role to "medic"
+L 11/23/2010 - 16:52:41: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** MOVED SPAWN ****  "
+L 11/23/2010 - 16:52:44: "Tagg^<9><STEAM_0:1:10005539><Red>" changed role to "pyro"
+L 11/23/2010 - 16:52:45: "Tagg^<9><STEAM_0:1:10005539><Red>" changed role to "soldier"
+L 11/23/2010 - 16:53:25: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1736 3117 -415") (victim_position "-1158 2729 -415")
+L 11/23/2010 - 16:53:25: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" (assister_position "-1219 3376 -403") (attacker_position "-1736 3117 -415") (victim_position "-1158 2729 -415")
+L 11/23/2010 - 16:53:25: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1736 3117 -415") (victim_position "-1154 2693 -415")
+L 11/23/2010 - 16:53:26: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "did u just call hima  douche?"
+L 11/23/2010 - 16:53:27: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "shotgun_soldier" (attacker_position "-2269 3177 -319") (victim_position "-2297 3032 -447")
+L 11/23/2010 - 16:53:27: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "chargedeployed"
+L 11/23/2010 - 16:53:27: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say_team "YOU ARE UBERED 108"
+L 11/23/2010 - 16:53:28: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "779") (ubercharge "0")
+L 11/23/2010 - 16:53:28: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "scattergun" (attacker_position "-1115 1785 -415") (victim_position "-973 1924 -366")
+L 11/23/2010 - 16:53:32: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1245 2082 -415") (victim_position "-1304 2391 -377")
+L 11/23/2010 - 16:53:32: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" (assister_position "-1157 2279 -415") (attacker_position "-1245 2082 -415") (victim_position "-1304 2391 -377")
+L 11/23/2010 - 16:53:33: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "dousche**"
+L 11/23/2010 - 16:53:37: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" with "shotgun_soldier" (attacker_position "-2516 2586 -415") (victim_position "-2454 1851 -415")
+L 11/23/2010 - 16:53:37: "\.=. pre<22><STEAM_0:0:15376618><Blue>" triggered "kill assist" against "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" (assister_position "-2484 2049 -373") (attacker_position "-2516 2586 -415") (victim_position "-2454 1851 -415")
+L 11/23/2010 - 16:53:42: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "or however u spell it"
+L 11/23/2010 - 16:53:45: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "douche?"
+L 11/23/2010 - 16:53:50: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "learn2english"
+L 11/23/2010 - 16:53:51: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "BananaNinja":3<18><STEAM_0:1:13619848><Blue>") (position1 "-1628 -132 -383") (player2 "Snips ||AG||<24><STEAM_0:1:15560087><Blue>") (position2 "-1516 24 -376") (player3 "verticaL looking<25><STEAM_0:0:21479647><Blue>") (position3 "-1533 50 -376") 
+L 11/23/2010 - 16:53:56: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "scattergun" (attacker_position "-1161 -1372 -415") (victim_position "-992 -1582 -407")
+L 11/23/2010 - 16:54:05: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1216 -2895 -399") (victim_position "-1264 -2848 -399")
+L 11/23/2010 - 16:54:06: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "scattergun" (attacker_position "-1090 -2657 -399") (victim_position "-965 -2624 -415")
+L 11/23/2010 - 16:54:08: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1079 -2479 -415") (victim_position "-1337 -2445 -412")
+L 11/23/2010 - 16:54:08: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" (assister_position "-965 -2650 -401") (attacker_position "-1079 -2479 -415") (victim_position "-1337 -2445 -412")
+L 11/23/2010 - 16:54:10: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "medic_death" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (healing "381") (ubercharge "0")
+L 11/23/2010 - 16:54:10: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" with "tf_projectile_rocket" (attacker_position "-2261 -1966 -163") (victim_position "-2008 -2874 -390")
+L 11/23/2010 - 16:54:10: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" triggered "kill assist" against "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" (assister_position "-2126 -1782 -372") (attacker_position "-2261 -1966 -163") (victim_position "-2008 -2874 -390")
+L 11/23/2010 - 16:54:14: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_pipe" (attacker_position "-1896 -2153 -369") (victim_position "-2122 -1933 -319")
+L 11/23/2010 - 16:54:14: "t00l'looking<26><STEAM_0:0:42903><Blue>" triggered "kill assist" against "kraka<12><STEAM_0:1:956144><Red>" (assister_position "-2069 -2079 -414") (attacker_position "-1896 -2153 -369") (victim_position "-2122 -1933 -319")
+L 11/23/2010 - 16:54:16: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "1901") (ubercharge "0")
+L 11/23/2010 - 16:54:16: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-2101 -2565 -416") (victim_position "-2051 -1943 -416")
+L 11/23/2010 - 16:54:16: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-2122 -1933 -305") (attacker_position "-2101 -2565 -416") (victim_position "-2051 -1943 -416")
+L 11/23/2010 - 16:54:22: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "wait so wat did u say?"
+L 11/23/2010 - 16:54:32: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "who sucks"
+L 11/23/2010 - 16:54:32: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "?"
+L 11/23/2010 - 16:54:35: "verticaL looking<25><STEAM_0:0:21479647><Blue>" killed "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" with "tf_projectile_rocket" (attacker_position "-855 -2520 -418") (victim_position "-704 -2919 -410")
+L 11/23/2010 - 16:54:40: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "cant ehar u"
+L 11/23/2010 - 16:54:51: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "wat?"
+L 11/23/2010 - 16:54:55: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "You hear that? Thats the sound of me ripping you a new asshole."
+L 11/23/2010 - 16:54:55: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "You hear that? Thats the sound of me ripping you a new asshole."
+L 11/23/2010 - 16:54:56: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "You hear that? Thats the sound of me ripping you a new asshole."
+L 11/23/2010 - 16:54:57: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "You hear that? Thats the sound of me ripping you a new asshole."
+L 11/23/2010 - 16:54:59: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "ur mics terrible"
+L 11/23/2010 - 16:55:02: "kraka<12><STEAM_0:1:956144><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "341") (ubercharge "0")
+L 11/23/2010 - 16:55:02: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "scattergun" (attacker_position "-1836 -1714 -408") (victim_position "-1987 -1742 -414")
+L 11/23/2010 - 16:55:02: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-1307 -2885 -415") (attacker_position "-1836 -1714 -408") (victim_position "-1987 -1742 -414")
+L 11/23/2010 - 16:55:03: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** UBER FAKED ****  "
+L 11/23/2010 - 16:55:03: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "scattergun" (attacker_position "-2077 -1840 -298") (victim_position "-2070 -1979 -365")
+L 11/23/2010 - 16:55:03: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-1558 -2957 -408") (attacker_position "-2077 -1840 -298") (victim_position "-2070 -1979 -365")
+L 11/23/2010 - 16:55:04: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "get a new mic hobo"
+L 11/23/2010 - 16:55:05: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_rocket" (attacker_position "-2033 -1973 -403") (victim_position "-1847 -1998 -291")
+L 11/23/2010 - 16:55:05: "verticaL looking<25><STEAM_0:0:21479647><Blue>" triggered "kill assist" against "kraka<12><STEAM_0:1:956144><Red>" (assister_position "-1766 -1684 -405") (attacker_position "-2033 -1973 -403") (victim_position "-1847 -1998 -291")
+L 11/23/2010 - 16:55:06: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "your mom"
+L 11/23/2010 - 16:55:11: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "thts wat she said"
+L 11/23/2010 - 16:55:12: "Ɖ™ 'looking<28><STEAM_0:1:26362471><Spectator>" say "BURN"
+L 11/23/2010 - 16:55:13: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_rocket" (attacker_position "-1903 -1747 -404") (victim_position "-1605 -1337 -393")
+L 11/23/2010 - 16:55:14: "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "tf_projectile_rocket" (attacker_position "-442 -1850 -374") (victim_position "-620 -1512 -412")
+L 11/23/2010 - 16:55:33: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "DUDE SHT THE FUCK UP HES GOOD ENOUGH"
+L 11/23/2010 - 16:55:34: "kraka<12><STEAM_0:1:956144><Red>" triggered "captureblocked" (cp "3") (cpname "Granary_cap_red_cp2") (position "-1706 -3106 -415")
+L 11/23/2010 - 16:55:34: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say ">.>"
+L 11/23/2010 - 16:55:35: "kraka<12><STEAM_0:1:956144><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1531 -2935 -408") (victim_position "-1448 -2981 -408")
+L 11/23/2010 - 16:55:40: Team "Red" triggered "pointcaptured" (cp "2") (cpname "Granary_cap_cp3") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1766 22 -383") (player2 "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>") (position2 "-1168 98 -383") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1828 -30 -383") 
+L 11/23/2010 - 16:55:41: "Tagg^<9><STEAM_0:1:10005539><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "unique_pickaxe" (attacker_position "-507 617 -415") (victim_position "-512 569 -373")
+L 11/23/2010 - 16:55:44: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "stop insulting them"
+L 11/23/2010 - 16:55:50: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "if u say they suck just leave"
+L 11/23/2010 - 16:55:58: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1089 2709 -414") (victim_position "-1611 2844 -415")
+L 11/23/2010 - 16:56:00: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "pistol_scout" (attacker_position "-2002 2336 -415") (victim_position "-1557 2282 -415")
+L 11/23/2010 - 16:56:00: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-2232 1924 -415") (attacker_position "-2002 2336 -415") (victim_position "-1557 2282 -415")
+L 11/23/2010 - 16:56:00: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" triggered "domination" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assist "1")
+L 11/23/2010 - 16:56:10: "Big Bird<27><STEAM_0:1:27062850><Spectator>" say "he just wants to troll got nothing better to do...."
+L 11/23/2010 - 16:56:12: Team "Red" triggered "pointcaptured" (cp "1") (cpname "Granary_cap_blue_cp2") (numcappers "3") (player1 "Budi [dw!d]<8><STEAM_0:0:3773105><Red>") (position1 "-1527 2868 -408") (player2 "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>") (position2 "-1493 2947 -408") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1439 2897 -366") 
+L 11/23/2010 - 16:56:13: "kraka<12><STEAM_0:1:956144><Red>" triggered "medic_death" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (healing "847") (ubercharge "0")
+L 11/23/2010 - 16:56:13: "kraka<12><STEAM_0:1:956144><Red>" killed "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" with "scattergun" (attacker_position "-706 4455 -407") (victim_position "-715 4661 -349")
+L 11/23/2010 - 16:56:13: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "kill assist" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assister_position "-529 4358 -407") (attacker_position "-706 4455 -407") (victim_position "-715 4661 -349")
+L 11/23/2010 - 16:56:13: "Tagg^<9><STEAM_0:1:10005539><Red>" triggered "domination" against "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" (assist "1")
+L 11/23/2010 - 16:56:14: "\.=. pre<22><STEAM_0:0:15376618><Blue>" killed "Tagg^<9><STEAM_0:1:10005539><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1001 4783 -441") (victim_position "-649 4326 -355")
+L 11/23/2010 - 16:56:14: "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" triggered "kill assist" against "Tagg^<9><STEAM_0:1:10005539><Red>" (assister_position "-927 4555 -435") (attacker_position "-1001 4783 -441") (victim_position "-649 4326 -355")
+L 11/23/2010 - 16:56:16: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "XD"
+L 11/23/2010 - 16:56:18: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "BananaNinja":3<18><STEAM_0:1:13619848><Blue>" with "scattergun" (attacker_position "-1233 4666 -465") (victim_position "-1158 5067 -436")
+L 11/23/2010 - 16:56:21: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "chargedeployed"
+L 11/23/2010 - 16:56:21: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" say_team "**** USED UBERCHARGE **** "
+L 11/23/2010 - 16:56:21: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "no ehs jealous of em"
+L 11/23/2010 - 16:56:26: "kraka<12><STEAM_0:1:956144><Red>" killed "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" with "scattergun" (attacker_position "-1102 5090 -438") (victim_position "-1072 5462 -419")
+L 11/23/2010 - 16:56:26: "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>" triggered "kill assist" against "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" (assister_position "-1390 4896 -444") (attacker_position "-1102 5090 -438") (victim_position "-1072 5462 -419")
+L 11/23/2010 - 16:56:26: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "verticaL looking<25><STEAM_0:0:21479647><Blue>" with "pistol_scout" (attacker_position "-786 4655 -318") (victim_position "-1032 4872 -442")
+L 11/23/2010 - 16:56:28: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" killed "\.=. pre<22><STEAM_0:0:15376618><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1526 5351 -279") (victim_position "-1092 5512 -373")
+L 11/23/2010 - 16:56:28: "kraka<12><STEAM_0:1:956144><Red>" triggered "kill assist" against "\.=. pre<22><STEAM_0:0:15376618><Blue>" (assister_position "-856 5345 -420") (attacker_position "-1526 5351 -279") (victim_position "-1092 5512 -373")
+L 11/23/2010 - 16:56:28: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "thts why hes trolling"
+L 11/23/2010 - 16:56:29: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" with "tf_projectile_rocket" (attacker_position "-1727 5148 -349") (victim_position "-1782 5351 -346")
+L 11/23/2010 - 16:56:30: "t00l'looking<26><STEAM_0:0:42903><Blue>" killed "kraka<12><STEAM_0:1:956144><Red>" with "tf_projectile_rocket" (attacker_position "-1619 5351 -358") (victim_position "-1331 5014 -426")
+L 11/23/2010 - 16:56:31: "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>" killed "t00l'looking<26><STEAM_0:0:42903><Blue>" with "pistol_scout" (attacker_position "-1437 4846 -456") (victim_position "-1652 5351 -371")
+L 11/23/2010 - 16:56:31: "Budi [dw!d]<8><STEAM_0:0:3773105><Red>" triggered "kill assist" against "t00l'looking<26><STEAM_0:0:42903><Blue>" (assister_position "-1782 5351 -332") (attacker_position "-1437 4846 -456") (victim_position "-1652 5351 -371")
+L 11/23/2010 - 16:56:34: Team "Red" triggered "pointcaptured" (cp "0") (cpname "Granary_cap_blue_cp1") (numcappers "3") (player1 "[dw!d] Dynamix<17><STEAM_0:1:18383121><Red>") (position1 "-1608 5127 -404") (player2 "foxfern [dw!d]<20><STEAM_0:1:17846003><Red>") (position2 "-1519 5159 -404") (player3 "[dw!d] nossUber<21><STEAM_0:0:4477611><Red>") (position3 "-1595 5150 -404") 
+L 11/23/2010 - 16:56:34: World triggered "Round_Win" (winner "Red")
+L 11/23/2010 - 16:56:34: World triggered "Round_Length" (seconds "295.89")
+L 11/23/2010 - 16:56:34: Team "Red" current score "5" with "6" players
+L 11/23/2010 - 16:56:34: Team "Blue" current score "1" with "6" players
+L 11/23/2010 - 16:56:36: "kraka<12><STEAM_0:1:956144><Red>" say "gg"
+L 11/23/2010 - 16:56:37: "\.=. *CHE<23><STEAM_0:1:10466109><Blue>" say "gg"
+L 11/23/2010 - 16:56:37: "=OBL= Rubber Ducky<29><STEAM_0:1:24240688><Spectator>" say "leave the trolling to RWJ"
+L 11/23/2010 - 16:56:38: "Tagg^<9><STEAM_0:1:10005539><Red>" say "gg"
+L 11/23/2010 - 16:56:38: "verticaL looking<25><STEAM_0:0:21479647><Blue>" say "gg."
+L 11/23/2010 - 16:56:38: "Snips ||AG||<24><STEAM_0:1:15560087><Blue>" say "gg"
+L 11/23/2010 - 16:56:39: Team "RED" triggered "Intermission_Win_Limit"
+L 11/23/2010 - 16:56:39: World triggered "Game_Over" reason "Reached Win Limit"
+L 11/23/2010 - 16:56:39: Team "Red" final score "5" with "6" players
+L 11/23/2010 - 16:56:39: Team "Blue" final score "1" with "6" players
+L 11/23/2010 - 16:56:39: Log file closed

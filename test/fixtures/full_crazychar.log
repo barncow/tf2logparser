@@ -1,0 +1,535 @@
+L 03/06/2011 - 22:29:31: Log file started (file "logs_server2/L0306014.log") (game "/games/tf2/orangebox/tf") (version "4489")
+L 03/06/2011 - 22:29:31: "Console<0><Console><Console>" say ""------------------------""
+L 03/06/2011 - 22:29:31: "Console<0><Console><Console>" say ""-- PUSH CONFIG LOADED --""
+L 03/06/2011 - 22:29:31: "Console<0><Console><Console>" say ""------------------------""
+L 03/06/2011 - 22:29:31: rcon from "255.255.255.255:64249": command "exec push.cfg"
+L 03/06/2011 - 22:29:32: "GamestahDave<48><STEAM_0:1:34129195><>" entered the game
+L 03/06/2011 - 22:29:33: "« povohat<32><STEAM_0:0:16504622><Unassigned>" joined team "Red"
+L 03/06/2011 - 22:29:33: "« povohat<32><STEAM_0:0:16504622><Red>" changed role to "medic"
+L 03/06/2011 - 22:29:34: "« THE1IVO<28><STEAM_0:0:7743683><Unassigned>" joined team "Spectator"
+L 03/06/2011 - 22:29:34: "iM aporia intel<45><STEAM_0:0:17580143><Unassigned>" joined team "Blue"
+L 03/06/2011 - 22:29:34: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" changed role to "soldier"
+L 03/06/2011 - 22:29:34: "SoLe<51><STEAM_0:0:1812435><Unassigned>" joined team "Red"
+L 03/06/2011 - 22:29:35: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:29:42: "GamestahDave<48><STEAM_0:1:34129195><Unassigned>" joined team "Spectator"
+L 03/06/2011 - 22:29:56: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "scattergun" (attacker_position "200 185 96") (victim_position "72 -278 80")
+L 03/06/2011 - 22:29:56: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "304 593 200") (attacker_position "200 185 96") (victim_position "72 -278 80")
+L 03/06/2011 - 22:30:00: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "scattergun" (attacker_position "-342 -82 344") (victim_position "-289 -254 394")
+L 03/06/2011 - 22:30:00: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "-350 11 408") (attacker_position "-342 -82 344") (victim_position "-289 -254 394")
+L 03/06/2011 - 22:30:29: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "tf_projectile_rocket" (attacker_position "-11 -312 86") (victim_position "133 -453 122")
+L 03/06/2011 - 22:30:29: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "24 -485 79") (attacker_position "-11 -312 86") (victim_position "133 -453 122")
+L 03/06/2011 - 22:30:34: "iM bonobo intel<35><STEAM_0:1:3721022><Unassigned>" joined team "Blue"
+L 03/06/2011 - 22:30:35: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" changed role to "medic"
+L 03/06/2011 - 22:30:36: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "scattergun" (attacker_position "-411 20 444") (victim_position "-177 -185 296")
+L 03/06/2011 - 22:30:36: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "scattergun" (attacker_position "-625 -610 288") (victim_position "-627 -486 288")
+L 03/06/2011 - 22:30:38: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" say "sheeps just brb"
+L 03/06/2011 - 22:30:40: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:30:48: "iM sheep intel<50><STEAM_0:1:21111848><Unassigned>" joined team "Blue"
+L 03/06/2011 - 22:30:48: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" changed role to "scout"
+L 03/06/2011 - 22:30:49: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "scattergun" (attacker_position "-327 -2023 189") (victim_position "-548 -2071 101")
+L 03/06/2011 - 22:30:49: "« prime<38><STEAM_0:0:18744217><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "-435 -1524 192") (attacker_position "-327 -2023 189") (victim_position "-548 -2071 101")
+L 03/06/2011 - 22:30:51: "« prime<38><STEAM_0:0:18744217><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "81") (ubercharge "0")
+L 03/06/2011 - 22:30:51: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "tf_projectile_pipe" (attacker_position "-243 -1732 192") (victim_position "-254 -2193 192")
+L 03/06/2011 - 22:30:51: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "kill assist" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (assister_position "-267 -2013 195") (attacker_position "-243 -1732 192") (victim_position "-254 -2193 192")
+L 03/06/2011 - 22:31:03: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "-860 -926 224") (victim_position "-488 -999 288")
+L 03/06/2011 - 22:31:03: "iM vic intel<36><STEAM_0:0:35755><Blue>" say "gl hf"
+L 03/06/2011 - 22:31:05: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" say "glhf"
+L 03/06/2011 - 22:31:05: "SoLe<51><STEAM_0:0:1812435><Red>" say "gl hf"
+L 03/06/2011 - 22:31:05: "iM vic intel<36><STEAM_0:0:35755><Blue>" say_team "[P-REC] Recording..."
+L 03/06/2011 - 22:31:05: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "[P-REC] Recording..."
+L 03/06/2011 - 22:31:05: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" say_team "[P-REC] Recording..."
+L 03/06/2011 - 22:31:05: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "1548") (ubercharge "0")
+L 03/06/2011 - 22:31:05: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_rocket" (attacker_position "-567 -999 288") (victim_position "-434 -920 288")
+L 03/06/2011 - 22:31:05: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "-796 -875 224") (attacker_position "-567 -999 288") (victim_position "-434 -920 288")
+L 03/06/2011 - 22:31:06: World triggered "Round_Start"
+L 03/06/2011 - 22:31:07: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "heavyweapons"
+L 03/06/2011 - 22:31:11: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "this is the big test"
+L 03/06/2011 - 22:31:18: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "heavy rollout"
+L 03/06/2011 - 22:31:28: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_pipe_remote" (attacker_position "-535 -500 288") (victim_position "-694 216 296")
+L 03/06/2011 - 22:31:28: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "-557 -699 288") (attacker_position "-535 -500 288") (victim_position "-694 216 296")
+L 03/06/2011 - 22:31:29: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "scattergun" (attacker_position "-92 -317 237") (victim_position "82 -209 379")
+L 03/06/2011 - 22:31:29: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "181 -385 182") (attacker_position "-92 -317 237") (victim_position "82 -209 379")
+L 03/06/2011 - 22:31:41: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_pipe_remote" (attacker_position "1462 940 52") (victim_position "1147 615 192")
+L 03/06/2011 - 22:31:41: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>" (assister_position "1676 690 105") (attacker_position "1462 940 52") (victim_position "1147 615 192")
+L 03/06/2011 - 22:31:47: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "4") (player1 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position1 "194 6 353") (player2 "iM vic intel<36><STEAM_0:0:35755><Blue>") (position2 "189 51 344") (player3 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position3 "181 151 296") (player4 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position4 "219 119 296") 
+L 03/06/2011 - 22:31:52: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "tf_projectile_pipe_remote" (attacker_position "1959 389 188") (victim_position "1726 861 141")
+L 03/06/2011 - 22:31:52: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "1899 444 150") (attacker_position "1959 389 188") (victim_position "1726 861 141")
+L 03/06/2011 - 22:31:55: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "scattergun" (attacker_position "1844 649 152") (victim_position "1820 238 150")
+L 03/06/2011 - 22:31:55: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>" (assister_position "1511 396 150") (attacker_position "1844 649 152") (victim_position "1820 238 150")
+L 03/06/2011 - 22:31:55: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "shotgun_soldier" (attacker_position "1527 383 131") (victim_position "1450 116 189")
+L 03/06/2011 - 22:31:55: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "1636 914 32") (attacker_position "1527 383 131") (victim_position "1450 116 189")
+L 03/06/2011 - 22:31:57: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:32:05: "ozfortress wm<49><STEAM_0:1:7175436><Spectator>" say_team "haha"
+L 03/06/2011 - 22:32:10: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "heavy is so bad ass"
+L 03/06/2011 - 22:32:34: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:32:35: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:32:35: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:32:40: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "1931") (ubercharge "0")
+L 03/06/2011 - 22:32:40: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_rocket" (attacker_position "1663 2895 0") (victim_position "1648 3101 35")
+L 03/06/2011 - 22:32:40: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "2056 2149 -113") (attacker_position "1663 2895 0") (victim_position "1648 3101 35")
+L 03/06/2011 - 22:32:42: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_pipe" (attacker_position "2317 2186 -34") (victim_position "2503 2209 0")
+L 03/06/2011 - 22:32:42: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "1879 2092 -143") (attacker_position "2317 2186 -34") (victim_position "2503 2209 0")
+L 03/06/2011 - 22:32:47: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "1667 1582 195") (victim_position "1269 2173 0")
+L 03/06/2011 - 22:32:47: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "scattergun" (attacker_position "1564 2367 256") (victim_position "1844 2339 256")
+L 03/06/2011 - 22:32:51: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_rocket" (attacker_position "1546 2978 236") (victim_position "1593 3032 256")
+L 03/06/2011 - 22:32:51: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "scattergun" (attacker_position "2137 2163 -82") (victim_position "2321 1982 167")
+L 03/06/2011 - 22:32:51: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "1338 2074 0") (attacker_position "2137 2163 -82") (victim_position "2321 1982 167")
+L 03/06/2011 - 22:32:54: "ozfortress wm<49><STEAM_0:1:7175436><Spectator>" say_team "7"
+L 03/06/2011 - 22:32:56: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "sniper"
+L 03/06/2011 - 22:33:00: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:33:02: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "2") (player1 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position1 "1803 1856 400") (player2 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position2 "1770 1749 405") 
+L 03/06/2011 - 22:33:02: rcon from "255.255.255.255:64249": command "tv_status"
+L 03/06/2011 - 22:33:06: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "engineer"
+L 03/06/2011 - 22:33:06: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "94 specs"
+L 03/06/2011 - 22:33:07: "SoLe<51><STEAM_0:0:1812435><Red>" say_team "play agro"
+L 03/06/2011 - 22:33:09: "SoLe<51><STEAM_0:0:1812435><Red>" say_team "we have disadv"
+L 03/06/2011 - 22:33:09: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "heavyweapons"
+L 03/06/2011 - 22:33:23: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "pyro"
+L 03/06/2011 - 22:33:52: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:33:56: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_rocket" (attacker_position "1264 3967 212") (victim_position "1195 4426 192")
+L 03/06/2011 - 22:33:56: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "1154 3265 192") (attacker_position "1264 3967 212") (victim_position "1195 4426 192")
+L 03/06/2011 - 22:33:58: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "scattergun" (attacker_position "799 3263 -3") (victim_position "502 3512 0")
+L 03/06/2011 - 22:33:58: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "1198 3433 192") (attacker_position "799 3263 -3") (victim_position "502 3512 0")
+L 03/06/2011 - 22:33:59: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:34:03: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_rocket" (attacker_position "1185 4173 0") (victim_position "910 4241 -26")
+L 03/06/2011 - 22:34:03: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "949 4593 17") (attacker_position "1185 4173 0") (victim_position "910 4241 -26")
+L 03/06/2011 - 22:34:06: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:34:07: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "4199") (ubercharge "0")
+L 03/06/2011 - 22:34:07: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "tf_projectile_rocket" (attacker_position "158 3408 192") (victim_position "600 3145 192")
+L 03/06/2011 - 22:34:09: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "tf_projectile_rocket" (attacker_position "969 3842 0") (victim_position "637 4036 41")
+L 03/06/2011 - 22:34:09: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "1199 3428 192") (attacker_position "969 3842 0") (victim_position "637 4036 41")
+L 03/06/2011 - 22:34:11: Team "Blue" triggered "pointcaptured" (cp "4") (cpname "#Badlands_cap_red_cp1") (numcappers "2") (player1 "iM aporia intel<45><STEAM_0:0:17580143><Blue>") (position1 "835 4132 41") (player2 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position2 "732 4193 12") 
+L 03/06/2011 - 22:34:11: World triggered "Round_Win" (winner "Blue")
+L 03/06/2011 - 22:34:11: World triggered "Round_Length" (seconds "184.57")
+L 03/06/2011 - 22:34:11: Team "Red" current score "0" with "6" players
+L 03/06/2011 - 22:34:11: Team "Blue" current score "1" with "6" players
+L 03/06/2011 - 22:34:11: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "scattergun" (attacker_position "393 4136 0") (victim_position "623 3957 164")
+L 03/06/2011 - 22:34:11: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "1244 3442 192") (attacker_position "393 4136 0") (victim_position "623 3957 164")
+L 03/06/2011 - 22:34:12: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "1692") (ubercharge "0")
+L 03/06/2011 - 22:34:12: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "scattergun" (attacker_position "530 4027 51") (victim_position "328 4055 192")
+L 03/06/2011 - 22:34:12: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "1234 3425 192") (attacker_position "530 4027 51") (victim_position "328 4055 192")
+L 03/06/2011 - 22:34:12: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "scout"
+L 03/06/2011 - 22:34:16: World triggered "Round_Start"
+L 03/06/2011 - 22:34:36: "ozfortress wm<49><STEAM_0:1:7175436><Spectator>" say_team "73% chance it will go to 3 maps"
+L 03/06/2011 - 22:34:38: "ozfortress wm<49><STEAM_0:1:7175436><Spectator>" say_team "fact!"
+L 03/06/2011 - 22:34:39: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "scattergun" (attacker_position "655 -507 311") (victim_position "506 -454 391")
+L 03/06/2011 - 22:34:39: "« prime<38><STEAM_0:0:18744217><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "896 126 296") (attacker_position "655 -507 311") (victim_position "506 -454 391")
+L 03/06/2011 - 22:34:41: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "-324 50 408") (victim_position "-532 -469 288")
+L 03/06/2011 - 22:34:41: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "413 8 408") (attacker_position "-324 50 408") (victim_position "-532 -469 288")
+L 03/06/2011 - 22:34:44: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "hahaha"
+L 03/06/2011 - 22:34:46: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "scattergun" (attacker_position "-551 -466 288") (victim_position "-578 -530 299")
+L 03/06/2011 - 22:34:46: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "-303 -21 408") (attacker_position "-551 -466 288") (victim_position "-578 -530 299")
+L 03/06/2011 - 22:34:48: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1527 -897 102") (victim_position "139 177 339")
+L 03/06/2011 - 22:34:48: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "-1456 -859 90") (attacker_position "-1527 -897 102") (victim_position "139 177 339")
+L 03/06/2011 - 22:34:51: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "scattergun" (attacker_position "-964 -856 224") (victim_position "-871 -641 192")
+L 03/06/2011 - 22:34:51: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "-1227 -1745 47") (attacker_position "-964 -856 224") (victim_position "-871 -641 192")
+L 03/06/2011 - 22:34:55: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "soldier"
+L 03/06/2011 - 22:34:56: Team "Red" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "1") (player1 "« Amril<46><STEAM_0:1:5959400><Red>") (position1 "-33 -95 303") 
+L 03/06/2011 - 22:35:08: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_pipe" (attacker_position "-1826 -2585 256") (victim_position "-1833 -2420 338")
+L 03/06/2011 - 22:35:11: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "-1998 -1863 303") (victim_position "-2134 -1629 365")
+L 03/06/2011 - 22:35:11: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "-1512 -1837 359") (attacker_position "-1998 -1863 303") (victim_position "-2134 -1629 365")
+L 03/06/2011 - 22:35:12: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "naise"
+L 03/06/2011 - 22:35:15: "ozfortress wm<49><STEAM_0:1:7175436><Spectator>" say_team "he be sore"
+L 03/06/2011 - 22:35:15: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:35:34: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "tf_projectile_rocket" (attacker_position "-488 -998 359") (victim_position "-664 -894 336")
+L 03/06/2011 - 22:35:34: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "scattergun" (attacker_position "-532 -570 288") (victim_position "-497 -989 414")
+L 03/06/2011 - 22:35:34: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "-474 -240 296") (attacker_position "-532 -570 288") (victim_position "-497 -989 414")
+L 03/06/2011 - 22:35:40: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "scattergun" (attacker_position "-293 775 193") (victim_position "-29 1089 128")
+L 03/06/2011 - 22:35:40: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "-160 590 287") (attacker_position "-293 775 193") (victim_position "-29 1089 128")
+L 03/06/2011 - 22:35:46: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "3") (player1 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position1 "91 -91 298") (player2 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position2 "57 150 296") (player3 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position3 "170 75 296") 
+L 03/06/2011 - 22:35:51: rcon from "255.255.255.255:64249": command "tv_status"
+L 03/06/2011 - 22:35:52: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "scattergun" (attacker_position "2144 2070 69") (victim_position "2359 1998 38")
+L 03/06/2011 - 22:35:52: "« prime<38><STEAM_0:0:18744217><Red>" triggered "kill assist" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>" (assister_position "1810 2143 -155") (attacker_position "2144 2070 69") (victim_position "2359 1998 38")
+L 03/06/2011 - 22:36:10: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "102 specs"
+L 03/06/2011 - 22:36:11: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "1739 709 186") (victim_position "1603 774 135")
+L 03/06/2011 - 22:36:14: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "sheep wow"
+L 03/06/2011 - 22:36:16: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "scattergun" (attacker_position "1692 765 68") (victim_position "2031 783 249")
+L 03/06/2011 - 22:36:16: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>" (assister_position "1623 1034 12") (attacker_position "1692 765 68") (victim_position "2031 783 249")
+L 03/06/2011 - 22:36:20: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "shotgun_soldier" (attacker_position "1751 1089 -38") (victim_position "2251 1176 72")
+L 03/06/2011 - 22:36:20: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "tf_projectile_rocket" (attacker_position "1435 1373 -7") (victim_position "1804 1089 -51")
+L 03/06/2011 - 22:36:20: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "1236 1649 0") (attacker_position "1435 1373 -7") (victim_position "1804 1089 -51")
+L 03/06/2011 - 22:36:21: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_rocket" (attacker_position "1245 764 193") (victim_position "1145 996 193")
+L 03/06/2011 - 22:36:21: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "1444 674 152") (attacker_position "1245 764 193") (victim_position "1145 996 193")
+L 03/06/2011 - 22:36:23: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:36:24: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:36:30: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "tf_projectile_rocket" (attacker_position "1764 1835 400") (victim_position "1852 1774 406")
+L 03/06/2011 - 22:36:31: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_pipe_remote" (attacker_position "1373 1299 -7") (victim_position "1407 1964 10")
+L 03/06/2011 - 22:36:31: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "1357 2010 236") (attacker_position "1373 1299 -7") (victim_position "1407 1964 10")
+L 03/06/2011 - 22:36:34: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "world" (attacker_position "1911 1822 435") (victim_position "1835 1706 407")
+L 03/06/2011 - 22:36:46: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "engineer"
+L 03/06/2011 - 22:36:53: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "1269 4162 192")
+L 03/06/2011 - 22:36:56: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "3") (player1 "iM aporia intel<45><STEAM_0:0:17580143><Blue>") (position1 "1798 1843 400") (player2 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position2 "1930 1691 407") (player3 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position3 "1801 1687 407") 
+L 03/06/2011 - 22:37:01: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:37:01: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "heavyweapons"
+L 03/06/2011 - 22:37:10: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "741 4647 -63")
+L 03/06/2011 - 22:37:25: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:37:31: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_pipe_remote" (attacker_position "766 3590 -3") (victim_position "172 3749 192")
+L 03/06/2011 - 22:37:31: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "691 3432 0") (attacker_position "766 3590 -3") (victim_position "172 3749 192")
+L 03/06/2011 - 22:37:33: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:37:34: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_rocket" (attacker_position "653 3890 0") (victim_position "824 4195 12")
+L 03/06/2011 - 22:37:41: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "tf_projectile_rocket" (attacker_position "319 3768 273") (victim_position "76 3629 192")
+L 03/06/2011 - 22:37:41: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "1285 4147 192") (attacker_position "319 3768 273") (victim_position "76 3629 192")
+L 03/06/2011 - 22:37:43: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "shotgun_primary" (attacker_position "1333 4088 192") (victim_position "1415 3823 186")
+L 03/06/2011 - 22:37:44: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" changed role to "sniper"
+L 03/06/2011 - 22:37:48: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:37:48: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "hahah shit"
+L 03/06/2011 - 22:37:53: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_pipe" (attacker_position "564 2800 192") (victim_position "935 2823 192")
+L 03/06/2011 - 22:37:53: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "475 2407 256") (attacker_position "564 2800 192") (victim_position "935 2823 192")
+L 03/06/2011 - 22:37:55: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:38:01: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:38:03: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "sniper"
+L 03/06/2011 - 22:38:03: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:38:03: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "engineer"
+L 03/06/2011 - 22:38:07: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "780 4522 -63")
+L 03/06/2011 - 22:38:12: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "sniperrifle" (customkill "headshot") (attacker_position "875 2462 -3") (victim_position "718 4107 0")
+L 03/06/2011 - 22:38:12: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "736 2623 -3") (attacker_position "875 2462 -3") (victim_position "718 4107 0")
+L 03/06/2011 - 22:38:16: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "762 4646 -63")
+L 03/06/2011 - 22:38:18: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:38:22: Team "Blue" triggered "pointcaptured" (cp "4") (cpname "#Badlands_cap_red_cp1") (numcappers "1") (player1 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position1 "876 4042 0") 
+L 03/06/2011 - 22:38:22: World triggered "Round_Win" (winner "Blue")
+L 03/06/2011 - 22:38:22: World triggered "Round_Length" (seconds "246.31")
+L 03/06/2011 - 22:38:22: Team "Red" current score "0" with "6" players
+L 03/06/2011 - 22:38:22: Team "Blue" current score "2" with "6" players
+L 03/06/2011 - 22:38:23: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_rocket" (attacker_position "1147 3787 331") (victim_position "1203 3895 192")
+L 03/06/2011 - 22:38:24: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "scout"
+L 03/06/2011 - 22:38:26: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "tf_projectile_rocket" (attacker_position "1086 4558 261") (victim_position "1092 4420 207")
+L 03/06/2011 - 22:38:27: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:38:27: World triggered "Round_Start"
+L 03/06/2011 - 22:38:29: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" changed role to "scout"
+L 03/06/2011 - 22:38:50: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "tf_projectile_rocket" (attacker_position "-615 340 200") (victim_position "-991 -160 483")
+L 03/06/2011 - 22:38:50: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "-283 -173 121") (attacker_position "-615 340 200") (victim_position "-991 -160 483")
+L 03/06/2011 - 22:38:53: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "745") (ubercharge "0")
+L 03/06/2011 - 22:38:53: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "scattergun" (attacker_position "-519 -503 288") (victim_position "-600 -662 288")
+L 03/06/2011 - 22:38:53: "« prime<38><STEAM_0:0:18744217><Red>" triggered "kill assist" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (assister_position "569 -31 408") (attacker_position "-519 -503 288") (victim_position "-600 -662 288")
+L 03/06/2011 - 22:38:55: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "tf_projectile_pipe_remote" (attacker_position "123 -90 349") (victim_position "-899 -69 365")
+L 03/06/2011 - 22:38:55: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "-431 -339 271") (attacker_position "123 -90 349") (victim_position "-899 -69 365")
+L 03/06/2011 - 22:38:56: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "captureblocked" (cp "2") (cpname "#Badlands_cap_cp3") (position "-4 -180 296")
+L 03/06/2011 - 22:38:56: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "-4 -180 296") (victim_position "-161 25 349")
+L 03/06/2011 - 22:38:57: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "scattergun" (attacker_position "-51 -223 419") (victim_position "-242 -195 313")
+L 03/06/2011 - 22:38:57: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "-899 -69 379") (attacker_position "-51 -223 419") (victim_position "-242 -195 313")
+L 03/06/2011 - 22:38:58: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "795") (ubercharge "0")
+L 03/06/2011 - 22:38:58: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_rocket" (attacker_position "-144 1107 -10") (victim_position "-398 844 -39")
+L 03/06/2011 - 22:38:59: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "shotgun_soldier" (attacker_position "-338 698 -28") (victim_position "-112 1105 4")
+L 03/06/2011 - 22:39:01: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "scattergun" (attacker_position "514 -676 112") (victim_position "349 -594 -27")
+L 03/06/2011 - 22:39:01: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "man aporia, nice"
+L 03/06/2011 - 22:39:20: Team "Red" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "2") (player1 "« Greyhunter<33><STEAM_0:0:309237><Red>") (position1 "-18 -36 303") (player2 "SoLe<51><STEAM_0:0:1812435><Red>") (position2 "48 164 296") 
+L 03/06/2011 - 22:39:29: "seeker<52><STEAM_0:0:6127703><>" connected, address "255.255.255.255:27005"
+L 03/06/2011 - 22:39:30: "seeker<52><STEAM_0:0:6127703><>" STEAM USERID validated
+L 03/06/2011 - 22:39:42: "seeker<52><STEAM_0:0:6127703><>" entered the game
+L 03/06/2011 - 22:39:49: "seeker<52><STEAM_0:0:6127703><Unassigned>" joined team "Spectator"
+L 03/06/2011 - 22:40:05: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "hey dude"
+L 03/06/2011 - 22:40:08: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "shame you missed gpit"
+L 03/06/2011 - 22:40:10: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "was epic"
+L 03/06/2011 - 22:40:19: "seeker<52><STEAM_0:0:6127703><Spectator>" say_team "i slept through my alarm"
+L 03/06/2011 - 22:40:23: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "ahh"
+L 03/06/2011 - 22:40:26: "« jmh<43><STEAM_0:1:101867><Red>" say "is this 2 halves?"
+L 03/06/2011 - 22:40:29: "Console<0><Console><Console>" say "no"
+L 03/06/2011 - 22:40:29: rcon from "255.255.255.255:64249": command "say no"
+L 03/06/2011 - 22:40:44: rcon from "255.255.255.255:64249": command "tv_status"
+L 03/06/2011 - 22:40:51: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "117 specs :o"
+L 03/06/2011 - 22:41:02: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "-478 -1320 267") (victim_position "-934 -1072 224")
+L 03/06/2011 - 22:41:02: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "-1117 -1967 45") (attacker_position "-478 -1320 267") (victim_position "-934 -1072 224")
+L 03/06/2011 - 22:41:02: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "domination" against "SoLe<51><STEAM_0:0:1812435><Red>" (assist "1")
+L 03/06/2011 - 22:41:05: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:41:23: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "scattergun" (attacker_position "-88 9 64") (victim_position "221 -75 -11")
+L 03/06/2011 - 22:41:35: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "-81 217 296") (victim_position "230 177 535")
+L 03/06/2011 - 22:41:35: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "-2 229 296") (attacker_position "-81 217 296") (victim_position "230 177 535")
+L 03/06/2011 - 22:41:37: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "3") (player1 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position1 "-261 210 296") (player2 "iM vic intel<36><STEAM_0:0:35755><Blue>") (position2 "120 0 326") (player3 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position3 "101 -120 296") 
+L 03/06/2011 - 22:41:38: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:41:38: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "world" (attacker_position "514 6 408") (victim_position "-35 -397 99")
+L 03/06/2011 - 22:41:38: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "801 67 296") (attacker_position "514 6 408") (victim_position "-35 -397 99")
+L 03/06/2011 - 22:41:38: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "domination" against "iM vic intel<36><STEAM_0:0:35755><Blue>"
+L 03/06/2011 - 22:41:39: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "-136 305 289") (victim_position "-77 264 296")
+L 03/06/2011 - 22:41:39: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "99 256 296") (attacker_position "-136 305 289") (victim_position "-77 264 296")
+L 03/06/2011 - 22:41:39: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "domination" against "« prime<38><STEAM_0:0:18744217><Red>"
+L 03/06/2011 - 22:41:42: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_pipe_remote" (attacker_position "1518 215 632") (victim_position "1380 219 192")
+L 03/06/2011 - 22:41:42: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "100 1048 236") (attacker_position "1518 215 632") (victim_position "1380 219 192")
+L 03/06/2011 - 22:41:42: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "domination" against "« Greyhunter<33><STEAM_0:0:309237><Red>"
+L 03/06/2011 - 22:41:43: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "2963") (ubercharge "0")
+L 03/06/2011 - 22:41:43: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_pipe_remote" (attacker_position "1901 329 151") (victim_position "1448 626 57")
+L 03/06/2011 - 22:41:58: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "pyro"
+L 03/06/2011 - 22:41:58: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_rocket" (attacker_position "-226 -9 382") (victim_position "-599 -25 420")
+L 03/06/2011 - 22:41:59: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "2") (player1 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position1 "1776 1883 400") (player2 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position2 "1829 1711 407") 
+L 03/06/2011 - 22:41:59: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "soldier"
+L 03/06/2011 - 22:42:08: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "engineer"
+L 03/06/2011 - 22:42:13: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "1222 4234 192")
+L 03/06/2011 - 22:42:18: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:42:19: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "spy"
+L 03/06/2011 - 22:42:40: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:42:42: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:42:47: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "tf_projectile_pipe_remote" (attacker_position "466 4379 192") (victim_position "654 3980 0")
+L 03/06/2011 - 22:42:47: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "850 4556 192") (attacker_position "466 4379 192") (victim_position "654 3980 0")
+L 03/06/2011 - 22:42:47: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:42:49: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "tf_projectile_pipe_remote" (attacker_position "463 4139 146") (victim_position "886 3900 0")
+L 03/06/2011 - 22:42:49: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:42:55: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:42:55: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "scattergun" (attacker_position "1296 4236 0") (victim_position "1644 4107 49")
+L 03/06/2011 - 22:42:55: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "1327 4308 192") (attacker_position "1296 4236 0") (victim_position "1644 4107 49")
+L 03/06/2011 - 22:42:59: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "scattergun" (attacker_position "1465 2858 0") (victim_position "1580 2817 0")
+L 03/06/2011 - 22:43:07: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "shotgun_soldier" (attacker_position "1156 618 192") (victim_position "1485 1475 15")
+L 03/06/2011 - 22:43:12: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "nice repush"
+L 03/06/2011 - 22:43:13: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "tf_projectile_pipe_remote" (attacker_position "1732 287 136") (victim_position "1295 168 243")
+L 03/06/2011 - 22:43:16: Team "Red" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "1") (player1 "« jmh<43><STEAM_0:1:101867><Red>") (position1 "1862 1591 407") 
+L 03/06/2011 - 22:43:16: "« prime<38><STEAM_0:0:18744217><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "5563") (ubercharge "0")
+L 03/06/2011 - 22:43:16: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "tf_projectile_pipe" (attacker_position "1127 215 256") (victim_position "680 -44 344")
+L 03/06/2011 - 22:43:16: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (assister_position "1233 195 203") (attacker_position "1127 215 256") (victim_position "680 -44 344")
+L 03/06/2011 - 22:43:18: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "1636") (ubercharge "0")
+L 03/06/2011 - 22:43:18: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_rocket" (attacker_position "1014 231 304") (victim_position "1417 151 309")
+L 03/06/2011 - 22:43:19: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "tf_projectile_rocket" (attacker_position "1106 133 339") (victim_position "1085 201 283")
+L 03/06/2011 - 22:43:21: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "oh man"
+L 03/06/2011 - 22:43:23: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "vic u beast"
+L 03/06/2011 - 22:43:34: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "-368 -513 257") (victim_position "-472 -422 277")
+L 03/06/2011 - 22:43:34: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "-296 106 360") (attacker_position "-368 -513 257") (victim_position "-472 -422 277")
+L 03/06/2011 - 22:43:36: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "SOLE"
+L 03/06/2011 - 22:43:37: Team "Red" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "3") (player1 "« jmh<43><STEAM_0:1:101867><Red>") (position1 "-45 123 296") (player2 "« prime<38><STEAM_0:0:18744217><Red>") (position2 "-97 -46 339") (player3 "SoLe<51><STEAM_0:0:1812435><Red>") (position3 "13 210 296") 
+L 03/06/2011 - 22:43:44: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_pipe_remote" (attacker_position "550 0 408") (victim_position "1448 168 185")
+L 03/06/2011 - 22:43:44: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>" (assister_position "1296 132 192") (attacker_position "550 0 408") (victim_position "1448 168 185")
+L 03/06/2011 - 22:43:44: "« prime<38><STEAM_0:0:18744217><Red>" triggered "revenge" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>"
+L 03/06/2011 - 22:44:00: rcon from "255.255.255.255:64249": command "tv_status"
+L 03/06/2011 - 22:44:07: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "tf_projectile_pipe_remote" (attacker_position "-1757 -973 67") (victim_position "-2342 -1299 -7")
+L 03/06/2011 - 22:44:07: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "kill assist" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>" (assister_position "-1814 -589 278") (attacker_position "-1757 -973 67") (victim_position "-2342 -1299 -7")
+L 03/06/2011 - 22:44:07: "« prime<38><STEAM_0:0:18744217><Red>" triggered "domination" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>"
+L 03/06/2011 - 22:44:10: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "-275 -1733 192") (victim_position "-1026 -2044 22")
+L 03/06/2011 - 22:44:10: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "-1150 -910 43") (attacker_position "-275 -1733 192") (victim_position "-1026 -2044 22")
+L 03/06/2011 - 22:44:15: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "-412 -2334 304") (victim_position "-729 -2288 256")
+L 03/06/2011 - 22:44:22: Team "Red" triggered "pointcaptured" (cp "1") (cpname "#Badlands_cap_blue_cp2") (numcappers "2") (player1 "« jmh<43><STEAM_0:1:101867><Red>") (position1 "-1754 -1832 400") (player2 "« Amril<46><STEAM_0:1:5959400><Red>") (position2 "-1876 -1587 407") 
+L 03/06/2011 - 22:44:34: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "captureblocked" (cp "0") (cpname "#Badlands_cap_blue_cp1") (position "-347 -4154 192")
+L 03/06/2011 - 22:44:34: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_rocket" (attacker_position "-347 -4154 192") (victim_position "-774 -3989 4")
+L 03/06/2011 - 22:44:34: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "-1034 -3923 175") (attacker_position "-347 -4154 192") (victim_position "-774 -3989 4")
+L 03/06/2011 - 22:44:34: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "revenge" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assist "1")
+L 03/06/2011 - 22:44:36: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:44:40: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:44:43: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_pipe_remote" (attacker_position "-311 -3964 192") (victim_position "-762 -3979 83")
+L 03/06/2011 - 22:44:43: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "-813 -3960 0") (attacker_position "-311 -3964 192") (victim_position "-762 -3979 83")
+L 03/06/2011 - 22:44:51: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_rocket" (attacker_position "-630 -3028 192") (victim_position "-530 -2559 229")
+L 03/06/2011 - 22:44:51: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "-829 -2800 0") (attacker_position "-630 -3028 192") (victim_position "-530 -2559 229")
+L 03/06/2011 - 22:44:52: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "man pvh, how do you suririve"
+L 03/06/2011 - 22:45:00: "« THE1IVO<28><STEAM_0:0:7743683><Spectator>" say_team "indeed"
+L 03/06/2011 - 22:45:03: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "shotgun_soldier" (attacker_position "-946 -2094 -15") (victim_position "-1772 -1230 -31")
+L 03/06/2011 - 22:45:03: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "-2152 -1577 258") (attacker_position "-946 -2094 -15") (victim_position "-1772 -1230 -31")
+L 03/06/2011 - 22:45:11: Team "Blue" triggered "pointcaptured" (cp "1") (cpname "#Badlands_cap_blue_cp2") (numcappers "3") (player1 "iM aporia intel<45><STEAM_0:0:17580143><Blue>") (position1 "-1719 -1807 400") (player2 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position2 "-1637 -1867 400") (player3 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position3 "-1712 -1799 400") 
+L 03/06/2011 - 22:45:20: rcon from "255.255.255.255:64249": command "tv_status"
+L 03/06/2011 - 22:45:38: rcon from "255.255.255.255:1114": command "tv_status"
+L 03/06/2011 - 22:45:42: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_rocket" (attacker_position "-687 -971 288") (victim_position "-900 -1239 224")
+L 03/06/2011 - 22:45:49: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1341 -2163 0") (victim_position "-650 -1185 224")
+L 03/06/2011 - 22:46:05: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:46:06: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "-1430 -1304 40") (victim_position "-1710 -1251 -74")
+L 03/06/2011 - 22:46:06: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "-2015 -1006 104") (attacker_position "-1430 -1304 40") (victim_position "-1710 -1251 -74")
+L 03/06/2011 - 22:46:07: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "-1859 -2120 -152") (victim_position "-1524 -2065 -40")
+L 03/06/2011 - 22:46:07: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "-1886 -2326 2") (attacker_position "-1859 -2120 -152") (victim_position "-1524 -2065 -40")
+L 03/06/2011 - 22:46:12: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:46:15: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "world" (attacker_position "-2378 -1707 61") (victim_position "-1667 -2426 268")
+L 03/06/2011 - 22:46:15: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "-2283 -1695 101") (attacker_position "-2378 -1707 61") (victim_position "-1667 -2426 268")
+L 03/06/2011 - 22:46:31: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_rocket" (attacker_position "-1479 -1669 -140") (victim_position "-1143 -1592 -150")
+L 03/06/2011 - 22:46:32: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "maxgun" (attacker_position "-693 -1492 43") (victim_position "-471 -1102 30")
+L 03/06/2011 - 22:46:48: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "6") (player1 "iM aporia intel<45><STEAM_0:0:17580143><Blue>") (position1 "166 158 296") (player2 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position2 "-22 97 303") (player3 "iM vic intel<36><STEAM_0:0:35755><Blue>") (position3 "107 123 296") (player4 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position4 "65 47 303") (player5 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position5 "-53 72 303") (player6 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position6 "4 99 303") 
+L 03/06/2011 - 22:47:00: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "3659") (ubercharge "0")
+L 03/06/2011 - 22:47:00: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_rocket" (attacker_position "1640 633 149") (victim_position "1300 2214 0")
+L 03/06/2011 - 22:47:00: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "1402 189 192") (attacker_position "1640 633 149") (victim_position "1300 2214 0")
+L 03/06/2011 - 22:47:01: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_rocket" (attacker_position "1318 1757 46") (victim_position "1339 2220 0")
+L 03/06/2011 - 22:47:01: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "1309 820 269") (attacker_position "1318 1757 46") (victim_position "1339 2220 0")
+L 03/06/2011 - 22:47:13: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "2") (player1 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position1 "1675 1794 488") (player2 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position2 "1814 1736 407") 
+L 03/06/2011 - 22:47:23: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "engineer"
+L 03/06/2011 - 22:47:24: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:47:26: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "1258 4346 192")
+L 03/06/2011 - 22:47:27: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "136") (ubercharge "0")
+L 03/06/2011 - 22:47:27: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_rocket" (attacker_position "137 3733 261") (victim_position "128 3464 196")
+L 03/06/2011 - 22:47:27: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "603 3597 0") (attacker_position "137 3733 261") (victim_position "128 3464 196")
+L 03/06/2011 - 22:47:28: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:47:28: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_rocket" (attacker_position "83 3638 192") (victim_position "54 3575 240")
+L 03/06/2011 - 22:47:28: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "731 3580 8") (attacker_position "83 3638 192") (victim_position "54 3575 240")
+L 03/06/2011 - 22:47:28: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "world" (attacker_position "54 3575 240") (victim_position "83 3638 192")
+L 03/06/2011 - 22:47:31: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "259 4267 205") (victim_position "389 4455 192")
+L 03/06/2011 - 22:47:34: Team "Blue" triggered "pointcaptured" (cp "4") (cpname "#Badlands_cap_red_cp1") (numcappers "1") (player1 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position1 "816 4169 0") 
+L 03/06/2011 - 22:47:34: World triggered "Round_Win" (winner "Blue")
+L 03/06/2011 - 22:47:34: World triggered "Round_Length" (seconds "546.49")
+L 03/06/2011 - 22:47:34: Team "Red" current score "0" with "6" players
+L 03/06/2011 - 22:47:34: Team "Blue" current score "3" with "6" players
+L 03/06/2011 - 22:47:34: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_pipe" (attacker_position "780 3708 -3") (victim_position "942 4029 0")
+L 03/06/2011 - 22:47:39: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "scattergun" (attacker_position "548 2686 192") (victim_position "527 2818 190")
+L 03/06/2011 - 22:47:39: World triggered "Round_Start"
+L 03/06/2011 - 22:47:40: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "heavyweapons"
+L 03/06/2011 - 22:48:03: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "scattergun" (attacker_position "503 -301 63") (victim_position "239 -436 -13")
+L 03/06/2011 - 22:48:03: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "kill assist" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>" (assister_position "288 -230 -19") (attacker_position "503 -301 63") (victim_position "239 -436 -13")
+L 03/06/2011 - 22:48:05: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_rocket" (attacker_position "-755 294 288") (victim_position "-688 124 401")
+L 03/06/2011 - 22:48:05: "« prime<38><STEAM_0:0:18744217><Red>" triggered "kill assist" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>" (assister_position "147 111 317") (attacker_position "-755 294 288") (victim_position "-688 124 401")
+L 03/06/2011 - 22:48:18: Team "Red" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "1") (player1 "« Amril<46><STEAM_0:1:5959400><Red>") (position1 "-83 -76 303") 
+L 03/06/2011 - 22:48:27: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_pipe_remote" (attacker_position "-1814 -2929 256") (victim_position "-1837 -1670 407")
+L 03/06/2011 - 22:48:31: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "tf_projectile_pipe" (attacker_position "-1336 -1499 0") (victim_position "-1765 -2829 256")
+L 03/06/2011 - 22:48:31: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "-1382 -1396 -1") (attacker_position "-1336 -1499 0") (victim_position "-1765 -2829 256")
+L 03/06/2011 - 22:48:32: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "scattergun" (attacker_position "-2100 -2312 134") (victim_position "-2171 -2238 -34")
+L 03/06/2011 - 22:48:37: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "soldier"
+L 03/06/2011 - 22:48:38: Team "Red" triggered "pointcaptured" (cp "1") (cpname "#Badlands_cap_blue_cp2") (numcappers "1") (player1 "« jmh<43><STEAM_0:1:101867><Red>") (position1 "-1840 -1849 400") 
+L 03/06/2011 - 22:48:38: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "tf_projectile_rocket" (attacker_position "-1061 -1853 -159") (victim_position "-1035 -1527 -40")
+L 03/06/2011 - 22:48:38: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "-2367 -1935 67") (attacker_position "-1061 -1853 -159") (victim_position "-1035 -1527 -40")
+L 03/06/2011 - 22:48:43: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:48:46: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "scattergun" (attacker_position "-361 -3316 192") (victim_position "-166 -3616 192")
+L 03/06/2011 - 22:48:49: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "scattergun" (attacker_position "-669 -3994 0") (victim_position "-834 -3841 0")
+L 03/06/2011 - 22:48:50: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "captureblocked" (cp "1") (cpname "#Badlands_cap_blue_cp2") (position "-1942 -1365 355")
+L 03/06/2011 - 22:48:50: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "scattergun" (attacker_position "-1942 -1365 355") (victim_position "-1777 -1894 400")
+L 03/06/2011 - 22:48:50: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "-2034 -1816 376") (attacker_position "-1942 -1365 355") (victim_position "-1777 -1894 400")
+L 03/06/2011 - 22:48:51: Team "Red" triggered "pointcaptured" (cp "0") (cpname "#Badlands_cap_blue_cp1") (numcappers "1") (player1 "« jmh<43><STEAM_0:1:101867><Red>") (position1 "-721 -4185 12") 
+L 03/06/2011 - 22:48:51: World triggered "Round_Win" (winner "Red")
+L 03/06/2011 - 22:48:51: World triggered "Round_Length" (seconds "71.49")
+L 03/06/2011 - 22:48:51: Team "Red" current score "1" with "6" players
+L 03/06/2011 - 22:48:51: Team "Blue" current score "3" with "6" players
+L 03/06/2011 - 22:48:51: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "world" (attacker_position "-2033 -1789 248") (victim_position "-1763 -2539 267")
+L 03/06/2011 - 22:48:53: "« jmh<43><STEAM_0:1:101867><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "1298") (ubercharge "1")
+L 03/06/2011 - 22:48:53: "« jmh<43><STEAM_0:1:101867><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "scattergun" (attacker_position "-657 -3874 0") (victim_position "-679 -3757 0")
+L 03/06/2011 - 22:48:56: World triggered "Round_Start"
+L 03/06/2011 - 22:48:59: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "heavyweapons"
+L 03/06/2011 - 22:49:27: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_rocket" (attacker_position "243 891 300") (victim_position "-17 657 351")
+L 03/06/2011 - 22:49:35: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "4") (player1 "iM aporia intel<45><STEAM_0:0:17580143><Blue>") (position1 "190 -184 296") (player2 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position2 "-206 -166 296") (player3 "iM vic intel<36><STEAM_0:0:35755><Blue>") (position3 "-241 -49 344") (player4 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position4 "-189 135 296") 
+L 03/06/2011 - 22:49:45: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "night dudes"
+L 03/06/2011 - 22:49:49: rcon from "255.255.255.255:64249": command "tv_status"
+L 03/06/2011 - 22:49:53: "seeker<52><STEAM_0:0:6127703><Spectator>" say_team "later siege"
+L 03/06/2011 - 22:49:53: "siege<47><STEAM_0:1:16965464><Spectator>" say_team "123 specs, nb"
+L 03/06/2011 - 22:49:54: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:49:55: "ozfortress wm<49><STEAM_0:1:7175436><Spectator>" say_team "ta night"
+L 03/06/2011 - 22:49:55: "siege<47><STEAM_0:1:16965464><Spectator>" disconnected (reason "Disconnect by user.")
+L 03/06/2011 - 22:49:55: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "minigun" (attacker_position "532 33 408") (victim_position "754 65 464")
+L 03/06/2011 - 22:49:55: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "382 -80 356") (attacker_position "532 33 408") (victim_position "754 65 464")
+L 03/06/2011 - 22:49:55: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "revenge" against "« prime<38><STEAM_0:0:18744217><Red>" (assist "1")
+L 03/06/2011 - 22:49:58: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_pipe" (attacker_position "402 137 357") (victim_position "68 297 294")
+L 03/06/2011 - 22:49:58: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "343 30 408") (attacker_position "402 137 357") (victim_position "68 297 294")
+L 03/06/2011 - 22:49:58: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "domination" against "« Amril<46><STEAM_0:1:5959400><Red>"
+L 03/06/2011 - 22:49:58: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:49:59: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_pipe" (attacker_position "599 254 296") (victim_position "546 745 288")
+L 03/06/2011 - 22:49:59: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "340 281 336") (attacker_position "599 254 296") (victim_position "546 745 288")
+L 03/06/2011 - 22:50:07: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "1559") (ubercharge "0")
+L 03/06/2011 - 22:50:07: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "tf_projectile_pipe_remote" (attacker_position "1481 1778 -122") (victim_position "1375 2215 95")
+L 03/06/2011 - 22:50:07: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "1547 435 106") (attacker_position "1481 1778 -122") (victim_position "1375 2215 95")
+L 03/06/2011 - 22:50:07: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "domination" against "« povohat<32><STEAM_0:0:16504622><Red>"
+L 03/06/2011 - 22:50:09: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "minigun" (attacker_position "1525 576 76") (victim_position "1615 1718 200")
+L 03/06/2011 - 22:50:09: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "1165 2063 0") (attacker_position "1525 576 76") (victim_position "1615 1718 200")
+L 03/06/2011 - 22:50:17: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:50:17: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:50:19: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "1") (player1 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position1 "1708 1798 400") 
+L 03/06/2011 - 22:50:27: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "scattergun" (attacker_position "435 4127 0") (victim_position "472 4356 0")
+L 03/06/2011 - 22:50:28: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "209 4146 192") (victim_position "251 4281 192")
+L 03/06/2011 - 22:50:28: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "domination" against "« prime<38><STEAM_0:0:18744217><Red>"
+L 03/06/2011 - 22:50:32: Team "Blue" triggered "pointcaptured" (cp "4") (cpname "#Badlands_cap_red_cp1") (numcappers "1") (player1 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position1 "784 4182 0") 
+L 03/06/2011 - 22:50:32: World triggered "Round_Win" (winner "Blue")
+L 03/06/2011 - 22:50:32: World triggered "Round_Length" (seconds "96.12")
+L 03/06/2011 - 22:50:32: Team "Red" current score "1" with "6" players
+L 03/06/2011 - 22:50:32: Team "Blue" current score "4" with "6" players
+L 03/06/2011 - 22:50:34: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "scattergun" (attacker_position "643 3664 0") (victim_position "446 4184 0")
+L 03/06/2011 - 22:50:34: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "1159 3407 192") (attacker_position "643 3664 0") (victim_position "446 4184 0")
+L 03/06/2011 - 22:50:34: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "domination" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assist "1")
+L 03/06/2011 - 22:50:34: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "562 3675 67") (victim_position "522 3437 17")
+L 03/06/2011 - 22:50:34: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "1156 3398 192") (attacker_position "562 3675 67") (victim_position "522 3437 17")
+L 03/06/2011 - 22:50:34: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "domination" against "SoLe<51><STEAM_0:0:1812435><Red>" (assist "1")
+L 03/06/2011 - 22:50:37: World triggered "Round_Start"
+L 03/06/2011 - 22:50:40: "iM vic intel<36><STEAM_0:0:35755><Blue>" changed role to "soldier"
+L 03/06/2011 - 22:51:01: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "-836 148 296") (victim_position "-69 442 277")
+L 03/06/2011 - 22:51:01: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "-537 -76 408") (attacker_position "-836 148 296") (victim_position "-69 442 277")
+L 03/06/2011 - 22:51:03: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "163 585 138") (victim_position "-13 743 232")
+L 03/06/2011 - 22:51:03: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "-80 476 55") (attacker_position "163 585 138") (victim_position "-13 743 232")
+L 03/06/2011 - 22:51:05: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "-122 458 133") (victim_position "204 722 255")
+L 03/06/2011 - 22:51:05: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« prime<38><STEAM_0:0:18744217><Red>" (assister_position "-357 24 408") (attacker_position "-122 458 133") (victim_position "204 722 255")
+L 03/06/2011 - 22:51:08: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_pipe_remote" (attacker_position "-108 156 296") (victim_position "527 440 282")
+L 03/06/2011 - 22:51:08: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "« Greyhunter<33><STEAM_0:0:309237><Red>" (assister_position "-197 -187 296") (attacker_position "-108 156 296") (victim_position "527 440 282")
+L 03/06/2011 - 22:51:09: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "568") (ubercharge "0")
+L 03/06/2011 - 22:51:09: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "scattergun" (attacker_position "-30 535 78") (victim_position "-19 670 68")
+L 03/06/2011 - 22:51:09: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« povohat<32><STEAM_0:0:16504622><Red>" (assister_position "-65 162 296") (attacker_position "-30 535 78") (victim_position "-19 670 68")
+L 03/06/2011 - 22:51:11: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_pipe" (attacker_position "-45 136 296") (victim_position "-168 300 294")
+L 03/06/2011 - 22:51:11: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "-54 182 296") (attacker_position "-45 136 296") (victim_position "-168 300 294")
+L 03/06/2011 - 22:51:21: Team "Blue" triggered "pointcaptured" (cp "2") (cpname "#Badlands_cap_cp3") (numcappers "3") (player1 "iM bonobo intel<35><STEAM_0:1:3721022><Blue>") (position1 "117 75 296") (player2 "iM vic intel<36><STEAM_0:0:35755><Blue>") (position2 "162 125 296") (player3 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position3 "-23 108 302") 
+L 03/06/2011 - 22:51:28: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "pyro"
+L 03/06/2011 - 22:51:31: Team "Blue" triggered "pointcaptured" (cp "3") (cpname "#Badlands_cap_red_cp2") (numcappers "3") (player1 "iM yuki intel<37><STEAM_0:0:1912735><Blue>") (position1 "1683 1781 400") (player2 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position2 "1955 1602 404") (player3 "iM bowt intel<42><STEAM_0:0:3881951><Blue>") (position3 "1717 1779 400") 
+L 03/06/2011 - 22:51:36: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "engineer"
+L 03/06/2011 - 22:51:38: "« jmh<43><STEAM_0:1:101867><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "1212 4214 192")
+L 03/06/2011 - 22:51:43: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "chargedeployed"
+L 03/06/2011 - 22:51:44: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "pyro"
+L 03/06/2011 - 22:51:45: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "heavyweapons"
+L 03/06/2011 - 22:51:47: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_rocket" (attacker_position "730 3418 277") (victim_position "239 3937 253")
+L 03/06/2011 - 22:51:47: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "659 3601 45") (attacker_position "730 3418 277") (victim_position "239 3937 253")
+L 03/06/2011 - 22:51:47: "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" triggered "domination" against "SoLe<51><STEAM_0:0:1812435><Red>" (assist "1")
+L 03/06/2011 - 22:51:51: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" triggered "killedobject" (object "OBJ_SENTRYGUN") (weapon "tf_projectile_pipe") (objectowner "« jmh<43><STEAM_0:1:101867><Red>") (attacker_position "797 3839 -3")
+L 03/06/2011 - 22:51:52: "« jmh<43><STEAM_0:1:101867><Red>" changed role to "scout"
+L 03/06/2011 - 22:51:52: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_rocket" (attacker_position "1251 3598 192") (victim_position "1247 3764 192")
+L 03/06/2011 - 22:51:52: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "1201 3561 0") (attacker_position "1251 3598 192") (victim_position "1247 3764 192")
+L 03/06/2011 - 22:51:52: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "domination" against "« Amril<46><STEAM_0:1:5959400><Red>" (assist "1")
+L 03/06/2011 - 22:51:52: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "world" (attacker_position "1247 3764 192") (victim_position "1251 3598 192")
+L 03/06/2011 - 22:51:53: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_pipe_remote" (attacker_position "1094 4130 177") (victim_position "702 4083 0")
+L 03/06/2011 - 22:51:53: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>" (assister_position "1270 4312 192") (attacker_position "1094 4130 177") (victim_position "702 4083 0")
+L 03/06/2011 - 22:51:56: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "tf_projectile_pipe_remote" (attacker_position "806 4005 0") (victim_position "1072 3585 0")
+L 03/06/2011 - 22:51:56: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "811 4034 0") (attacker_position "806 4005 0") (victim_position "1072 3585 0")
+L 03/06/2011 - 22:51:56: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "revenge" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assist "1")
+L 03/06/2011 - 22:51:59: "« Amril<46><STEAM_0:1:5959400><Red>" changed role to "scout"
+L 03/06/2011 - 22:52:07: "SoLe<51><STEAM_0:0:1812435><Red>" changed role to "soldier"
+L 03/06/2011 - 22:52:22: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_pipe_remote" (attacker_position "1750 1538 584") (victim_position "1777 1627 416")
+L 03/06/2011 - 22:52:27: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "scattergun" (attacker_position "1451 1283 44") (victim_position "1675 1061 -4")
+L 03/06/2011 - 22:52:27: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>" (assister_position "1665 2307 511") (attacker_position "1451 1283 44") (victim_position "1675 1061 -4")
+L 03/06/2011 - 22:52:27: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "revenge" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>"
+L 03/06/2011 - 22:52:27: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "revenge" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>" (assist "1")
+L 03/06/2011 - 22:52:28: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_rocket" (attacker_position "1662 1063 0") (victim_position "1463 1534 83")
+L 03/06/2011 - 22:52:28: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "1364 1037 51") (attacker_position "1662 1063 0") (victim_position "1463 1534 83")
+L 03/06/2011 - 22:52:28: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_pipe_remote" (attacker_position "2327 1545 89") (victim_position "1688 974 17")
+L 03/06/2011 - 22:52:28: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "tf_projectile_pipe_remote" (attacker_position "2306 1531 91") (victim_position "1936 1284 -87")
+L 03/06/2011 - 22:52:28: "« prime<38><STEAM_0:0:18744217><Red>" triggered "revenge" against "iM bowt intel<42><STEAM_0:0:3881951><Blue>"
+L 03/06/2011 - 22:52:41: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "chargedeployed"
+L 03/06/2011 - 22:52:41: "iM vic intel<36><STEAM_0:0:35755><Blue>" triggered "captureblocked" (cp "3") (cpname "#Badlands_cap_red_cp2") (position "2005 1661 396")
+L 03/06/2011 - 22:52:42: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "maxgun" (attacker_position "870 4146 12") (victim_position "743 4039 0")
+L 03/06/2011 - 22:52:43: Team "Blue" triggered "pointcaptured" (cp "4") (cpname "#Badlands_cap_red_cp1") (numcappers "1") (player1 "iM sheep intel<50><STEAM_0:1:21111848><Blue>") (position1 "870 4146 12") 
+L 03/06/2011 - 22:52:43: World triggered "Round_Win" (winner "Blue")
+L 03/06/2011 - 22:52:43: World triggered "Round_Length" (seconds "125.86")
+L 03/06/2011 - 22:52:43: Team "Red" current score "1" with "6" players
+L 03/06/2011 - 22:52:43: Team "Blue" current score "5" with "6" players
+L 03/06/2011 - 22:52:46: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "shotgun_soldier" (attacker_position "1979 1678 400") (victim_position "1785 1849 400")
+L 03/06/2011 - 22:52:48: Team "BLUE" triggered "Intermission_Win_Limit"
+L 03/06/2011 - 22:52:48: World triggered "Game_Over" reason "Reached Win Limit"
+L 03/06/2011 - 22:52:48: Team "Red" final score "1" with "6" players
+L 03/06/2011 - 22:52:48: Team "Blue" final score "5" with "6" players
+L 03/06/2011 - 22:52:48: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" say_team "[P-REC] It begins."
+L 03/06/2011 - 22:52:48: "iM vic intel<36><STEAM_0:0:35755><Blue>" say_team "[P-REC] Stop record."
+L 03/06/2011 - 22:52:48: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" say_team "[P-REC] Stop record."
+L 03/06/2011 - 22:52:50: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" say "gg"
+L 03/06/2011 - 22:52:51: "« jmh<43><STEAM_0:1:101867><Red>" say "gg"
+L 03/06/2011 - 22:52:51: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" say "gm"
+L 03/06/2011 - 22:52:53: "iM vic intel<36><STEAM_0:0:35755><Blue>" say "gg"
+L 03/06/2011 - 22:52:59: "« prime<38><STEAM_0:0:18744217><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_pipe_remote" (attacker_position "1715 3173 83") (victim_position "1705 2964 0")
+L 03/06/2011 - 22:52:59: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "world" (attacker_position "1763 3210 116") (victim_position "1715 3173 83")
+L 03/06/2011 - 22:52:59: "« povohat<32><STEAM_0:0:16504622><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "bonesaw" (attacker_position "1756 3266 128") (victim_position "1763 3298 128")
+L 03/06/2011 - 22:53:01: "Console<0><Console><Console>" say "waiting for stv"
+L 03/06/2011 - 22:53:01: rcon from "255.255.255.255:62812": command "say waiting for stv"
+L 03/06/2011 - 22:53:01: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM yuki intel<37><STEAM_0:0:1912735><Blue>" with "tf_projectile_rocket" (attacker_position "2035 1882 135") (victim_position "2084 1891 180")
+L 03/06/2011 - 22:53:01: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>" (assister_position "1129 2040 72") (attacker_position "2035 1882 135") (victim_position "2084 1891 180")
+L 03/06/2011 - 22:53:01: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "revenge" against "iM yuki intel<37><STEAM_0:0:1912735><Blue>"
+L 03/06/2011 - 22:53:04: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "51") (ubercharge "0")
+L 03/06/2011 - 22:53:04: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "unique_pickaxe" (attacker_position "2348 1874 28") (victim_position "2396 1885 24")
+L 03/06/2011 - 22:53:04: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "revenge" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>"
+L 03/06/2011 - 22:53:04: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "scattergun" (attacker_position "2173 1680 254") (victim_position "2348 1874 28")
+L 03/06/2011 - 22:53:05: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "0") (ubercharge "0")
+L 03/06/2011 - 22:53:05: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "scattergun" (attacker_position "1649 4003 0") (victim_position "1675 3865 0")
+L 03/06/2011 - 22:53:07: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "scattergun" (attacker_position "1447 3222 192") (victim_position "1481 3293 210")
+L 03/06/2011 - 22:53:20: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "world" (attacker_position "331 1881 197") (victim_position "554 1068 28")
+L 03/06/2011 - 22:53:24: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "scattergun" (attacker_position "408 1674 -8") (victim_position "649 1772 -26")
+L 03/06/2011 - 22:53:27: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "1350 2205 42") (victim_position "1296 2080 35")
+L 03/06/2011 - 22:53:29: "iM vic intel<36><STEAM_0:0:35755><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_rocket" (attacker_position "1661 1854 400") (victim_position "1296 2276 38")
+L 03/06/2011 - 22:53:29: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" triggered "kill assist" against "SoLe<51><STEAM_0:0:1812435><Red>" (assister_position "1296 2080 49") (attacker_position "1661 1854 400") (victim_position "1296 2276 38")
+L 03/06/2011 - 22:53:37: "« Amril<46><STEAM_0:1:5959400><Red>" killed "iM vic intel<36><STEAM_0:0:35755><Blue>" with "scattergun" (attacker_position "1279 1652 0") (victim_position "1241 1099 2")
+L 03/06/2011 - 22:53:37: "« povohat<32><STEAM_0:0:16504622><Red>" triggered "kill assist" against "iM vic intel<36><STEAM_0:0:35755><Blue>" (assister_position "1230 1730 0") (attacker_position "1279 1652 0") (victim_position "1241 1099 2")
+L 03/06/2011 - 22:53:37: "« Amril<46><STEAM_0:1:5959400><Red>" triggered "revenge" against "iM vic intel<36><STEAM_0:0:35755><Blue>"
+L 03/06/2011 - 22:53:39: "iM bowt intel<42><STEAM_0:0:3881951><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "scattergun" (attacker_position "1431 1758 71") (victim_position "1155 1388 8")
+L 03/06/2011 - 22:53:39: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« Amril<46><STEAM_0:1:5959400><Red>" (assister_position "1425 975 5") (attacker_position "1431 1758 71") (victim_position "1155 1388 8")
+L 03/06/2011 - 22:53:43: "« povohat<32><STEAM_0:0:16504622><Red>" killed "iM bowt intel<42><STEAM_0:0:3881951><Blue>" with "syringegun_medic" (attacker_position "641 2051 46") (victim_position "1045 2093 -8")
+L 03/06/2011 - 22:53:46: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "medic_death" against "« povohat<32><STEAM_0:0:16504622><Red>" (healing "296") (ubercharge "0")
+L 03/06/2011 - 22:53:46: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« povohat<32><STEAM_0:0:16504622><Red>" with "scattergun" (attacker_position "551 2005 81") (victim_position "450 2068 154")
+L 03/06/2011 - 22:53:49: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM sheep intel<50><STEAM_0:1:21111848><Blue>" with "tf_projectile_rocket" (attacker_position "722 2136 38") (victim_position "232 2080 217")
+L 03/06/2011 - 22:53:49: "« jmh<43><STEAM_0:1:101867><Red>" triggered "kill assist" against "iM sheep intel<50><STEAM_0:1:21111848><Blue>" (assister_position "587 2079 83") (attacker_position "722 2136 38") (victim_position "232 2080 217")
+L 03/06/2011 - 22:53:49: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« jmh<43><STEAM_0:1:101867><Red>" with "tf_projectile_rocket" (attacker_position "307 1649 192") (victim_position "583 2084 86")
+L 03/06/2011 - 22:53:49: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" triggered "kill assist" against "« jmh<43><STEAM_0:1:101867><Red>" (assister_position "232 2080 231") (attacker_position "307 1649 192") (victim_position "583 2084 86")
+L 03/06/2011 - 22:53:52: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "595 2097 84") (victim_position "518 1749 49")
+L 03/06/2011 - 22:53:52: "« Greyhunter<33><STEAM_0:0:309237><Red>" triggered "kill assist" against "iM aporia intel<45><STEAM_0:0:17580143><Blue>" (assister_position "381 2060 185") (attacker_position "595 2097 84") (victim_position "518 1749 49")
+L 03/06/2011 - 22:54:07: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "scattergun" (attacker_position "50 1200 -63") (victim_position "540 1459 65")
+L 03/06/2011 - 22:54:11: "SoLe<51><STEAM_0:0:1812435><Red>" triggered "medic_death" against "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" (healing "0") (ubercharge "0")
+L 03/06/2011 - 22:54:11: "SoLe<51><STEAM_0:0:1812435><Red>" killed "iM bonobo intel<35><STEAM_0:1:3721022><Blue>" with "tf_projectile_rocket" (attacker_position "-578 -401 334") (victim_position "-518 -28 408")
+L 03/06/2011 - 22:54:13: "« Greyhunter<33><STEAM_0:0:309237><Red>" killed "iM aporia intel<45><STEAM_0:0:17580143><Blue>" with "tf_projectile_rocket" (attacker_position "555 968 429") (victim_position "937 940 265")
+L 03/06/2011 - 22:54:14: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Greyhunter<33><STEAM_0:0:309237><Red>" with "tf_projectile_rocket" (attacker_position "937 940 279") (victim_position "556 999 338")
+L 03/06/2011 - 22:54:19: "iM yuki intel<37><STEAM_0:0:1912735><Blue>" killed "SoLe<51><STEAM_0:0:1812435><Red>" with "tf_projectile_pipe" (attacker_position "-465 -157 296") (victim_position "-642 -574 288")
+L 03/06/2011 - 22:54:21: "iM sheep intel<50><STEAM_0:1:21111848><Blue>" killed "« prime<38><STEAM_0:0:18744217><Red>" with "world" (attacker_position "-117 -192 474") (victim_position "-360 227 300")
+L 03/06/2011 - 22:54:29: "iM aporia intel<45><STEAM_0:0:17580143><Blue>" killed "« Amril<46><STEAM_0:1:5959400><Red>" with "tf_projectile_rocket" (attacker_position "649 927 288") (victim_position "931 999 224")
+L 03/06/2011 - 22:54:33: rcon from "255.255.255.255:62200": command "maps *"
+L 03/06/2011 - 22:54:39: rcon from "255.255.255.255:62200": command "changelevel cp_granary"
+L 03/06/2011 - 22:54:39: Log file closed

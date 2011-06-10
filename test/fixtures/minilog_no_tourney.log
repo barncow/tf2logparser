@@ -1,0 +1,49 @@
+L 09/29/2010 - 19:05:47: Log file started (file "logs/L0929002.log") (game "/home/barncow/74.122.197.144-27015/srcds_l/orangebox/tf") (version "4317")
+L 09/29/2010 - 19:05:47: server_cvar: "mp_falldamage" "0"
+L 09/29/2010 - 19:05:47: server_cvar: "mp_flashlight" "0"
+L 09/29/2010 - 19:05:47: "Console<0><Console><Console>" say ""CEVO TF2 stopwatch config file loaded. 08/14/10""
+L 09/29/2010 - 19:05:47: rcon from "184.58.218.223:50039": command "exec cevo_stopwatch.cfg"
+L 09/29/2010 - 19:05:54: "Target<46><STEAM_0:0:6845279><>" entered the game
+L 09/29/2010 - 19:06:13: "Target<46><STEAM_0:0:6845279><Unassigned>" joined team "Blue"
+L 09/29/2010 - 19:06:14: "Target<46><STEAM_0:0:6845279><Blue>" changed role to "scout"
+L 09/29/2010 - 19:06:27: "Target<46><STEAM_0:0:6845279><Blue>" killed "FSTNG! Barncow<48><STEAM_0:1:16481274><Red>" with "scattergun" (attacker_position "-704 1584 -464") (victim_position "-824 1429 -396")
+L 09/29/2010 - 19:06:32: "Cres<49><STEAM_0:0:8581157><>" connected, address "174.55.51.80:27005"
+L 09/29/2010 - 19:06:33: "Cres<49><STEAM_0:0:8581157><>" STEAM USERID validated
+L 09/29/2010 - 19:07:05: "Target<46><STEAM_0:0:6845279><Blue>" killed "FSTNG! Barncow<48><STEAM_0:1:16481274><Red>" with "pistol_scout" (attacker_position "-1513 301 -383") (victim_position "-1435 611 -383")
+L 09/29/2010 - 19:08:08: "do0t<47><STEAM_0:1:4433828><Unassigned>" disconnected (reason "Kicked by Console")
+L 09/29/2010 - 19:08:41: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" committed suicide with "world" (attacker_position "-3544 1649 -611")
+L 09/29/2010 - 19:08:55: "Target<46><STEAM_0:0:6845279><Blue>" killed "FSTNG! Barncow<48><STEAM_0:1:16481274><Red>" with "scattergun" (attacker_position "-1862 1217 -244") (victim_position "-1837 1073 -313")
+L 09/29/2010 - 19:08:55: "Cres<49><STEAM_0:0:8581157><Blue>" triggered "kill assist" against "FSTNG! Barncow<48><STEAM_0:1:16481274><Red>" (assister_position "-2181 821 -201") (attacker_position "-1862 1217 -244") (victim_position "-1837 1073 -313")
+L 09/29/2010 - 19:08:57: "Target<46><STEAM_0:0:6845279><Blue>" killed "FSTNG! Barncow<48><STEAM_0:1:16481274><Red>" with "scattergun" (attacker_position "-1862 1217 -244") (victim_position "-1837 1073 -313")
+L 09/29/2010 - 19:08:57: "Cres<49><STEAM_0:0:8581157><Blue>" triggered "kill assist" against "FSTNG! Barncow<48><STEAM_0:1:16481274><Red>" (assister_position "-2181 821 -201") (attacker_position "-1862 1217 -244") (victim_position "-1837 1073 -313")
+L 09/29/2010 - 19:08:58: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" committed suicide with "tf_projectile_rocket" (attacker_position "-3718 1821 -540")
+L 09/29/2010 - 19:12:02: "Target<46><STEAM_0:0:6845279><Blue>" killed "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" with "scattergun" (attacker_position "-2419 1637 -511") (victim_position "-2605 1596 -546")
+L 09/29/2010 - 19:12:02: "Target<46><STEAM_0:0:6845279><Blue>" triggered "domination" against "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>"
+L 09/29/2010 - 19:12:27: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" triggered "builtobject" (object "OBJ_SENTRYGUN") (position "-4015 1821 -511")
+L 09/29/2010 - 19:12:31: "FSTNG! Barncow<53><STEAM_0:1:16481274><Blue>" triggered "killedobject" (object "OBJ_SENTRYGUN") (weapon "minigun") (objectowner "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>") (attacker_position "-2715 1945 -383")
+L 09/29/2010 - 19:12:49: "perl<57><STEAM_0:0:11710749><Red>" triggered "killedobject" (object "OBJ_TELEPORTER") (weapon "pda_engineer") (objectowner "perl<57><STEAM_0:0:11710749><Red>") (attacker_position "-4234 1128 -511")
+L 09/29/2010 - 19:14:43: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" killed "Target<46><STEAM_0:0:6845279><Blue>" with "sniperrifle" (customkill "headshot") (attacker_position "-2771 1546 -295") (victim_position "-3308 1790 -220")
+L 09/29/2010 - 19:14:43: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" triggered "revenge" against "Target<46><STEAM_0:0:6845279><Blue>"
+L 09/29/2010 - 19:18:03: "[!?] cheap<56><STEAM_0:0:12272740><Blue>" say_team "I can also play pyro. I have been doing that a lot on 2fort and doublecross."
+L 09/29/2010 - 19:20:15: "perl<57><STEAM_0:0:11710749><Red>" triggered "player_extinguished" against "`yay!<52><STEAM_0:0:973270><Red>" with "tf_weapon_medigun" (attacker_position "-4192 1397 -511") (victim_position "-4109 1635 -511")
+L 09/29/2010 - 19:10:14: "ǤooB<54><STEAM_0:1:23384772><Unassigned>" joined team "Spectator"
+L 09/29/2010 - 19:23:30: "ǤooB<54><STEAM_0:1:23384772><Spectator>" changed name to "ǤooB's name is brandon too!!"
+L 09/29/2010 - 19:24:18: "FSTNG! Barncow<53><STEAM_0:1:16481274><Blue>" triggered "chargedeployed"
+L 09/29/2010 - 19:25:18: "[H2K]BubbleAlan ʚϊɞ<55><STEAM_0:0:556497><Red>" triggered "medic_death" against "[H2K]BubbleAlan ʚϊɞ<55><STEAM_0:0:556497><Red>" (healing "160") (ubercharge "0")
+L 09/29/2010 - 19:25:18: "[H2K]BubbleAlan ʚϊɞ<55><STEAM_0:0:556497><Red>" committed suicide with "world" (attacker_position "-5072 1286 -511")
+L 09/29/2010 - 19:25:18: "[H2K]BubbleAlan ʚϊɞ<55><STEAM_0:0:556497><Red>" joined team "Spectator"
+L 09/29/2010 - 19:25:18: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" killed "FSTNG! Barncow<53><STEAM_0:1:16481274><Blue>" with "sniperrifle" (attacker_position "-2771 1546 -295") (victim_position "-3308 1790 -220")
+L 09/29/2010 - 19:25:18: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" triggered "medic_death" against "FSTNG! Barncow<53><STEAM_0:1:16481274><Blue>" (healing "1800") (ubercharge "1")
+L 09/29/2010 - 19:27:50: Team "Blue" triggered "pointcaptured" (cp "0") (cpname "#Gravelpit_cap_A") (numcappers "3") (player1 "Target<46><STEAM_0:0:6845279><Blue>") (position1 "234 724 -183") (player2 "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Blue>") (position2 "-70 411 -191") (player3 "[!?] cheap<56><STEAM_0:0:12272740><Blue>") (position3 "136 733 -183") 
+L 09/29/2010 - 19:32:08: "`yay!<52><STEAM_0:0:973270><Red>" triggered "captureblocked" (cp "1") (cpname "#Gravelpit_cap_B") (position "-2440 4826 -579")
+L 09/29/2010 - 19:32:08: "`yay!<52><STEAM_0:0:973270><Red>" killed "perl<57><STEAM_0:0:11710749><Red>" with "knife" (customkill "backstab") (attacker_position "-1154 -245 0") (victim_position "-1081 -270 0")
+L 09/29/2010 - 19:32:08: "Target<46><STEAM_0:0:6845279><Blue>" triggered "flagevent" (event "defended") (position "-1841 -1776 -30")
+L 09/29/2010 - 19:32:08: "Target<46><STEAM_0:0:6845279><Blue>" triggered "flagevent" (event "captured") (position "-1841 -1776 -30")
+L 09/29/2010 - 19:32:08: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" disconnected (reason "Kicked by Console")
+L 09/29/2010 - 19:32:09: "FSTNG! Barncow<53><STEAM_0:1:16481274><Blue>" triggered "healed" (heal "510")
+L 09/29/2010 - 19:32:09: "FSTNG! Barncow<53><STEAM_0:1:16481274><Blue>" say "!sm_cvar sv_password secret"
+L 09/29/2010 - 19:36:10: World triggered "Round_Overtime"
+L 09/29/2010 - 19:36:42: World triggered "Round_Win" (winner "Red")
+L 09/29/2010 - 19:36:42: World triggered "Round_Length" (seconds "632.25")
+L 09/29/2010 - 19:36:42: Team "Red" current score "0" with "6" players
+L 09/29/2010 - 19:36:42: Team "Blue" current score "1" with "6" players
