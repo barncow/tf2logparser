@@ -12,7 +12,7 @@ Once this is more mature, you will be able to install using:
 And in the code, use:
 
 ```javascript
-    var tf2logsparser = require('tf2logparser');
+var tf2logsparser = require('tf2logparser');
 ```
 
 More information to come here as the project is developed.
