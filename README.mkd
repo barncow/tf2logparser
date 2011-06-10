@@ -1,0 +1,6 @@
+tf2logparser
+============
+
+A log parser for the game Team Fortress 2, written in Javascript for use with node.js. It retrieves stats and game events, and then outputs the data to JSON format.
+
+More information to come here as the project is developed.
