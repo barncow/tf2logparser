@@ -25,9 +25,9 @@ http://github.com/visionmedia/should.js
 
 In order to run the tests, you will need to have Node and NPM installed.
 In the base directory, run the following commands:
-`npm install expresso
-npm install should
-npm install -g expresso #I needed to do this in order to get the "expresso" command in the shell. YMMV`
+    npm install expresso
+    npm install should
+    npm install -g expresso #I needed to do this in order to get the "expresso" command in the shell. YMMV
 
 Once that is done, while still in the base directory, run:
 `expresso`
