@@ -17,6 +17,12 @@ More information to come here as the project is developed.
 
 Developer Notes
 ===============
+This project **will** be using TDD/BDD principles. If you submit a pull request, and it does not have relevant tests, it will be rejected/need to be corrected. This goes even if the code solves world hunger, or cancer, or is magically able to teleport complex objects to another place.
+
+As of right now, this project will be using Expresso and Should.
+http://visionmedia.github.com/expresso/ and http://tjholowaychuk.com/post/656851606/expresso-tdd-framework-for-nodejs
+http://github.com/visionmedia/should.js
+
 In order to run the tests, you will need to have Node and NPM installed.
 In the base directory, run the following commands:
     npm install expresso
