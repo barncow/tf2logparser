@@ -3,7 +3,7 @@ tf2logparser
 
 A log parser for the game Team Fortress 2, written in Javascript for use with node.js. It retrieves stats and game events, and then outputs the data to JSON format.
 
-**this project is not yet in npm, the text below is just demonstrated the end usage.**
+**This project is not yet in npm, the text below is just demonstrating the end usage.**
 
 Once this is more mature, you will be able to install using:
     npm install tf2logparser
@@ -18,6 +18,8 @@ More information to come here as the project is developed.
 Developer Notes
 ===============
 This project **will** be using TDD/BDD principles. If you submit a pull request, and it does not have relevant tests, it will be rejected/need to be corrected. This goes even if the code solves world hunger, or cancer, or is magically able to teleport complex objects to another place.
+
+Be sure your commits messages are descriptive.
 
 As of right now, this project will be using Expresso and Should.
 http://visionmedia.github.com/expresso/ and http://tjholowaychuk.com/post/656851606/expresso-tdd-framework-for-nodejs
