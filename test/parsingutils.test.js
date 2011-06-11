@@ -250,6 +250,15 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamNumberPlayers(details).should.eql(9);
     });
+  },
+  
+  'getServerCvarName': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_servercvar.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getServerCvarName(details).should.eql('mp_falldamage');
+    });
   }
   
 }
