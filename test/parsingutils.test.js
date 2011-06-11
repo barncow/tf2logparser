@@ -393,5 +393,23 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getCustomKill(details).should.eql('headshot');
     });
+  },
+  
+  'getObjectFromBuiltObject': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_attach_sapper.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getObjectFromBuiltObject(details).should.eql('OBJ_ATTACHMENT_SAPPER');
+    });
+  },
+  
+  'getPickedUpItemKeyName': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_picked_item.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPickedUpItemKeyName(details).should.eql('medkit_small');
+    });
   }
 }
