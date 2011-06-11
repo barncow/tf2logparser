@@ -259,6 +259,15 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getServerCvarName(details).should.eql('mp_falldamage');
     });
+  },
+  
+  'getServerCvarValue': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_servercvar.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getServerCvarValue(details).should.eql(0);
+    });
   }
   
 }
