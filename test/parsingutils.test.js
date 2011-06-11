@@ -181,6 +181,15 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.didMedicDieWithUber(details).should.not.be.ok;
     });
+  },
+  
+  'getWorldTriggerAction': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_world_triggered_roundstart.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getWorldTriggerAction(details).should.eql("Round_Start");
+    });
   }
   
 }
