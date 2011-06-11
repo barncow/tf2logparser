@@ -67,5 +67,21 @@ module.exports = {
     });
     
     
+  },
+  
+  'scrubLogLine': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_initialline.log', function(line) {
+      parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: Log file started (file "logs/L0929002.log") (game "/home/barncow/255.255.255.255-27015/srcds_l/orangebox/tf") (version "4317")');
+    });
+    
+    parser.readFile(FP+'/line_rcon.log', function(line) {
+      parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: rcon from "255.255.255.255:50039": command "exec cevo_stopwatch.cfg"');
+    });
+    
+    parser.readFile(FP+'/line_player_connected.log', function(line) {
+      parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:06:32: "Cres<49><STEAM_0:0:8581157><>" connected, address "255.255.255.255:27005"');
+    });
   }
 }
