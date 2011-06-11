@@ -6,7 +6,7 @@ module.exports = {
   'can get log': function() {
     var parser = LogParser.create(),
       log = parser.getLog();
-    log.should.eql({});
+    log.should.be.ok;
   },
   
   'can get file from disk': function() {

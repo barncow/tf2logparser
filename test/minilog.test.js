@@ -12,6 +12,11 @@ module.exports = {
     var parser = LogParser.create();
     parser.parseLogFile(FP+'/mini.log', function(log) {
       log.should.be.ok;
+      /*
+      log.should.eql({
+      
+      });
+      */
     });
   }
 }
