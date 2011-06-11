@@ -197,7 +197,16 @@ module.exports = {
     
     parser.readFile(FP+'/line_team_currentscore.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getWorldTriggerAction(details).should.eql("Red");
+      parsingUtils.getTeamFromTeamLine(details).should.eql("Red");
+    });
+  },
+  
+  'getTeamAction': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_team_triggered_pointcaptured.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getTeamAction(details).should.eql("triggered");
     });
   }
   
