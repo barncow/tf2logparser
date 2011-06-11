@@ -342,5 +342,29 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getHealing(details).should.equal(72);
     });
+  },
+  
+  'getDamage': function() {
+    var parser = LogParser.create();
+    
+    //NOTE - using .equal instead of .eql to ensure that we are getting numbers, not strings.
+    
+    //superlogs damage
+    parser.readFile(FP+'/line_player_triggered_weaponstats_superlogs.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getDamage(details).should.equal(375);
+    });
+    
+    //cinq's damage v1
+    parser.readFile(FP+'/line_cinq_damage_v1.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getDamage(details).should.equal(11);
+    });
+    
+    //cinq's damage v2 - changed so that damage is not "naked"
+    parser.readFile(FP+'/line_cinq_damage_v2.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getDamage(details).should.equal(11);
+    });
   }
 }
