@@ -268,6 +268,30 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getServerCvarValue(details).should.eql(0);
     });
+  },
+  
+  'getWeapon': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_kill.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getWeapon(details).should.eql('scattergun');
+    });
+    
+    parser.readFile(FP+'/line_player_suicide_rocket.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getWeapon(details).should.eql('tf_projectile_rocket');
+    });
+    
+    parser.readFile(FP+'/line_player_killed_pistolscout.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getWeapon(details).should.eql('pistol_scout');
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_weaponstats_superlogs.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getWeapon(details).should.eql('scattergun');
+    });
   }
   
 }
