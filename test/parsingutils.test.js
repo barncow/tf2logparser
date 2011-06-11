@@ -147,8 +147,21 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('I can also play pyro. I have been doing that a lot on 2fort and doublecross.');
     });
+  },
+  
+  'getParenValue': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_triggered_medicdeath.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getParenValue(details, 'ubercharge').should.eql('0');
+      parsingUtils.getParenValue(details, 'bunnies').should.not.be.ok;
+    });
+    
+    parser.readFile(FP+'/line_player_jointeam.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getParenValue(details, 'ubercharge').should.not.be.ok;
+    });
   }
-  
-  
   
 }
