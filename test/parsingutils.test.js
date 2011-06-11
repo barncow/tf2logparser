@@ -316,5 +316,31 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getCapturePointName(details).should.eql('Cap A, The front door dock');
     });
+  },
+  
+  'getHealing': function() {
+    var parser = LogParser.create();
+    
+    //NOTE - using .equal instead of .eql to ensure that we are getting numbers, not strings.
+    
+    parser.readFile(FP+'/line_player_triggered_medicdeath.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getHealing(details).should.equal(160);
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_healed_superlogs.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getHealing(details).should.equal(510);
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_healed.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getHealing(details).should.equal(72);
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_healed_v2.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getHealing(details).should.equal(72);
+    });
   }
 }
