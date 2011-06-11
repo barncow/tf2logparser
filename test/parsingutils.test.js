@@ -375,5 +375,14 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getFlagEvent(details).should.eql('defended');
     });
+  },
+  
+  'getRoundWinTeam': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_world_triggered_roundwin.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getRoundWinTeam(details).should.eql('Red');
+    });
   }
 }
