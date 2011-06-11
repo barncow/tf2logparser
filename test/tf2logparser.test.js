@@ -16,7 +16,7 @@ module.exports = {
     });
   },
   
-  'is only getting one line from file': function() {
+  'is only getting one line at a time from file, and callbackWhenDone is called when done': function() {
     var parser = LogParser.create(),
       i = 0;
     parser.readFile(FP+'/mini.log', function(line) {
@@ -25,6 +25,6 @@ module.exports = {
       else if(i == 1) line.should.eql('L 09/29/2010 - 19:05:47: server_cvar: "mp_falldamage" "0"');
       
       ++i;
-    });
+    }, function() {i.should.eql(76)});
   }
 }

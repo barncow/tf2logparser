@@ -8,7 +8,10 @@ var should = require('should'),
   FIXTURE_PATH = FP = './test/fixtures';
   
 module.exports = { 
- 'is only getting one line from file': function() {
-    true.should.be.ok;
+ 'minilog stats are correct': function() {
+    var parser = LogParser.create();
+    parser.parseLogFile(FP+'/mini.log', function(log) {
+      log.should.be.ok;
+    });
   }
 }
