@@ -208,6 +208,15 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamAction(details).should.eql("triggered");
     });
+  },
+  
+  'getTeamTriggerAction': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_team_triggered_pointcaptured.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getTeamTriggerAction(details).should.eql("pointcaptured");
+    });
   }
   
 }
