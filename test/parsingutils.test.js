@@ -123,5 +123,32 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('picked up item');
     });
+  },
+  
+  'getPlayerLineActionDetail': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_jointeam.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineActionDetail(details).should.eql('Blue');
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_killassist.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineActionDetail(details).should.eql('kill assist');
+    });
+    
+    parser.readFile(FP+'/line_player_changerole.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineActionDetail(details).should.eql('scout');
+    });
+    
+    parser.readFile(FP+'/line_player_teamsay.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineActionDetail(details).should.eql('I can also play pyro. I have been doing that a lot on 2fort and doublecross.');
+    });
   }
+  
+  
+  
 }
