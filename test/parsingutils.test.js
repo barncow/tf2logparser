@@ -162,6 +162,25 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getParenValue(details, 'ubercharge').should.not.be.ok;
     });
+  },
+  
+  'didMedicDieWithUber': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_triggered_medicdeath.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.didMedicDieWithUber(details).should.not.be.ok;
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_medicdeath_withuber.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.didMedicDieWithUber(details).should.be.ok;
+    });
+    
+    parser.readFile(FP+'/line_player_jointeam.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.didMedicDieWithUber(details).should.not.be.ok;
+    });
   }
   
 }
