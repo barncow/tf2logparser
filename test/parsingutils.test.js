@@ -47,7 +47,7 @@ module.exports = {
     parsingUtils.getMap(parsingUtils.getLogLineDetails(logLine)).should.not.be.ok;
   },
   
-  'isLogLineOfType': function() {
+  'isLogLineOfType (both cases because we are reading from files)': function() {
     var parser = LogParser.create();
     
     //garbage data
@@ -65,11 +65,9 @@ module.exports = {
       //sunny case
       parsingUtils.isLogLineOfType(details, "Log file started").should.be.ok;
     });
-    
-    
   },
   
-  'scrubLogLine': function() {
+  'scrubLogLine sunny cases': function() {
     var parser = LogParser.create();
     
     parser.readFile(FP+'/line_initialline.log', function(line) {
@@ -82,6 +80,14 @@ module.exports = {
     
     parser.readFile(FP+'/line_player_connected.log', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:06:32: "Cres<49><STEAM_0:0:8581157><>" connected, address "255.255.255.255:27005"');
+    });
+  },
+  
+  'scrubLogLine with no IP - should just return the line unchanged': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_console_say.log', function(line) {
+      parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: "Console<0><Console><Console>" say ""CEVO TF2 stopwatch config file loaded. 08/14/10""');
     });
   }
 }
