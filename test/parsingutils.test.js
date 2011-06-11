@@ -366,5 +366,14 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getDamage(details).should.equal(11);
     });
+  },
+  
+  'getFlagEvent': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_triggered_flagevent_defended.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getFlagEvent(details).should.eql('defended');
+    });
   }
 }
