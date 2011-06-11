@@ -384,5 +384,14 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getRoundWinTeam(details).should.eql('Red');
     });
+  },
+  
+  'getCustomKill': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_kill_headshot.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getCustomKill(details).should.eql('headshot');
+    });
   }
 }
