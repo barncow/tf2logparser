@@ -231,6 +231,25 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamScore(details).should.eql(2);
     });
+  },
+  
+  'getTeamNumberPlayers': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_team_currentscore_noplayers.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getTeamNumberPlayers(details).should.eql(0);
+    });
+    
+    parser.readFile(FP+'/line_team_currentscore.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getTeamNumberPlayers(details).should.eql(6);
+    });
+    
+    parser.readFile(FP+'/line_team_finalscore_9players.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getTeamNumberPlayers(details).should.eql(9);
+    });
   }
   
 }
