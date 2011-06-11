@@ -1,5 +1,6 @@
 var should = require('should'),
   parsingUtils = require('../lib/parsingutils'),
+  LogParser = require('../lib/tf2logparser'),
   FIXTURE_PATH = FP = './test/fixtures';
   
 module.exports = {
@@ -44,5 +45,27 @@ module.exports = {
   'getMap returns false for corrupt string': function() {    
     var logLine = 'L 03/27/2011 - 18:00:08: "Console<0><Console><Console>" say "fresh prince of bel air"';
     parsingUtils.getMap(parsingUtils.getLogLineDetails(logLine)).should.not.be.ok;
+  },
+  
+  'isLogLineOfType': function() {
+    var parser = LogParser.create();
+    
+    //garbage data
+    parser.readFile(FP+'/blah.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.isLogLineOfType(details, "blah").should.not.be.ok;
+    });
+    
+    parser.readFile(FP+'/line_initialline.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      
+      //using incorrect line type
+      parsingUtils.isLogLineOfType(details, "blah").should.not.be.ok;
+      
+      //sunny case
+      parsingUtils.isLogLineOfType(details, "Log file started").should.be.ok;
+    });
+    
+    
   }
 }
