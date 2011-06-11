@@ -89,5 +89,39 @@ module.exports = {
     parser.readFile(FP+'/line_console_say.log', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: "Console<0><Console><Console>" say ""CEVO TF2 stopwatch config file loaded. 08/14/10""');
     });
+  },
+  
+  'getPlayerLineAction': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_console_say.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineAction(details).should.eql('say');
+    });
+    
+    parser.readFile(FP+'/line_player_enteredgame.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineAction(details).should.eql('entered the game');
+    });
+    
+    parser.readFile(FP+'/line_player_kill.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineAction(details).should.eql('killed');
+    });
+    
+    parser.readFile(FP+'/line_player_disconnected.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineAction(details).should.eql('disconnected');
+    });
+    
+    parser.readFile(FP+'/line_player_connected.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineAction(details).should.eql('connected, address');
+    });
+    
+    parser.readFile(FP+'/line_player_picked_item.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineAction(details).should.eql('picked up item');
+    });
   }
 }
