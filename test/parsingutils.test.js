@@ -292,6 +292,15 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getWeapon(details).should.eql('scattergun');
     });
-  }
+  },
   
+  'getKillCoords': function() {
+    var parser = LogParser.create();
+    
+    parser.readFile(FP+'/line_player_kill.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getKillCoords(details, 'attacker').should.eql('-704 1584 -464');
+      parsingUtils.getKillCoords(details, 'victim').should.eql('-824 1429 -396');
+    });
+  }  
 }
