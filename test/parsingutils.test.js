@@ -147,6 +147,12 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('I can also play pyro. I have been doing that a lot on 2fort and doublecross.');
     });
+    
+    //make sure to grab all characters from say
+    parser.readFile(FP+'/line_console_say.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayerLineActionDetail(details).should.eql('"CEVO TF2 stopwatch config file loaded. 08/14/10"');
+    });
   },
   
   'getParenValue': function() {
@@ -410,6 +416,73 @@ module.exports = {
     parser.readFile(FP+'/line_player_picked_item.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPickedUpItemKeyName(details).should.eql('medkit_small');
+    });
+  },
+  
+  'getPlayers': function() {
+    var parser = LogParser.create();
+    
+    //console performing action
+    parser.readFile(FP+'/line_console_say.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.eql([{
+        name: 'Console',
+        userid: 0,
+        steamid: 'Console',
+        team: 'Console'
+      }]);
+    });
+    
+    //player join game, have null team
+    parser.readFile(FP+'/line_player_enteredgame.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.eql([{
+        name: 'Target',
+        userid: 46,
+        steamid: 'STEAM_0:0:6845279',
+        team: null
+      }]);
+    });
+    
+    //player joined team, have Unassigned team
+    parser.readFile(FP+'/line_player_jointeam.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.eql([{
+        name: 'Target',
+        userid: 46,
+        steamid: 'STEAM_0:0:6845279',
+        team: 'Unassigned'
+      }]);
+    });
+    
+    //player joined server with <> characters in name
+    parser.readFile(FP+'/line_player_with_restrictedchars_steamid_validated.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.eql([{
+        name: 'Barncow - TF2Logs.com <blah>',
+        userid: 2,
+        steamid: 'STEAM_0:1:16481274',
+        team: null
+      }]);
+    });
+    
+    //player killed another player, be able to grab both in order.
+    parser.readFile(FP+'/line_player_kill.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.eql([
+        {
+          name: 'Target',
+          userid: 46,
+          steamid: 'STEAM_0:0:6845279',
+          team: 'Blue'
+        },
+        {
+          name: 'FSTNG! Barncow',
+          userid: 48,
+          steamid: 'STEAM_0:1:16481274',
+          team: 'Red'
+        }
+      ]);
     });
   }
 }
