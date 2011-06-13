@@ -18,23 +18,24 @@ module.exports = {
   'Players#addUpdatePlayer': function() {
     var parser = LogParser.create();
     
-    //TODO: Change this to an actual player with some parameter changing (team?)
     parser.parseLogFile(FP+'/line_player_enteredgame.log', function(log) {
       log.players.should.eql([{
         name: 'Target',
         userid: 46,
         steamid: 'STEAM_0:0:6845279',
-        team: null
+        team: null,
+        roles: []
       }]);
       
       //parsing the file again, which should do an update for same player.
       //should still only have the one player.
-      parser.parseLogFile(FP+'/line_player_changerole.log', function(log) {
+      parser.parseLogFile(FP+'/line_player_jointeam.log', function(log) {
         log.players.should.eql([{
           name: 'Target',
           userid: 46,
           steamid: 'STEAM_0:0:6845279',
-          team: 'Blue'
+          team: 'Blue',
+          roles: []
         }]);      
       });    
     });

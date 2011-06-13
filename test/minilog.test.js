@@ -26,67 +26,78 @@ module.exports = {
             name: 'Target',
             userid: 46,
             steamid: 'STEAM_0:0:6845279',
-            team: 'Red' 
+            team: 'Red',
+            roles: [{role: 'scout'}]
           },
           {
             name: 'FSTNG! Barncow',
             userid: 53,
             steamid: 'STEAM_0:1:16481274',
-            team: 'Blue' 
+            team: 'Blue',
+            roles: []
           },
           { 
             name: 'Cres',
             userid: 49,
             steamid: 'STEAM_0:0:8581157',
-            team: 'Blue' 
+            team: 'Blue',
+            roles: []
           },
           { 
             name: 'do0t',
             userid: 47,
             steamid: 'STEAM_0:1:4433828',
-            team: 'Unassigned' 
+            team: 'Unassigned',
+            roles: []
           },
           { 
             name: 'Ctrl+f Muffin!',
             userid: 50,
             steamid: 'STEAM_0:1:9852193',
-            team: 'Red' 
+            team: 'Red',
+            roles: []
           },
           { 
             name: 'perl',
             userid: 57,
             steamid: 'STEAM_0:0:11710749',
-            team: 'Red' 
+            team: 'Red',
+            roles: []
           },
           { 
             name: '[!?] cheap',
             userid: 56,
             steamid: 'STEAM_0:0:12272740',
-            team: 'Blue' 
+            team: 'Blue',
+            roles: []
           },
           { 
             name: '`yay!',
             userid: 52,
             steamid: 'STEAM_0:0:973270',
-            team: 'Blue' 
+            team: 'Blue',
+            roles: []
           },
           { 
             name: 'ǤooB',
             userid: 54,
             steamid: 'STEAM_0:1:23384772',
-            team: 'Spectator' 
+            team: 'Spectator',
+            roles: []
           },
           { 
             name: '[H2K]BubbleAlan ʚϊɞ',
             userid: 55,
             steamid: 'STEAM_0:0:556497',
-            team: 'Spectator' 
+            team: 'Spectator',
+            roles: []
           },
           { 
             name: 'Bill',
             userid: 16,
             steamid: 'STEAM_0:0:23957009',
-            team: 'Red' 
+            team: 'Red',
+            roles: []
           }
         ]
       });
