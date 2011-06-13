@@ -26,5 +26,12 @@ module.exports = {
       
       ++i;
     }, function() {i.should.eql(76)});
+  },
+  
+  'sets mapName correctly': function() {
+    var parser = LogParser.create();
+    parser.parseLogFile(FP+'/full_udplog_granary.log', function(err, log){
+      log.mapName.should.eql('cp_granary');
+    });
   }
 }
