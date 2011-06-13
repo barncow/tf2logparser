@@ -21,7 +21,7 @@ module.exports = {
         redScore: 0,
         elapsedTime: 0,
         gameSeconds: 0,
-        mapName: "",
+        mapName: "ctf_2fort",
         events: [],
         players: [
           { 
