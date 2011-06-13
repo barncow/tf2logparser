@@ -11,7 +11,9 @@ module.exports = {
  'minilog stats are correct': function() {
     var parser = LogParser.create();
     //parser.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/mini.log', function(log) {
+    parser.parseLogFile(FP+'/mini.log', function(err, log) {
+      if(err) console.log(err);
+      
       log.should.be.ok;
       
       log.should.eql({

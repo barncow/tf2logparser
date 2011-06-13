@@ -10,7 +10,7 @@ var should = require('should'),
 module.exports = { 
  'Events#addSayEvent': function() {
     var parser = LogParser.create();
-    parser.parseLogFile(FP+'/line_console_say.log', function(log) {
+    parser.parseLogFile(FP+'/line_console_say.log', function(err, log) {
       log.events.should.be.empty;
     });
   },
@@ -18,7 +18,7 @@ module.exports = {
   'Players#addUpdatePlayer': function() {
     var parser = LogParser.create();
     
-    parser.parseLogFile(FP+'/line_player_enteredgame.log', function(log) {
+    parser.parseLogFile(FP+'/line_player_enteredgame.log', function(err, log) {
       log.players.should.eql([{
         name: 'Target',
         userid: 46,
@@ -29,7 +29,7 @@ module.exports = {
       
       //parsing the file again, which should do an update for same player.
       //should still only have the one player.
-      parser.parseLogFile(FP+'/line_player_jointeam.log', function(log) {
+      parser.parseLogFile(FP+'/line_player_jointeam.log', function(err, log) {
         log.players.should.eql([{
           name: 'Target',
           userid: 46,
