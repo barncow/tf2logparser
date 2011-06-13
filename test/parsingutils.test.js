@@ -75,7 +75,15 @@ module.exports = {
     });
     
     parser.readFile(FP+'/line_rcon.log', function(line) {
-      parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: rcon from "255.255.255.255:50039": command "exec cevo_stopwatch.cfg"');
+      parsingUtils.scrubLogLine(line).should.eql('');
+    });
+    
+    parser.readFile(FP+'/line_player_say_sourcemod_command.log', function(line) {
+      parsingUtils.scrubLogLine(line).should.eql('');
+    });
+    
+    parser.readFile(FP+'/line_player_say_sourcemod_command_priv.log', function(line) {
+      parsingUtils.scrubLogLine(line).should.eql('');
     });
     
     parser.readFile(FP+'/line_player_connected.log', function(line) {
@@ -425,12 +433,13 @@ module.exports = {
     //console performing action
     parser.readFile(FP+'/line_console_say.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getPlayers(details).should.eql([{
-        name: 'Console',
-        userid: 0,
-        steamid: 'Console',
-        team: 'Console'
-      }]);
+      parsingUtils.getPlayers(details).should.not.be.ok;
+    });
+    
+    //bot performing action
+    parser.readFile(FP+'/line_bot_medic.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.not.be.ok;
     });
     
     //player join game, have null team
@@ -483,6 +492,22 @@ module.exports = {
           team: 'Red'
         }
       ]);
+    });
+    
+    parser.readFile(FP+'/line_player_triggered_medicdeath.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getPlayers(details).should.eql([{
+        name: '[H2K]BubbleAlan ʚϊɞ',
+        userid: 55,
+        steamid: 'STEAM_0:0:556497',
+        team: 'Red'
+      },
+      {
+        name: '[H2K]BubbleAlan ʚϊɞ',
+        userid: 55,
+        steamid: 'STEAM_0:0:556497',
+        team: 'Red'
+      }]);
     });
   }
 }

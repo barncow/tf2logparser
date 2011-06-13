@@ -20,26 +20,73 @@ module.exports = {
         elapsedTime: 0,
         gameSeconds: 0,
         mapName: "",
-        events: [
-          {
-            type: 'say',
-            player: {
-              name: 'Console',
-              userid: 0,
-              steamid: 'Console',
-              team: 'Console'
-            },
-            text: '"CEVO TF2 stopwatch config file loaded. 08/14/10"'
+        events: [],
+        players: [
+          { 
+            name: 'Target',
+            userid: 46,
+            steamid: 'STEAM_0:0:6845279',
+            team: 'Blue' 
           },
           {
-            type: 'say',
-            player: {
-              name: 'Console',
-              userid: 0,
-              steamid: 'Console',
-              team: 'Console'
-            },
-            text: 'console say line'
+            name: 'FSTNG! Barncow',
+            userid: 53,
+            steamid: 'STEAM_0:1:16481274',
+            team: 'Blue' 
+          },
+          { 
+            name: 'Cres',
+            userid: 49,
+            steamid: 'STEAM_0:0:8581157',
+            team: 'Blue' 
+          },
+          { 
+            name: 'do0t',
+            userid: 47,
+            steamid: 'STEAM_0:1:4433828',
+            team: 'Unassigned' 
+          },
+          { 
+            name: 'Ctrl+f Muffin!',
+            userid: 50,
+            steamid: 'STEAM_0:1:9852193',
+            team: 'Red' 
+          },
+          { 
+            name: 'perl',
+            userid: 57,
+            steamid: 'STEAM_0:0:11710749',
+            team: 'Red' 
+          },
+          { 
+            name: '[!?] cheap',
+            userid: 56,
+            steamid: 'STEAM_0:0:12272740',
+            team: 'Blue' 
+          },
+          { 
+            name: '`yay!',
+            userid: 52,
+            steamid: 'STEAM_0:0:973270',
+            team: 'Blue' 
+          },
+          { 
+            name: 'ǤooB',
+            userid: 54,
+            steamid: 'STEAM_0:1:23384772',
+            team: 'Spectator' 
+          },
+          { 
+            name: '[H2K]BubbleAlan ʚϊɞ',
+            userid: 55,
+            steamid: 'STEAM_0:0:556497',
+            team: 'Red' 
+          },
+          { 
+            name: 'Bill',
+            userid: 16,
+            steamid: 'STEAM_0:0:23957009',
+            team: 'Red' 
           }
         ]
       });
