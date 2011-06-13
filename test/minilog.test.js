@@ -26,7 +26,7 @@ module.exports = {
             name: 'Target',
             userid: 46,
             steamid: 'STEAM_0:0:6845279',
-            team: 'Blue' 
+            team: 'Red' 
           },
           {
             name: 'FSTNG! Barncow',
@@ -80,7 +80,7 @@ module.exports = {
             name: '[H2K]BubbleAlan ʚϊɞ',
             userid: 55,
             steamid: 'STEAM_0:0:556497',
-            team: 'Red' 
+            team: 'Spectator' 
           },
           { 
             name: 'Bill',
