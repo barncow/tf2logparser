@@ -25,7 +25,8 @@ module.exports = {
         steamid: 'STEAM_0:0:6845279',
         team: null,
         roles: [],
-        damage: 0
+        damage: 0,
+        online: true
       }]);
       
       //parsing the file again, which should do an update for same player.
@@ -37,7 +38,8 @@ module.exports = {
           steamid: 'STEAM_0:0:6845279',
           team: 'Blue',
           roles: [],
-          damage: 0
+          damage: 0,
+          online: true
         }]);      
       });    
     });
@@ -49,7 +51,8 @@ module.exports = {
       name: 'Target',
       userid: 46,
       steamid: 'STEAM_0:0:6845279',
-      team: 'Blue'
+      team: 'Blue',
+      online: true
     };
     
     mylog.addUpdatePlayer(player);
