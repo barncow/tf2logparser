@@ -10,7 +10,7 @@ var should = require('should'),
 module.exports = { 
  'minilog stats are correct': function() {
     var parser = LogParser.create();
-    parser.ignoreUnrecognizedLines = false;
+    //parser.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/mini.log', function(err, log) {
       should.not.exist(err);
       
@@ -58,49 +58,88 @@ module.exports = {
           userid: 46,
           steamid: 'STEAM_0:0:6845279',
           team: 'Red',
-          roles: [{role: 'scout'}]
+          roles: [{role: 'scout'}],
+          damage: 0
         },
         {
           name: 'FSTNG! Barncow',
           userid: 53,
           steamid: 'STEAM_0:1:16481274',
           team: 'Blue',
-          roles: []
+          roles: [],
+          damage: 0
+        },
+        {
+          name: 'Cres', 
+          userid: 49, 
+          steamid: 'STEAM_0:0:8581157', 
+          team: 'Blue',
+          roles: [],
+          damage: 33
+        },
+        { 
+          name: 'do0t',
+          userid: 47,
+          steamid: 'STEAM_0:1:4433828',
+          team: 'Unassigned',
+          roles: [],
+          damage: 0 
+        },
+        {
+          name: 'Ctrl+f Muffin!', 
+          userid: 50, 
+          steamid: 'STEAM_0:1:9852193', 
+          team: 'Red',
+          roles: [],
+          damage: 0
         },
         { 
           name: 'perl',
           userid: 57,
           steamid: 'STEAM_0:0:11710749',
           team: 'Red',
-          roles: []
+          roles: [],
+          damage: 0
         },
         { 
           name: '[!?] cheap',
           userid: 56,
           steamid: 'STEAM_0:0:12272740',
           team: 'Blue',
-          roles: []
+          roles: [],
+          damage: 0
         },
         { 
           name: '`yay!',
           userid: 52,
           steamid: 'STEAM_0:0:973270',
           team: 'Blue',
-          roles: []
+          roles: [],
+          damage: 0
         },
         { 
           name: 'ǤooB',
           userid: 54,
           steamid: 'STEAM_0:1:23384772',
           team: 'Spectator',
-          roles: []
+          roles: [],
+          damage: 0
         },
         { 
           name: '[H2K]BubbleAlan ʚϊɞ',
           userid: 55,
           steamid: 'STEAM_0:0:556497',
           team: 'Spectator',
-          roles: []
+          roles: [],
+          damage: 0
+        },
+        { 
+          name: 'Bill',
+          userid: 16,
+          steamid: 'STEAM_0:0:23957009',
+          team: 'Red',
+          roles: [],
+          damage: 0 
         }
       ]);      
     }); //end parseFile callback
