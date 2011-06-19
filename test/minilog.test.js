@@ -222,7 +222,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 3,
     deaths: 1,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -235,7 +236,27 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 2,
-    items: {}
+    items: {},
+    healSpread: [
+      {
+        patient: {
+          name: 'Cres', 
+          userid: 49, 
+          steamid: 'STEAM_0:0:8581157', 
+          team: 'Blue'
+        },
+        healing: 72
+      },
+      {
+        patient: {
+          name: 'Target', 
+          userid: 46, 
+          steamid: 'STEAM_0:0:6845279', 
+          team: 'Blue'
+        },
+        healing: 27
+      }
+    ]
   });
   ++playerIndex;
     
@@ -251,7 +272,8 @@ function checkPlayerStats(log) {
     items: {
       medkit_small: 2,
       medkit_medium: 1
-    }
+    },
+    healSpread: []
   });
   ++playerIndex;
     
@@ -264,7 +286,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 2,
     deaths: 2,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -277,7 +300,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 3,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -290,7 +314,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -303,7 +328,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 3,
     deaths: 1,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -316,7 +342,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -329,7 +356,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 1,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
     
@@ -342,7 +370,8 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
-    items: {}
+    items: {},
+    healSpread: []
   });
   ++playerIndex;
 }
