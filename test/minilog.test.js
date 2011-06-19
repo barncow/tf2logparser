@@ -10,7 +10,7 @@ var should = require('should'),
 module.exports = { 
  'minilog stats are correct': function() {
     var parser = LogParser.create();
-    parser.ignoreUnrecognizedLines = false;
+    //parser.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/mini.log', function(err, log) {
       should.not.exist(err);
       
@@ -221,7 +221,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 3,
-    deaths: 1
+    deaths: 1,
+    items: {}
   });
   ++playerIndex;
     
@@ -233,7 +234,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 0,
-    deaths: 2
+    deaths: 2,
+    items: {}
   });
   ++playerIndex;
     
@@ -245,7 +247,11 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 33,
     kills: 0,
-    deaths: 0
+    deaths: 0,
+    items: {
+      medkit_small: 2,
+      medkit_medium: 1
+    }
   });
   ++playerIndex;
     
@@ -257,7 +263,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 2,
-    deaths: 2
+    deaths: 2,
+    items: {}
   });
   ++playerIndex;
     
@@ -269,7 +276,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 0,
-    deaths: 3
+    deaths: 3,
+    items: {}
   });
   ++playerIndex;
     
@@ -281,7 +289,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 0,
-    deaths: 0
+    deaths: 0,
+    items: {}
   });
   ++playerIndex;
     
@@ -293,7 +302,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 3,
-    deaths: 1
+    deaths: 1,
+    items: {}
   });
   ++playerIndex;
     
@@ -305,7 +315,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 0,
-    deaths: 0
+    deaths: 0,
+    items: {}
   });
   ++playerIndex;
     
@@ -317,7 +328,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 0,
-    deaths: 1
+    deaths: 1,
+    items: {}
   });
   ++playerIndex;
     
@@ -329,7 +341,8 @@ function checkPlayerStats(log) {
     roles: [],
     damage: 0,
     kills: 0,
-    deaths: 0
+    deaths: 0,
+    items: {}
   });
   ++playerIndex;
 }
