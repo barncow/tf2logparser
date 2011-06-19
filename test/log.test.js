@@ -18,27 +18,20 @@ module.exports = {
   'addUpdatePlayer': function() {
     var parser = LogParser.create();
     
+    parser.parseLogFile(FP+'/line_world_triggered_roundstart.log');
     parser.parseLogFile(FP+'/line_player_enteredgame.log', function(err, log) {
-      log.players.should.eql([{
-        name: 'Target',
-        userid: 46,
-        steamid: 'STEAM_0:0:6845279',
-        team: null,
-        roles: [],
-        damage: 0
-      }]);
+      log.players[0].name.should.eql('Target');
+      log.players[0].userid.should.equal(46);
+      log.players[0].steamid.should.eql('STEAM_0:0:6845279');
+      should.not.exist(log.players[0].team);
       
       //parsing the file again, which should do an update for same player.
       //should still only have the one player.
       parser.parseLogFile(FP+'/line_player_jointeam.log', function(err, log) {
-        log.players.should.eql([{
-          name: 'Target',
-          userid: 46,
-          steamid: 'STEAM_0:0:6845279',
-          team: 'Blue',
-          roles: [],
-          damage: 0
-        }]);      
+        log.players[0].name.should.eql('Target');
+        log.players[0].userid.should.equal(46);
+        log.players[0].steamid.should.eql('STEAM_0:0:6845279');
+        log.players[0].team.should.equal('Blue'); 
       });    
     });
   },
