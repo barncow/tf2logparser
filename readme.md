@@ -44,6 +44,7 @@ In the base directory, run the following commands:
     npm install -g expresso   #I needed to do this in order to get the "expresso" command in the shell. YMMV
 
 And, get the package dependencies:
+
     npm install lazy
 
 Once that is done, while still in the base directory, run:
