@@ -236,6 +236,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 3,
     deaths: 1,
+    pointCaptures: 1,
     items: {},
     healSpread: []
   });
@@ -250,6 +251,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 2,
+    pointCaptures: 0,
     items: {},
     healSpread: [
       {
@@ -283,6 +285,7 @@ function checkPlayerStats(log) {
     damage: 33,
     kills: 0,
     deaths: 0,
+    pointCaptures: 0,
     items: {
       medkit_small: 2,
       medkit_medium: 1
@@ -300,6 +303,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 2,
     deaths: 2,
+    pointCaptures: 1,
     items: {},
     healSpread: []
   });
@@ -314,6 +318,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 3,
+    pointCaptures: 0,
     items: {},
     healSpread: []
   });
@@ -328,6 +333,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
+    pointCaptures: 1,
     items: {},
     healSpread: []
   });
@@ -342,6 +348,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 3,
     deaths: 1,
+    pointCaptures: 0,
     items: {},
     healSpread: []
   });
@@ -356,6 +363,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
+    pointCaptures: 0,
     items: {},
     healSpread: []
   });
@@ -370,6 +378,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 1,
+    pointCaptures: 0,
     items: {},
     healSpread: []
   });
@@ -384,6 +393,7 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
+    pointCaptures: 0,
     items: {},
     healSpread: []
   });
