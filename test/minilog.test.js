@@ -154,6 +154,13 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
+    type: 'captureblocked',
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -2440, y: 4826, z: -579}},
+    cpname: '#Gravelpit_cap_B'
+  });
+  ++eventIndex;
+  
+  log.events[eventIndex].should.eql({
     type: 'kill',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -1154, y: -245, z: 0}}, 
     victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -1081, y: -270, z: 0}}, 
@@ -219,6 +226,7 @@ function checkPlayerStats(log) {
     kills: 3,
     deaths: 1,
     pointCaptures: 1,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
@@ -234,6 +242,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 2,
     pointCaptures: 0,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: [
       {
@@ -268,6 +277,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 0,
     pointCaptures: 0,
+    pointCaptureBlocks: 0,
     items: {
       medkit_small: 2,
       medkit_medium: 1
@@ -286,6 +296,7 @@ function checkPlayerStats(log) {
     kills: 2,
     deaths: 2,
     pointCaptures: 1,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
@@ -301,6 +312,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 3,
     pointCaptures: 0,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
@@ -316,6 +328,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 0,
     pointCaptures: 1,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
@@ -331,6 +344,7 @@ function checkPlayerStats(log) {
     kills: 3,
     deaths: 1,
     pointCaptures: 0,
+    pointCaptureBlocks: 1,
     items: {},
     healSpread: []
   });
@@ -346,6 +360,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 0,
     pointCaptures: 0,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
@@ -361,6 +376,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 1,
     pointCaptures: 0,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
@@ -376,6 +392,7 @@ function checkPlayerStats(log) {
     kills: 0,
     deaths: 0,
     pointCaptures: 0,
+    pointCaptureBlocks: 0,
     items: {},
     healSpread: []
   });
