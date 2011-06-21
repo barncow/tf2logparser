@@ -19,7 +19,7 @@ module.exports = {
       //broke out these assertions to help narrow down any potential problems.
       
       log.blueScore.should.eql(0);
-      log.redScore.should.eql(0);
+      log.redScore.should.eql(1);
       log.elapsedTime.should.eql(0);
       log.gameSeconds.should.eql(0);
       log.mapName.should.eql('ctf_2fort');
