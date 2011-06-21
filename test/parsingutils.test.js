@@ -308,6 +308,11 @@ module.exports = {
     });
   },
   
+  'getCoords': function() {
+    parsingUtils.getCoords("136 733 -183").should.eql({x: 136, y: 733, z: -183});
+    parsingUtils.getCoords("136 73").should.not.be.ok;
+  },
+  
   'getKillCoords': function() {
     var parser = LogParser.create();
     

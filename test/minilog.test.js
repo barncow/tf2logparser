@@ -160,6 +160,18 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
+    type: 'pointcaptured',
+    team: 'Blue',
+    cpname: '#Gravelpit_cap_A',
+    players: [
+      {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x:234, y: 724, z: -183}},
+      {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', position: {x:-70, y: 411, z: -191}},
+      {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', position: {x:136, y: 733, z: -183}}
+    ]
+  });
+  ++eventIndex;
+  
+  log.events[eventIndex].should.eql({
     type: 'kill',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
     victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red'}, 
@@ -208,6 +220,8 @@ function checkEvents(log) {
     customkill: false
   });
   ++eventIndex;
+  
+  eventIndex.should.equal(log.events.length);
 }
 
 function checkPlayerStats(log) {
@@ -374,4 +388,6 @@ function checkPlayerStats(log) {
     healSpread: []
   });
   ++playerIndex;
+  
+  playerIndex.should.equal(log.players.length);
 }
