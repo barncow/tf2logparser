@@ -318,8 +318,8 @@ module.exports = {
     
     parser.readFile(FP+'/line_player_kill.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getKillCoords(details, 'attacker').should.eql('-704 1584 -464');
-      parsingUtils.getKillCoords(details, 'victim').should.eql('-824 1429 -396');
+      parsingUtils.getKillCoords(details, 'attacker').should.eql({x: -704, y: 1584, z: -464});
+      parsingUtils.getKillCoords(details, 'victim').should.eql({x: -824, y: 1429, z: -396});
     });
   },
   
