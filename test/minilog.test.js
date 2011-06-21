@@ -10,7 +10,7 @@ var should = require('should'),
 module.exports = { 
  'minilog stats are correct': function() {
     var parser = LogParser.create();
-    //parser.ignoreUnrecognizedLines = false;
+    parser.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/mini.log', function(err, log) {
       should.not.exist(err);
       
