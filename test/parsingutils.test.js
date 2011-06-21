@@ -6,19 +6,16 @@ var should = require('should'),
 module.exports = {
   'getTimestamp sunny case': function() {
     var logLine = 'L 03/27/2011 - 18:00:08: "Console<0><Console><Console>" say "fresh prince of bel air"';
-    parsingUtils.getTimestamp(logLine).should.eql({
-      month: 3,
-      day: 27,
-      year: 2011,
-      hour: 18,
-      minute: 0,
-      second: 8
-    });
+    parsingUtils.getTimestamp(logLine).should.eql(new Date(2011, 2, 27, 18, 0, 8, 0));
   },
   
   'getTimestamp returns false for corrupt value': function() {
     var logLine = 'L 03/27/2011 - 18:00:08: "Console<0><Console><Console>" say "fresh prince of bel air"';
     parsingUtils.getTimestamp(logLine.substring(0, 10)).should.not.be.ok;
+  },
+  
+  'getTimestampDifference': function() {
+    parsingUtils.getTimestampDifference(new Date(2011, 2, 1, 12, 0, 0, 0), new Date(2011, 1, 28, 12, 0, 0, 0)).should.equal(60*60*24);
   },
   
   'getLogLineDetails sunny case': function() {
@@ -308,13 +305,18 @@ module.exports = {
     });
   },
   
+  'getCoords': function() {
+    parsingUtils.getCoords("136 733 -183").should.eql({x: 136, y: 733, z: -183});
+    parsingUtils.getCoords("136 73").should.not.be.ok;
+  },
+  
   'getKillCoords': function() {
     var parser = LogParser.create();
     
     parser.readFile(FP+'/line_player_kill.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getKillCoords(details, 'attacker').should.eql('-704 1584 -464');
-      parsingUtils.getKillCoords(details, 'victim').should.eql('-824 1429 -396');
+      parsingUtils.getKillCoords(details, 'attacker').should.eql({x: -704, y: 1584, z: -464});
+      parsingUtils.getKillCoords(details, 'victim').should.eql({x: -824, y: 1429, z: -396});
     });
   },
   
