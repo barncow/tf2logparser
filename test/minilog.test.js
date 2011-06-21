@@ -177,6 +177,12 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
+    type: 'flagdefended', 
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
+  });
+  ++eventIndex;
+  
+  log.events[eventIndex].should.eql({
     type: 'kill',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 1514, y: 790, z: 257}}, 
     victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: 1732, y: 1214, z: 257}}, 
@@ -227,6 +233,7 @@ function checkPlayerStats(log) {
     deaths: 1,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
+    flagDefends: 1,
     items: {},
     healSpread: []
   });
@@ -243,6 +250,7 @@ function checkPlayerStats(log) {
     deaths: 2,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: [
       {
@@ -278,6 +286,7 @@ function checkPlayerStats(log) {
     deaths: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {
       medkit_small: 2,
       medkit_medium: 1
@@ -297,6 +306,7 @@ function checkPlayerStats(log) {
     deaths: 2,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
@@ -313,6 +323,7 @@ function checkPlayerStats(log) {
     deaths: 3,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
@@ -329,6 +340,7 @@ function checkPlayerStats(log) {
     deaths: 0,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
@@ -345,6 +357,7 @@ function checkPlayerStats(log) {
     deaths: 1,
     pointCaptures: 0,
     pointCaptureBlocks: 1,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
@@ -361,6 +374,7 @@ function checkPlayerStats(log) {
     deaths: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
@@ -377,6 +391,7 @@ function checkPlayerStats(log) {
     deaths: 1,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
@@ -393,6 +408,7 @@ function checkPlayerStats(log) {
     deaths: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
+    flagDefends: 0,
     items: {},
     healSpread: []
   });
