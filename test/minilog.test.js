@@ -20,6 +20,22 @@ module.exports = {
       
       log.blueScore.should.eql(0);
       log.redScore.should.eql(1);
+      log.gameStartTimestamp.should.eql({
+        month: 9,
+        day: 29,
+        year: 2010,
+        hour: 19,
+        minute: 8,
+        second: 56
+      });
+      log.gameEndTimestamp.should.eql({
+        month: 9,
+        day: 29,
+        year: 2010,
+        hour: 19,
+        minute: 36,
+        second: 42
+      });
       log.elapsedTime.should.eql(0);
       log.gameSeconds.should.eql(0);
       log.mapName.should.eql('ctf_2fort');
