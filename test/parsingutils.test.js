@@ -6,19 +6,16 @@ var should = require('should'),
 module.exports = {
   'getTimestamp sunny case': function() {
     var logLine = 'L 03/27/2011 - 18:00:08: "Console<0><Console><Console>" say "fresh prince of bel air"';
-    parsingUtils.getTimestamp(logLine).should.eql({
-      month: 3,
-      day: 27,
-      year: 2011,
-      hour: 18,
-      minute: 0,
-      second: 8
-    });
+    parsingUtils.getTimestamp(logLine).should.eql(new Date(2011, 2, 27, 18, 0, 8, 0));
   },
   
   'getTimestamp returns false for corrupt value': function() {
     var logLine = 'L 03/27/2011 - 18:00:08: "Console<0><Console><Console>" say "fresh prince of bel air"';
     parsingUtils.getTimestamp(logLine.substring(0, 10)).should.not.be.ok;
+  },
+  
+  'getTimestampDifference': function() {
+    parsingUtils.getTimestampDifference(new Date(2011, 2, 1, 12, 0, 0, 0), new Date(2011, 1, 28, 12, 0, 0, 0)).should.equal(60*60*24);
   },
   
   'getLogLineDetails sunny case': function() {
