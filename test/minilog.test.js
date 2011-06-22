@@ -23,7 +23,7 @@ module.exports = {
       log.gameStartTimestamp.should.eql(new Date(2010, 8, 29, 19, 8, 56, 0));
       log.gameEndTimestamp.should.eql(new Date(2010, 8, 29, 19, 36, 42, 0));
       log.elapsedSeconds.should.eql(1666);
-      log.gameSeconds.should.eql(0);
+      log.playableSeconds.should.eql(1656);
       log.mapName.should.eql('ctf_2fort');
       
       //doing these in separate functions to try and keep things clean.
