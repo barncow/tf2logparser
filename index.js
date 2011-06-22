@@ -4,3 +4,4 @@
 
 module.exports.TF2LogParser = require('./lib/tf2logparser');
 module.exports.ParsingUtils = require('./lib/parsingutils');
+module.exports.WeaponList = require('./lib/weaponlist');
