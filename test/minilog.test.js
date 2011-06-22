@@ -425,7 +425,7 @@ function checkPlayerStats(log) {
     flagCaptures: 0,
     dominations: 0,
     timesDominated: 0,
-    revenges: 0,
+    revenges: 1,
     extinguishes: 0,
     ubers: 0,
     droppedUbers: 0,
