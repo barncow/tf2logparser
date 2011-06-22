@@ -45,14 +45,15 @@ function checkEvents(log) {
       name: 'Scattergun',
       role: 'scout'
     }, 
-    customkill: false
+    customKill: false
   });
   ++eventIndex;
       
   log.events[eventIndex].should.eql({
     type: 'assist', 
     player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue'}, 
-    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red'}
+    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red'},
+    customKill: false
   });
   ++eventIndex;
   
@@ -65,7 +66,7 @@ function checkEvents(log) {
       name: 'Rocket Launcher',
       role: 'soldier'
     }, 
-    customkill: 'suicide'
+    customKill: 'suicide'
   });
   ++eventIndex;
   
@@ -78,7 +79,7 @@ function checkEvents(log) {
       name: 'Scattergun',
       role: 'scout'
     }, 
-    customkill: false
+    customKill: false
   });
   ++eventIndex;
   
@@ -105,7 +106,7 @@ function checkEvents(log) {
       name: 'Sniper Rifle (Headshot)',
       role: 'sniper'
     }, 
-    customkill: 'headshot'
+    customKill: 'headshot'
   });
   ++eventIndex;
   
@@ -150,7 +151,7 @@ function checkEvents(log) {
       name: 'World',
       role: false
     }, 
-    customkill: 'suicide', 
+    customKill: 'suicide', 
     healing: 160, 
     ubercharge: false
   });
@@ -165,7 +166,7 @@ function checkEvents(log) {
       name: 'Sniper Rifle (Bodyshot)',
       role: 'sniper'
     }, 
-    customkill: false, 
+    customKill: false, 
     healing: 1800, 
     ubercharge: true
   });
@@ -199,7 +200,7 @@ function checkEvents(log) {
       name: 'Knife (Backstab)',
       role: 'spy'
     }, 
-    customkill: 'backstab'
+    customKill: 'backstab'
   });
   ++eventIndex;
   
@@ -231,14 +232,15 @@ function checkEvents(log) {
       name: 'Scattergun',
       role: 'scout'
     }, 
-    customkill: 'feign_death'
+    customKill: 'feign_death'
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
     type: 'assist', 
     player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue'}, 
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
+    customKill: 'feign_death'
   });
   ++eventIndex;
   
@@ -251,7 +253,7 @@ function checkEvents(log) {
       name: 'sadfsgtghgher',
       role: false
     }, 
-    customkill: false
+    customKill: false
   });
   ++eventIndex;
   
@@ -264,7 +266,7 @@ function checkEvents(log) {
       name: 'sadfsgtghgher',
       role: false
     }, 
-    customkill: false
+    customKill: false
   });
   ++eventIndex;
   
@@ -284,12 +286,25 @@ function checkPlayerStats(log) {
       name: 'Scout'
     }],
     damage: 0,
-    kills: 3,
+    kills: 2,
     deaths: 1,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
     flagDefends: 1,
     flagCaptures: 1,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -307,10 +322,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 2,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: [
       {
@@ -344,10 +372,23 @@ function checkPlayerStats(log) {
     damage: 33,
     kills: 0,
     deaths: 0,
+    assists: 1,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {
       medkit_small: 2,
       medkit_medium: 1
@@ -374,10 +415,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 2,
     deaths: 2,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -395,10 +449,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 3,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -413,10 +480,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -433,11 +513,24 @@ function checkPlayerStats(log) {
     }],
     damage: 0,
     kills: 3,
-    deaths: 1,
+    deaths: 0,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 1,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -452,10 +545,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -473,10 +579,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 1,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
@@ -491,10 +610,23 @@ function checkPlayerStats(log) {
     damage: 0,
     kills: 0,
     deaths: 0,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
     pointCaptures: 0,
     pointCaptureBlocks: 0,
     flagDefends: 0,
     flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicks: 0,
+    medPicksWithUber: 0,
     items: {},
     healSpread: []
   });
