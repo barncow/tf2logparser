@@ -335,7 +335,7 @@ function checkPlayerStats(log) {
     revenges: 0,
     extinguishes: 0,
     ubers: 1,
-    droppedUbers: 0,
+    droppedUbers: 1,
     healing: 0,
     medPicks: 0,
     medPicksWithUber: 0,
