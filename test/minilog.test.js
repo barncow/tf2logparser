@@ -334,7 +334,7 @@ function checkPlayerStats(log) {
     timesDominated: 0,
     revenges: 0,
     extinguishes: 0,
-    ubers: 0,
+    ubers: 1,
     droppedUbers: 0,
     healing: 0,
     medPicks: 0,
