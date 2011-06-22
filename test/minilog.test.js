@@ -296,7 +296,7 @@ function checkPlayerStats(log) {
     pointCaptureBlocks: 0,
     flagDefends: 1,
     flagCaptures: 1,
-    dominations: 0,
+    dominations: 1,
     timesDominated: 0,
     revenges: 0,
     extinguishes: 0,
