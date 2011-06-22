@@ -279,7 +279,10 @@ function checkPlayerStats(log) {
     userid: 46,
     steamid: 'STEAM_0:0:6845279',
     team: 'Red',
-    roles: [],
+    roles: [{
+      key: 'scout',
+      name: 'Scout'
+    }],
     damage: 0,
     kills: 3,
     deaths: 1,
@@ -297,7 +300,10 @@ function checkPlayerStats(log) {
     userid: 53,
     steamid: 'STEAM_0:1:16481274',
     team: 'Blue',
-    roles: [],
+    roles: [{
+        key: 'medic',
+        name: 'Medic'
+    }],
     damage: 0,
     kills: 0,
     deaths: 2,
@@ -355,7 +361,16 @@ function checkPlayerStats(log) {
     userid: 50, 
     steamid: 'STEAM_0:1:9852193', 
     team: 'Red',
-    roles: [],
+    roles: [
+      {
+        key: 'soldier',
+        name: 'Soldier'
+      },
+      {
+        key: 'sniper',
+        name: 'Sniper'
+      }
+    ],
     damage: 0,
     kills: 2,
     deaths: 2,
@@ -373,7 +388,10 @@ function checkPlayerStats(log) {
     userid: 57,
     steamid: 'STEAM_0:0:11710749',
     team: 'Red',
-    roles: [],
+    roles: [{
+        key: 'medic',
+        name: 'Medic'
+    }],
     damage: 0,
     kills: 0,
     deaths: 3,
@@ -409,7 +427,10 @@ function checkPlayerStats(log) {
     userid: 52,
     steamid: 'STEAM_0:0:973270',
     team: 'Blue',
-    roles: [],
+    roles: [{
+      key: 'spy',
+      name: 'Spy'
+    }],
     damage: 0,
     kills: 3,
     deaths: 1,
@@ -445,7 +466,10 @@ function checkPlayerStats(log) {
     userid: 55,
     steamid: 'STEAM_0:0:556497',
     team: 'Spectator',
-    roles: [],
+    roles: [{
+        key: 'medic',
+        name: 'Medic'
+    }],
     damage: 0,
     kills: 0,
     deaths: 1,

@@ -33,5 +33,5 @@ module.exports = {
       name: dummyWeapon,
       role: false
     });
-  },
+  }
 }
