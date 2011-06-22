@@ -460,7 +460,7 @@ function checkPlayerStats(log) {
     dominations: 0,
     timesDominated: 0,
     revenges: 0,
-    extinguishes: 0,
+    extinguishes: 1,
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
