@@ -303,8 +303,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
@@ -337,8 +337,8 @@ function checkPlayerStats(log) {
     ubers: 1,
     droppedUbers: 1,
     healing: 1800,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: [
       {
@@ -387,8 +387,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {
       medkit_small: 2,
       medkit_medium: 1
@@ -430,8 +430,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 1,
+    medPicksDroppedUber: 1,
     items: {},
     healSpread: []
   });
@@ -464,8 +464,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
@@ -495,8 +495,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
@@ -529,8 +529,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
@@ -560,8 +560,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
@@ -594,8 +594,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 160,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
@@ -625,8 +625,8 @@ function checkPlayerStats(log) {
     ubers: 0,
     droppedUbers: 0,
     healing: 0,
-    medPicks: 0,
-    medPicksWithUber: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
     items: {},
     healSpread: []
   });
