@@ -31,7 +31,7 @@ module.exports = {
         log.players[0].name.should.eql('Target');
         log.players[0].userid.should.equal(46);
         log.players[0].steamid.should.eql('STEAM_0:0:6845279');
-        log.players[0].team.should.equal('Blue'); 
+        log.players[0].team.should.equal('Blue');
       });    
     });
   },
@@ -42,7 +42,8 @@ module.exports = {
       name: 'Target',
       userid: 46,
       steamid: 'STEAM_0:0:6845279',
-      team: 'Blue'
+      team: 'Blue',
+      online: true
     };
     
     mylog.addUpdatePlayer(player);

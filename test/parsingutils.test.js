@@ -441,7 +441,13 @@ module.exports = {
     //bot performing action
     parser.readFile(FP+'/line_bot_medic.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getPlayers(details).should.not.be.ok;
+      parsingUtils.getPlayers(details).should.eql([{
+        name: 'Numnutz',
+        userid: 17,
+        steamid: 'BOT:Numnutz',
+        team: 'Red',
+        online: true
+      }]);
     });
     
     //player join game, have null team
@@ -451,7 +457,8 @@ module.exports = {
         name: 'Target',
         userid: 46,
         steamid: 'STEAM_0:0:6845279',
-        team: null
+        team: null,
+        online: true
       }]);
     });
     
@@ -462,7 +469,8 @@ module.exports = {
         name: 'Target',
         userid: 46,
         steamid: 'STEAM_0:0:6845279',
-        team: 'Unassigned'
+        team: 'Unassigned',
+        online: true
       }]);
     });
     
@@ -473,7 +481,8 @@ module.exports = {
         name: 'Barncow - TF2Logs.com <blah>',
         userid: 2,
         steamid: 'STEAM_0:1:16481274',
-        team: null
+        team: null,
+        online: true
       }]);
     });
     
@@ -485,13 +494,15 @@ module.exports = {
           name: 'Target',
           userid: 46,
           steamid: 'STEAM_0:0:6845279',
-          team: 'Blue'
+          team: 'Blue',
+          online: true
         },
         {
           name: 'FSTNG! Barncow',
           userid: 48,
           steamid: 'STEAM_0:1:16481274',
-          team: 'Red'
+          team: 'Red',
+          online: true
         }
       ]);
     });
@@ -502,13 +513,15 @@ module.exports = {
         name: '[H2K]BubbleAlan ʚϊɞ',
         userid: 55,
         steamid: 'STEAM_0:0:556497',
-        team: 'Red'
+        team: 'Red',
+        online: true
       },
       {
         name: '[H2K]BubbleAlan ʚϊɞ',
         userid: 55,
         steamid: 'STEAM_0:0:556497',
-        team: 'Red'
+        team: 'Red',
+        online: true
       }]);
     });
   }
