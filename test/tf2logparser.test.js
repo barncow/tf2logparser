@@ -33,5 +33,15 @@ module.exports = {
     parser.parseLogFile(FP+'/full_udplog_granary.log', function(err, log){
       log.mapName.should.eql('cp_granary');
     });
+  },
+  
+  'gets playableSeconds correctly': function() {
+    var parser = LogParser.create();
+    parser._getPlayableSeconds([
+      {start: new Date(2010, 8, 29, 19, 8, 56, 0)},
+      {start: new Date(2010, 8, 29, 19, 8, 57, 0)},
+      {end: new Date(2010, 8, 29, 19, 8, 58, 0)},
+      {end: new Date(2010, 8, 29, 19, 8, 59, 0)}
+    ]).should.equal(3);
   }
 }
