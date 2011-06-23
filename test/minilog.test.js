@@ -371,7 +371,8 @@ function checkPlayerStats(log) {
           name: 'Cres', 
           userid: 49, 
           steamid: 'STEAM_0:0:8581157', 
-          team: 'Blue'
+          team: 'Blue',
+          online: true
         },
         healing: 72
       },
@@ -380,7 +381,8 @@ function checkPlayerStats(log) {
           name: 'Target', 
           userid: 46, 
           steamid: 'STEAM_0:0:6845279', 
-          team: 'Blue'
+          team: 'Blue',
+          online: true
         },
         healing: 27
       }
@@ -395,7 +397,7 @@ function checkPlayerStats(log) {
     team: 'Blue',
     roles: [],
     damage: 33,
-    online: true,
+    online: false,
     kills: 0,
     deaths: 0,
     assists: 1,
@@ -439,7 +441,7 @@ function checkPlayerStats(log) {
       }
     ],
     damage: 0,
-    online: true,
+    online: false,
     kills: 2,
     deaths: 2,
     assists: 0,
@@ -573,6 +575,7 @@ function checkPlayerStats(log) {
     team: 'Spectator',
     roles: [],
     damage: 0,
+    online: true,
     kills: 0,
     deaths: 0,
     assists: 0,
@@ -607,6 +610,7 @@ function checkPlayerStats(log) {
         name: 'Medic'
     }],
     damage: 0,
+    online: true,
     kills: 0,
     deaths: 1,
     assists: 0,
@@ -638,6 +642,7 @@ function checkPlayerStats(log) {
     team: 'Red',
     roles: [],
     damage: 0,
+    online: false,
     kills: 0,
     deaths: 0,
     assists: 0,
@@ -662,5 +667,40 @@ function checkPlayerStats(log) {
   });
   ++playerIndex;
   
-  playerIndex.should.equal(log.players.length);
+  log.players[playerIndex].should.eql({
+    name: 'Numnutz',
+    userid: 17,
+    steamid: 'BOT:Numnutz',
+    team: 'Red',
+    roles: [{
+        key: 'medic',
+        name: 'Medic'
+    }],
+    damage: 0,
+    online: true,
+    kills: 0,
+    deaths: 0,
+    assists: 0,
+    longest_kill_streak: 0,
+    headshots: 0,
+    backstabs: 0,
+    pointCaptures: 0,
+    pointCaptureBlocks: 0,
+    flagDefends: 0,
+    flagCaptures: 0,
+    dominations: 0,
+    timesDominated: 0,
+    revenges: 0,
+    extinguishes: 0,
+    ubers: 0,
+    droppedUbers: 0,
+    healing: 0,
+    medPicksTotal: 0,
+    medPicksDroppedUber: 0,
+    items: {},
+    healSpread: []
+  });
+  ++playerIndex;
+  
+  log.players.should.have.length(playerIndex);
 }
