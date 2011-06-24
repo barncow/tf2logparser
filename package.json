@@ -16,9 +16,7 @@
   "engines": {
     "node": ">=0.4.0"
   },
-  "dependencies": {
-    "lazy": ">=1.0.5"
-  },
+  "dependencies": {},
   "main": "index",
   "devDependencies": {
     "expresso": ">=0.7.7",
