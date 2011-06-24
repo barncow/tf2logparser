@@ -539,5 +539,9 @@ module.exports = {
         team: 'Red'
       }]);
     });
+  },
+  
+  'convertSteamFriendId': function() {
+    parsingUtils.convertSteamFriendId('STEAM_0:1:16481274').should.equal(76561197993228277);
   }
 }
