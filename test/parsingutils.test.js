@@ -445,8 +445,7 @@ module.exports = {
         name: 'Numnutz',
         userid: 17,
         steamid: 'BOT:Numnutz',
-        team: 'Red',
-        online: true
+        team: 'Red'
       }]);
     });
     
@@ -457,8 +456,7 @@ module.exports = {
         name: 'Target',
         userid: 46,
         steamid: 'STEAM_0:0:6845279',
-        team: null,
-        online: true
+        team: null
       }]);
     });
     
@@ -469,8 +467,7 @@ module.exports = {
         name: 'Target',
         userid: 46,
         steamid: 'STEAM_0:0:6845279',
-        team: 'Unassigned',
-        online: true
+        team: 'Unassigned'
       }]);
     });
     
@@ -481,8 +478,7 @@ module.exports = {
         name: 'Barncow - TF2Logs.com <blah>',
         userid: 2,
         steamid: 'STEAM_0:1:16481274',
-        team: null,
-        online: true
+        team: null
       }]);
     });
     
@@ -494,15 +490,13 @@ module.exports = {
           name: 'Target',
           userid: 46,
           steamid: 'STEAM_0:0:6845279',
-          team: 'Blue',
-          online: true
+          team: 'Blue'
         },
         {
           name: 'FSTNG! Barncow',
           userid: 48,
           steamid: 'STEAM_0:1:16481274',
-          team: 'Red',
-          online: true
+          team: 'Red'
         }
       ]);
     });
@@ -513,15 +507,13 @@ module.exports = {
         name: '[H2K]BubbleAlan ʚϊɞ',
         userid: 55,
         steamid: 'STEAM_0:0:556497',
-        team: 'Red',
-        online: true
+        team: 'Red'
       },
       {
         name: '[H2K]BubbleAlan ʚϊɞ',
         userid: 55,
         steamid: 'STEAM_0:0:556497',
-        team: 'Red',
-        online: true
+        team: 'Red'
       }]);
     });
   }

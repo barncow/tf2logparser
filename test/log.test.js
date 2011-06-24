@@ -23,6 +23,7 @@ module.exports = {
       log.players[0].name.should.eql('Target');
       log.players[0].userid.should.equal(46);
       log.players[0].steamid.should.eql('STEAM_0:0:6845279');
+      log.players[0].online.should.be.ok;
       should.not.exist(log.players[0].team);
       
       //parsing the file again, which should do an update for same player.
@@ -31,8 +32,22 @@ module.exports = {
         log.players[0].name.should.eql('Target');
         log.players[0].userid.should.equal(46);
         log.players[0].steamid.should.eql('STEAM_0:0:6845279');
+        log.players[0].online.should.be.ok;
         log.players[0].team.should.equal('Blue');
       });    
+    });
+  },
+  
+  'addUpdatePlayer online is false': function() {
+    var parser = LogParser.create();
+    
+    parser.parseLogFile(FP+'/line_world_triggered_roundstart.log');
+    parser.parseLogFile(FP+'/line_player_disconnected.log', function(err, log) {
+      log.players[0].name.should.eql('do0t');
+      log.players[0].userid.should.equal(47);
+      log.players[0].steamid.should.eql('STEAM_0:1:4433828');
+      log.players[0].online.should.not.be.ok;
+      log.players[0].team.should.equal('Unassigned');
     });
   },
   

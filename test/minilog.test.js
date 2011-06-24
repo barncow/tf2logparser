@@ -39,8 +39,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805337000),
     type: 'kill',
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: -1862, y: 1217, z: -244}}, 
-    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', online: true, position: {x: -1837, y: 1073, z: -313}}, 
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1862, y: 1217, z: -244}}, 
+    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', position: {x: -1837, y: 1073, z: -313}}, 
     weapon: {
       key: 'scattergun',
       name: 'Scattergun',
@@ -53,8 +53,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805337000),
     type: 'assist', 
-    player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', online: true}, 
-    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', online: true},
+    player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue'}, 
+    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red'},
     customKill: false
   });
   ++eventIndex;
@@ -62,8 +62,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805338000),
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true},
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true},
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
     weapon: {
       key: 'tf_projectile_rocket',
       name: 'Rocket Launcher',
@@ -76,8 +76,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805522000),
     type: 'kill',
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: -2419, y: 1637, z: -511}}, 
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true, position: {x: -2605, y: 1596, z: -546}}, 
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
     weapon: {
       key: 'scattergun',
       name: 'Scattergun',
@@ -90,15 +90,15 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805522000),
     type: 'domination', 
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true}, 
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true}
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue'}, 
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805547000),
     type: 'builtobject', 
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true}, 
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'}, 
     object: 'OBJ_SENTRYGUN'
   });
   ++eventIndex;
@@ -106,8 +106,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805683000),
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true, position: {x: -2771, y: 1546, z: -295}}, 
-    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: -3308, y: 1790, z: -220}}, 
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}}, 
+    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -3308, y: 1790, z: -220}}, 
     weapon: {
       key: 'sniperrifle_hs',
       name: 'Sniper Rifle (Headshot)',
@@ -120,15 +120,15 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805683000),
     type: 'revenge', 
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true},
-    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true}
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
+    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue'}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805883000),
     type: 'say_team', 
-    player: {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', online: true},
+    player: {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue'},
     text: 'I can also play pyro. I have been doing that a lot on 2fort and doublecross.'
   });
   ++eventIndex;
@@ -136,8 +136,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806015000),
     type: 'exinguished', 
-    player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', online: true},
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', online: true},
+    player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red'},
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'},
     weapon: {
       key: 'tf_weapon_medigun',
       name: 'Medigun',
@@ -149,15 +149,15 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806258000),
     type: 'chargedeployed', 
-    player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', online: true}
+    player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue'}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806318000),
     type: 'kill',
-    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', online: true},
-    victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', online: true},
+    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red'},
+    victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red'},
     weapon: {
       key: 'world',
       name: 'World',
@@ -172,8 +172,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806318000),
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', online: true, position: {x: -2771, y: 1546, z: -295}},
-    victim: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', online: true, position: {x: -3308, y: 1790, z: -220}},
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}},
+    victim: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', position: {x: -3308, y: 1790, z: -220}},
     weapon: {
       key: 'sniperrifle',
       name: 'Sniper Rifle (Bodyshot)',
@@ -191,9 +191,9 @@ function checkEvents(log) {
     team: 'Blue',
     cpname: '#Gravelpit_cap_A',
     players: [
-      {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: 234, y: 724, z: -183}},
-      {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', online: true, position: {x: -70, y: 411, z: -191}},
-      {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', online: true, position: {x: 136, y: 733, z: -183}}
+      {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 234, y: 724, z: -183}},
+      {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', position: {x: -70, y: 411, z: -191}},
+      {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', position: {x: 136, y: 733, z: -183}}
     ]
   });
   ++eventIndex;
@@ -201,7 +201,7 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806728000),
     type: 'captureblocked',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', online: true, position: {x: -2440, y: 4826, z: -579}},
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -2440, y: 4826, z: -579}},
     cpname: '#Gravelpit_cap_B'
   });
   ++eventIndex;
@@ -209,8 +209,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806728000),
     type: 'kill',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', online: true, position: {x: -1154, y: -245, z: 0}}, 
-    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', online: true, position: {x: -1081, y: -270, z: 0}}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -1154, y: -245, z: 0}}, 
+    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -1081, y: -270, z: 0}}, 
     weapon: {
       key: 'knife_bs',
       name: 'Knife (Backstab)',
@@ -223,7 +223,7 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806728000),
     type: 'builtobject', 
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', online: true}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
     object: 'OBJ_ATTACHMENT_SAPPER'
   });
   ++eventIndex;
@@ -231,22 +231,22 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806728000),
     type: 'flagdefended', 
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: -1841, y: -1776, z: -30}}
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806728000),
     type: 'flagcaptured', 
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: -1841, y: -1776, z: -30}}
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806728000),
     type: 'kill',
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', online: true, position: {x: 1514, y: 790, z: 257}}, 
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', online: true, position: {x: 1732, y: 1214, z: 257}}, 
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 1514, y: 790, z: 257}}, 
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: 1732, y: 1214, z: 257}}, 
     weapon: {
       key: 'scattergun',
       name: 'Scattergun',
@@ -259,8 +259,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285805337000),
     type: 'assist', 
-    player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', online: true}, 
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', online: true}, 
+    player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue'}, 
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
     customKill: 'feign_death'
   });
   ++eventIndex;
@@ -268,8 +268,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806729000),
     type: 'kill',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', online: true, position: {x: -2419, y: 1637, z: -511}}, 
-    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', online: true, position: {x: -2605, y: 1596, z: -546}}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
+    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
     weapon: {
       key: 'sadfsgtghgher',
       name: 'sadfsgtghgher',
@@ -282,8 +282,8 @@ function checkEvents(log) {
   log.events[eventIndex].should.eql({
     timestamp: new Date(1285806729000),
     type: 'kill',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', online: true, position: {x: -2419, y: 1637, z: -511}}, 
-    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', online: true, position: {x: -2605, y: 1596, z: -546}}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
+    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
     weapon: {
       key: 'sadfsgtghgher',
       name: 'sadfsgtghgher',
@@ -371,8 +371,7 @@ function checkPlayerStats(log) {
           name: 'Cres', 
           userid: 49, 
           steamid: 'STEAM_0:0:8581157', 
-          team: 'Blue',
-          online: true
+          team: 'Blue'
         },
         healing: 72
       },
@@ -381,8 +380,7 @@ function checkPlayerStats(log) {
           name: 'Target', 
           userid: 46, 
           steamid: 'STEAM_0:0:6845279', 
-          team: 'Blue',
-          online: true
+          team: 'Blue'
         },
         healing: 27
       }
