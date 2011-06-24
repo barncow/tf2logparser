@@ -675,41 +675,5 @@ function checkPlayerStats(log) {
   });
   ++playerIndex;
   
-  log.players[playerIndex].should.eql({
-    name: 'Numnutz',
-    userid: 17,
-    steamid: 'BOT:Numnutz',
-    team: 'Red',
-    roles: [{
-        key: 'medic',
-        name: 'Medic'
-    }],
-    damage: 0,
-    online: true,
-    kills: 0,
-    deaths: 0,
-    assists: 0,
-    longest_kill_streak: 0,
-    headshots: 0,
-    backstabs: 0,
-    pointCaptures: 0,
-    pointCaptureBlocks: 0,
-    flagDefends: 0,
-    flagCaptures: 0,
-    dominations: 0,
-    timesDominated: 0,
-    revenges: 0,
-    extinguishes: 0,
-    ubers: 0,
-    droppedUbers: 0,
-    healing: 0,
-    medPicksTotal: 0,
-    medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
-    position: {}
-  });
-  ++playerIndex;
-  
   log.players.should.have.length(playerIndex);
 }
