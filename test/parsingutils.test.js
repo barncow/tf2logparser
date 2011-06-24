@@ -173,6 +173,13 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getParenValue(details, 'ubercharge').should.not.be.ok;
     });
+    
+    //should not be able to get paren type substring (substring must be last portion before value in order to fit the case)
+    //TODO Get this working!!
+    /*parser.readFile(FP+'/line_player_kill.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getParenValue(details, 'position').should.not.be.ok;
+    });*/
   },
   
   'didMedicDieWithUber': function() {
@@ -317,6 +324,22 @@ module.exports = {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getKillCoords(details, 'attacker').should.eql({x: -704, y: 1584, z: -464});
       parsingUtils.getKillCoords(details, 'victim').should.eql({x: -824, y: 1429, z: -396});
+    });
+  },
+  
+  'getReportedPosition': function() {
+    var parser = LogParser.create();
+    
+    //sunny case
+    parser.readFile(FP+'/line_player_position.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      parsingUtils.getReportedPosition(details).should.eql({x: -1862, y: 1217, z: -244});
+    });
+    
+    //incorrect line
+    parser.readFile(FP+'/line_player_kill.log', function(line) {
+      var details = parsingUtils.getLogLineDetails(line);
+      //parsingUtils.getReportedPosition(details).should.not.be.ok;
     });
   },
   

@@ -10,7 +10,7 @@ var should = require('should'),
 module.exports = { 
  'minilog stats are correct': function() {
     var parser = LogParser.create();
-    parser.ignoreUnrecognizedLines = false;
+    parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/mini.log', function(err, log) {
       should.not.exist(err);
       
@@ -330,7 +330,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {x: -1862, y: 1217, z: -244}
   });
   ++playerIndex;
     
@@ -384,7 +385,8 @@ function checkPlayerStats(log) {
         },
         healing: 27
       }
-    ]
+    ],
+    position: {}
   });
   ++playerIndex;
     
@@ -419,7 +421,8 @@ function checkPlayerStats(log) {
       medkit_small: 2,
       medkit_medium: 1
     },
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -460,7 +463,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 1,
     medPicksDroppedUber: 1,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -495,7 +499,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -527,7 +532,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -562,7 +568,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -594,7 +601,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -629,7 +637,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
     
@@ -661,7 +670,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
   
@@ -696,7 +706,8 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     items: {},
-    healSpread: []
+    healSpread: [],
+    position: {}
   });
   ++playerIndex;
   
