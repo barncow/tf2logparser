@@ -542,6 +542,9 @@ module.exports = {
   },
   
   'convertSteamFriendId': function() {
-    parsingUtils.convertSteamFriendId('STEAM_0:1:16481274').should.equal(76561197993228277);
+    parsingUtils.convertSteamFriendId('STEAM_0:1:16481274').should.equal('76561197993228277');
+    parsingUtils.convertSteamFriendId('76561197993228277').should.eql('STEAM_0:1:16481274');
+    
+    parsingUtils.convertSteamFriendId('sdfsd').should.not.be.ok;
   }
 }

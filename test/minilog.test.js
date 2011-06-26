@@ -304,6 +304,7 @@ function checkPlayerStats(log) {
     userid: 46,
     steamid: 'STEAM_0:0:6845279',
     team: 'Red',
+    friendid: '76561197973956286',
     roles: [{
       key: 'scout',
       name: 'Scout'
@@ -340,6 +341,7 @@ function checkPlayerStats(log) {
     userid: 53,
     steamid: 'STEAM_0:1:16481274',
     team: 'Blue',
+    friendid: '76561197993228277',
     roles: [{
         key: 'medic',
         name: 'Medic'
@@ -395,6 +397,7 @@ function checkPlayerStats(log) {
     userid: 49, 
     steamid: 'STEAM_0:0:8581157', 
     team: 'Blue',
+    friendid: '76561197977428042',
     roles: [],
     damage: 33,
     online: false,
@@ -431,6 +434,7 @@ function checkPlayerStats(log) {
     userid: 50, 
     steamid: 'STEAM_0:1:9852193', 
     team: 'Red',
+    friendid: '76561197979970115',
     roles: [
       {
         key: 'soldier',
@@ -473,6 +477,7 @@ function checkPlayerStats(log) {
     userid: 57,
     steamid: 'STEAM_0:0:11710749',
     team: 'Red',
+    friendid: '76561197983687226',
     roles: [{
         key: 'medic',
         name: 'Medic'
@@ -509,6 +514,7 @@ function checkPlayerStats(log) {
     userid: 56,
     steamid: 'STEAM_0:0:12272740',
     team: 'Blue',
+    friendid: '76561197984811208',
     roles: [],
     damage: 0,
     online: true,
@@ -542,6 +548,7 @@ function checkPlayerStats(log) {
     userid: 52,
     steamid: 'STEAM_0:0:973270',
     team: 'Blue',
+    friendid: '76561197962212268',
     roles: [{
       key: 'spy',
       name: 'Spy'
@@ -578,6 +585,7 @@ function checkPlayerStats(log) {
     userid: 54,
     steamid: 'STEAM_0:1:23384772',
     team: 'Spectator',
+    friendid: '76561198007035273',
     roles: [],
     damage: 0,
     online: true,
@@ -611,6 +619,7 @@ function checkPlayerStats(log) {
     userid: 55,
     steamid: 'STEAM_0:0:556497',
     team: 'Spectator',
+    friendid: '76561197961378722',
     roles: [{
         key: 'medic',
         name: 'Medic'
@@ -647,6 +656,7 @@ function checkPlayerStats(log) {
     userid: 16,
     steamid: 'STEAM_0:0:23957009',
     team: 'Red',
+    friendid: '76561198008179746',
     roles: [],
     damage: 0,
     online: false,
