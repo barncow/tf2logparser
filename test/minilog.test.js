@@ -37,7 +37,7 @@ function checkEvents(log) {
   var eventIndex = 0;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805337000),
+    timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
     type: 'kill',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1862, y: 1217, z: -244}}, 
     victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', position: {x: -1837, y: 1073, z: -313}}, 
@@ -51,7 +51,7 @@ function checkEvents(log) {
   ++eventIndex;
       
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805337000),
+    timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
     type: 'assist', 
     player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue'}, 
     victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red'},
@@ -60,7 +60,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805338000),
+    timestamp: new Date(2010, 8, 29, 19, 8, 58, 0),
     type: 'kill',
     player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
     victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
@@ -74,7 +74,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805522000),
+    timestamp: new Date(2010, 8, 29, 19, 12, 2, 0),
     type: 'kill',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
     victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
@@ -88,7 +88,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805522000),
+    timestamp: new Date(2010, 8, 29, 19, 12, 2, 0),
     type: 'domination', 
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue'}, 
     victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'}
@@ -96,7 +96,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805547000),
+    timestamp: new Date(2010, 8, 29, 19, 12, 27, 0),
     type: 'builtobject', 
     player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'}, 
     object: 'OBJ_SENTRYGUN'
@@ -104,7 +104,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805683000),
+    timestamp: new Date(2010, 8, 29, 19, 14, 43, 0),
     type: 'kill',
     player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}}, 
     victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -3308, y: 1790, z: -220}}, 
@@ -118,7 +118,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805683000),
+    timestamp: new Date(2010, 8, 29, 19, 14, 43, 0),
     type: 'revenge', 
     player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
     victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue'}
@@ -126,7 +126,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805883000),
+    timestamp: new Date(2010, 8, 29, 19, 18, 3, 0),
     type: 'say_team', 
     player: {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue'},
     text: 'I can also play pyro. I have been doing that a lot on 2fort and doublecross.'
@@ -134,7 +134,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806015000),
+    timestamp: new Date(2010, 8, 29, 19, 20, 15, 0),
     type: 'exinguished', 
     player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red'},
     victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'},
@@ -147,14 +147,14 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806258000),
+    timestamp: new Date(2010, 8, 29, 19, 24, 18, 0),
     type: 'chargedeployed', 
     player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue'}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806318000),
+    timestamp: new Date(2010, 8, 29, 19, 25, 18, 0),
     type: 'kill',
     player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red'},
     victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red'},
@@ -170,7 +170,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806318000),
+    timestamp: new Date(2010, 8, 29, 19, 25, 18, 0),
     type: 'kill',
     player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}},
     victim: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', position: {x: -3308, y: 1790, z: -220}},
@@ -186,7 +186,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806470000),
+    timestamp: new Date(2010, 8, 29, 19, 27, 50, 0),
     type: 'pointcaptured',
     team: 'Blue',
     cpname: '#Gravelpit_cap_A',
@@ -199,7 +199,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806728000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'captureblocked',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -2440, y: 4826, z: -579}},
     cpname: '#Gravelpit_cap_B'
@@ -207,7 +207,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806728000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'kill',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -1154, y: -245, z: 0}}, 
     victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -1081, y: -270, z: 0}}, 
@@ -221,7 +221,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806728000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'builtobject', 
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
     object: 'OBJ_ATTACHMENT_SAPPER'
@@ -229,21 +229,21 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806728000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'flagdefended', 
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806728000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'flagcaptured', 
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
   });
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806728000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'kill',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 1514, y: 790, z: 257}}, 
     victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: 1732, y: 1214, z: 257}}, 
@@ -257,7 +257,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285805337000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     type: 'assist', 
     player: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue'}, 
     victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
@@ -266,7 +266,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806729000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 9, 0),
     type: 'kill',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
     victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
@@ -280,7 +280,7 @@ function checkEvents(log) {
   ++eventIndex;
   
   log.events[eventIndex].should.eql({
-    timestamp: new Date(1285806729000),
+    timestamp: new Date(2010, 8, 29, 19, 32, 9, 0),
     type: 'kill',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
     victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 

@@ -43,5 +43,29 @@ module.exports = {
       {end: new Date(2010, 8, 29, 19, 8, 58, 0)},
       {end: new Date(2010, 8, 29, 19, 8, 59, 0)}
     ]).should.equal(3);
+  },
+  
+  'players are marked with isInMatch during log parsing': function() {
+    var parser = LogParser.create(), index = 0;
+    parser.readFile(FP+'/mini.log', function(line) {
+      parser.parseLine(line);
+	  var log = parser.getLog();
+	  
+	  if(index == 15) {
+		//testing that before the match starts, that players are entered
+		//and that they are marked with isInMatch == false.
+		log.players[0].name.should.eql('Target');
+		log.players[0].isInMatch.should.not.be.ok;
+		log.players[3].name.should.eql('do0t');
+		log.players[3].isInMatch.should.not.be.ok;
+	  } else if(index == 21) {
+		//testing that when the round has started, that the correct players
+		//have been marked with isInMatch == true;
+		log.players[0].name.should.eql('Target');
+		log.players[0].isInMatch.should.be.ok;
+	  }
+	  
+	  ++index;
+    }, function(err) {if(err) throw err;});
   }
 }

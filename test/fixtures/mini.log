@@ -53,7 +53,7 @@ L 09/29/2010 - 19:32:08: "`yay!<52><STEAM_0:0:973270><Red>" triggered "builtobje
 L 09/29/2010 - 19:32:08: "Target<46><STEAM_0:0:6845279><Blue>" triggered "flagevent" (event "defended") (position "-1841 -1776 -30")
 L 09/29/2010 - 19:32:08: "Target<46><STEAM_0:0:6845279><Blue>" triggered "flagevent" (event "captured") (position "-1841 -1776 -30")
 L 09/29/2010 - 19:32:08: "Target<46><STEAM_0:0:6845279><Blue>" killed "`yay!<52><STEAM_0:0:973270><Red>" with "scattergun" (customkill "feign_death") (attacker_position "1514 790 257") (victim_position "1732 1214 257")
-L 09/29/2010 - 19:08:57: "Cres<49><STEAM_0:0:8581157><Blue>" triggered "kill assist" against "`yay!<52><STEAM_0:0:973270><Red>" (assister_position "-2181 821 -201") (attacker_position "-1862 1217 -244") (victim_position "-1837 1073 -313")
+L 09/29/2010 - 19:32:08: "Cres<49><STEAM_0:0:8581157><Blue>" triggered "kill assist" against "`yay!<52><STEAM_0:0:973270><Red>" (assister_position "-2181 821 -201") (attacker_position "-1862 1217 -244") (victim_position "-1837 1073 -313")
 L 09/29/2010 - 19:32:08: "Ctrl+f Muffin!<50><STEAM_0:1:9852193><Red>" disconnected (reason "Kicked by Console")
 L 09/29/2010 - 19:32:08: "Cres<49><STEAM_0:0:8581157><Blue>" disconnected (reason "No Steam logon
 ")
