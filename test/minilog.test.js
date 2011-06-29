@@ -332,7 +332,23 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {x: -1862, y: 1217, z: -244}
+    position: {x: -1862, y: 1217, z: -244},
+    weaponStats: {
+       'scattergun': {
+        key: 'scattergun',
+        name: 'Scattergun',
+        role: 'scout',
+        kills: 2,
+        deaths: 0
+      },
+      'sniperrifle_hs': {
+        key: 'sniperrifle_hs',
+        name: 'Sniper Rifle (Headshot)',
+        role: 'sniper',
+        kills: 0,
+        deaths: 1
+      }
+    }
   });
   ++playerIndex;
     
@@ -388,7 +404,23 @@ function checkPlayerStats(log) {
         healing: 27
       }
     ],
-    position: {}
+    position: {},
+    weaponStats: { 
+      'scattergun': {
+        key: 'scattergun',
+        name: 'Scattergun',
+        role: 'scout',
+        kills: 0,
+        deaths: 1 
+      },
+     'sniperrifle': { 
+        key: 'sniperrifle',
+        name: 'Sniper Rifle (Bodyshot)',
+        role: 'sniper',
+        kills: 0,
+        deaths: 1 
+      }
+    }
   });
   ++playerIndex;
     
@@ -425,7 +457,8 @@ function checkPlayerStats(log) {
       medkit_medium: 1
     },
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: {}
   });
   ++playerIndex;
     
@@ -468,7 +501,37 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 1,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: {
+      'tf_projectile_rocket': { 
+        key: 'tf_projectile_rocket',
+        name: 'Rocket Launcher',
+        role: 'soldier',
+        kills: 0,
+        deaths: 1 
+      },
+      'scattergun': { 
+        key: 'scattergun',
+        name: 'Scattergun',
+        role: 'scout',
+        kills: 0,
+        deaths: 1 
+      },
+      'sniperrifle_hs': { 
+        key: 'sniperrifle_hs',
+        name: 'Sniper Rifle (Headshot)',
+        role: 'sniper',
+        kills: 1,
+        deaths: 0 
+      },
+      'sniperrifle': { 
+        key: 'sniperrifle',
+        name: 'Sniper Rifle (Bodyshot)',
+        role: 'sniper',
+        kills: 1,
+        deaths: 0 
+      } 
+    }
   });
   ++playerIndex;
     
@@ -505,7 +568,23 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: {
+      'knife_bs': { 
+        key: 'knife_bs',
+        name: 'Knife (Backstab)',
+        role: 'spy',
+        kills: 0,
+        deaths: 1 
+      },
+      'sadfsgtghgher': { 
+        key: 'sadfsgtghgher',
+        name: 'sadfsgtghgher',
+        role: false,
+        kills: 0,
+        deaths: 2
+      }
+    }
   });
   ++playerIndex;
     
@@ -539,7 +618,8 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: {}
   });
   ++playerIndex;
     
@@ -576,7 +656,23 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: { 
+      'knife_bs': { 
+        key: 'knife_bs',
+        name: 'Knife (Backstab)',
+        role: 'spy',
+        kills: 1,
+        deaths: 0 
+      },
+      'sadfsgtghgher': { 
+        key: 'sadfsgtghgher',
+        name: 'sadfsgtghgher',
+        role: false,
+        kills: 2,
+        deaths: 0 
+      } 
+    }
   });
   ++playerIndex;
     
@@ -610,7 +706,8 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: {}
   });
   ++playerIndex;
     
@@ -647,7 +744,16 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: { 
+      'world': { 
+        key: 'world',
+        name: 'World',
+        role: false,
+        kills: 0,
+        deaths: 1 
+      }
+    }
   });
   ++playerIndex;
     
@@ -681,7 +787,8 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     items: {},
     healSpread: [],
-    position: {}
+    position: {},
+    weaponStats: {}
   });
   ++playerIndex;
   
