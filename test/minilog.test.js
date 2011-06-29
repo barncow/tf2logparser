@@ -17,7 +17,6 @@ module.exports = {
       log.should.be.ok;
       
       //broke out these assertions to help narrow down any potential problems.
-      
       log.blueScore.should.eql(0);
       log.redScore.should.eql(1);
       log.gameStartTimestamp.should.eql(new Date(2010, 8, 29, 19, 8, 56, 0));
@@ -25,6 +24,43 @@ module.exports = {
       log.elapsedSeconds.should.eql(1666);
       log.playableSeconds.should.eql(1656);
       log.mapName.should.eql('ctf_2fort');
+      log.weapons.should.eql({ 
+        'scattergun': { 
+          key: 'scattergun',
+          name: 'Scattergun',
+          role: 'scout' 
+        },
+        'tf_projectile_rocket': { 
+          key: 'tf_projectile_rocket',
+          name: 'Rocket Launcher',
+          role: 'soldier' 
+        },
+        'sniperrifle_hs': { 
+          key: 'sniperrifle_hs',
+          name: 'Sniper Rifle (Headshot)',
+          role: 'sniper' 
+        },
+        'world': { 
+          key: 'world', 
+          name: 'World', 
+          role: false 
+        },
+        'sniperrifle': { 
+          key: 'sniperrifle',
+          name: 'Sniper Rifle (Bodyshot)',
+          role: 'sniper' 
+        },
+        'knife_bs': { 
+          key: 'knife_bs',
+          name: 'Knife (Backstab)',
+          role: 'spy' 
+        },
+        'sadfsgtghgher': { 
+          key: 'sadfsgtghgher',
+          name: 'sadfsgtghgher',
+          role: false 
+        }
+      });
       
       //doing these in separate functions to try and keep things clean.
       checkEvents(log);
