@@ -384,6 +384,20 @@ function checkPlayerStats(log) {
         kills: 0,
         deaths: 1
       }
+    },
+    playerStats: { 
+      'STEAM_0:1:16481274': { 
+        name: 'FSTNG! Barncow',
+        steamid: 'STEAM_0:1:16481274',
+        kills: 1,
+        deaths: 0 
+      },
+      'STEAM_0:1:9852193': { 
+        name: 'Ctrl+f Muffin!',
+        steamid: 'STEAM_0:1:9852193',
+        kills: 1,
+        deaths: 1 
+      }
     }
   });
   ++playerIndex;
@@ -456,6 +470,20 @@ function checkPlayerStats(log) {
         kills: 0,
         deaths: 1 
       }
+    },
+    playerStats: { 
+      'STEAM_0:0:6845279': { 
+          name: 'Target',
+          steamid: 'STEAM_0:0:6845279',
+          kills: 0,
+          deaths: 1 
+      },
+      'STEAM_0:1:9852193': { 
+        name: 'Ctrl+f Muffin!',
+        steamid: 'STEAM_0:1:9852193',
+        kills: 0,
+        deaths: 1
+      } 
     }
   });
   ++playerIndex;
@@ -494,7 +522,8 @@ function checkPlayerStats(log) {
     },
     healSpread: [],
     position: {},
-    weaponStats: {}
+    weaponStats: {},
+    playerStats: {}
   });
   ++playerIndex;
     
@@ -567,6 +596,26 @@ function checkPlayerStats(log) {
         kills: 1,
         deaths: 0 
       } 
+    },
+    playerStats: { 
+      'STEAM_0:1:9852193': {
+        name: 'Ctrl+f Muffin!', 
+        steamid: 'STEAM_0:1:9852193',
+        kills: 0,
+        deaths: 1
+      },
+      'STEAM_0:0:6845279': { 
+        name: 'Target',
+        steamid: 'STEAM_0:0:6845279',
+        kills: 1,
+        deaths: 1 
+      },
+      'STEAM_0:1:16481274': { 
+        name: 'FSTNG! Barncow',
+        steamid: 'STEAM_0:1:16481274',
+        kills: 1,
+        deaths: 0 
+      } 
     }
   });
   ++playerIndex;
@@ -620,6 +669,14 @@ function checkPlayerStats(log) {
         kills: 0,
         deaths: 2
       }
+    },
+    playerStats: { 
+      'STEAM_0:0:973270': { 
+        name: '`yay!',
+        steamid: 'STEAM_0:0:973270',
+        kills: 0,
+        deaths: 3 
+      } 
     }
   });
   ++playerIndex;
@@ -655,7 +712,8 @@ function checkPlayerStats(log) {
     items: {},
     healSpread: [],
     position: {},
-    weaponStats: {}
+    weaponStats: {},
+    playerStats: {}
   });
   ++playerIndex;
     
@@ -708,6 +766,14 @@ function checkPlayerStats(log) {
         kills: 2,
         deaths: 0 
       } 
+    },
+    playerStats: { 
+      'STEAM_0:0:11710749': { 
+        name: 'perl',
+        steamid: 'STEAM_0:0:11710749',
+        kills: 3,
+        deaths: 0
+      } 
     }
   });
   ++playerIndex;
@@ -743,7 +809,8 @@ function checkPlayerStats(log) {
     items: {},
     healSpread: [],
     position: {},
-    weaponStats: {}
+    weaponStats: {},
+    playerStats: {}
   });
   ++playerIndex;
     
@@ -789,6 +856,14 @@ function checkPlayerStats(log) {
         kills: 0,
         deaths: 1 
       }
+    },
+    playerStats: {
+      'STEAM_0:0:556497': {
+        name: '[H2K]BubbleAlan ʚϊɞ', 
+        steamid: 'STEAM_0:0:556497',
+        kills: 0,
+        deaths: 1
+      }
     }
   });
   ++playerIndex;
@@ -824,7 +899,8 @@ function checkPlayerStats(log) {
     items: {},
     healSpread: [],
     position: {},
-    weaponStats: {}
+    weaponStats: {},
+    playerStats: {}
   });
   ++playerIndex;
   
