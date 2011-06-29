@@ -366,26 +366,22 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {x: -1862, y: 1217, z: -244},
-    weaponStats: {
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: {
        'scattergun': {
         key: 'scattergun',
-        name: 'Scattergun',
-        role: 'scout',
         kills: 2,
         deaths: 0
       },
       'sniperrifle_hs': {
         key: 'sniperrifle_hs',
-        name: 'Sniper Rifle (Headshot)',
-        role: 'sniper',
         kills: 0,
         deaths: 1
       }
     },
-    playerStats: { 
+    playerSpread: { 
       'STEAM_0:1:16481274': { 
         name: 'FSTNG! Barncow',
         steamid: 'STEAM_0:1:16481274',
@@ -433,45 +429,33 @@ function checkPlayerStats(log) {
     healing: 1800,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [
-      {
-        patient: {
-          name: 'Cres', 
-          userid: 49, 
-          steamid: 'STEAM_0:0:8581157', 
-          team: 'Blue'
-        },
+    position: {},
+    itemSpread: {},
+    healSpread: {
+      'STEAM_0:0:8581157': {
+        name: 'Cres',
+        steamid: 'STEAM_0:0:8581157', 
         healing: 72
       },
-      {
-        patient: {
-          name: 'Target', 
-          userid: 46, 
-          steamid: 'STEAM_0:0:6845279', 
-          team: 'Blue'
-        },
+      'STEAM_0:0:6845279': {
+        name: 'Target',
+        steamid: 'STEAM_0:0:6845279', 
         healing: 27
       }
-    ],
-    position: {},
-    weaponStats: { 
+    },
+    weaponSpread: { 
       'scattergun': {
         key: 'scattergun',
-        name: 'Scattergun',
-        role: 'scout',
         kills: 0,
         deaths: 1 
       },
      'sniperrifle': { 
         key: 'sniperrifle',
-        name: 'Sniper Rifle (Bodyshot)',
-        role: 'sniper',
         kills: 0,
         deaths: 1 
       }
     },
-    playerStats: { 
+    playerSpread: { 
       'STEAM_0:0:6845279': { 
           name: 'Target',
           steamid: 'STEAM_0:0:6845279',
@@ -516,14 +500,14 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {
+    position: {},
+    itemSpread: {
       medkit_small: 2,
       medkit_medium: 1
     },
-    healSpread: [],
-    position: {},
-    weaponStats: {},
-    playerStats: {}
+    healSpread: {},
+    weaponSpread: {},
+    playerSpread: {}
   });
   ++playerIndex;
     
@@ -564,40 +548,32 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 1,
     medPicksDroppedUber: 1,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: {
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: {
       'tf_projectile_rocket': { 
         key: 'tf_projectile_rocket',
-        name: 'Rocket Launcher',
-        role: 'soldier',
         kills: 0,
         deaths: 1 
       },
       'scattergun': { 
         key: 'scattergun',
-        name: 'Scattergun',
-        role: 'scout',
         kills: 0,
         deaths: 1 
       },
       'sniperrifle_hs': { 
         key: 'sniperrifle_hs',
-        name: 'Sniper Rifle (Headshot)',
-        role: 'sniper',
         kills: 1,
         deaths: 0 
       },
       'sniperrifle': { 
         key: 'sniperrifle',
-        name: 'Sniper Rifle (Bodyshot)',
-        role: 'sniper',
         kills: 1,
         deaths: 0 
       } 
     },
-    playerStats: { 
+    playerSpread: { 
       'STEAM_0:1:9852193': {
         name: 'Ctrl+f Muffin!', 
         steamid: 'STEAM_0:1:9852193',
@@ -651,26 +627,22 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: {
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: {
       'knife_bs': { 
         key: 'knife_bs',
-        name: 'Knife (Backstab)',
-        role: 'spy',
         kills: 0,
         deaths: 1 
       },
       'sadfsgtghgher': { 
         key: 'sadfsgtghgher',
-        name: 'sadfsgtghgher',
-        role: false,
         kills: 0,
         deaths: 2
       }
     },
-    playerStats: { 
+    playerSpread: { 
       'STEAM_0:0:973270': { 
         name: '`yay!',
         steamid: 'STEAM_0:0:973270',
@@ -709,11 +681,11 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: {},
-    playerStats: {}
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: {},
+    playerSpread: {}
   });
   ++playerIndex;
     
@@ -748,26 +720,22 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: { 
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: { 
       'knife_bs': { 
         key: 'knife_bs',
-        name: 'Knife (Backstab)',
-        role: 'spy',
         kills: 1,
         deaths: 0 
       },
       'sadfsgtghgher': { 
         key: 'sadfsgtghgher',
-        name: 'sadfsgtghgher',
-        role: false,
         kills: 2,
         deaths: 0 
       } 
     },
-    playerStats: { 
+    playerSpread: { 
       'STEAM_0:0:11710749': { 
         name: 'perl',
         steamid: 'STEAM_0:0:11710749',
@@ -806,11 +774,11 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: {},
-    playerStats: {}
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: {},
+    playerSpread: {}
   });
   ++playerIndex;
     
@@ -845,19 +813,17 @@ function checkPlayerStats(log) {
     healing: 160,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: { 
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: { 
       'world': { 
         key: 'world',
-        name: 'World',
-        role: false,
         kills: 0,
         deaths: 1 
       }
     },
-    playerStats: {
+    playerSpread: {
       'STEAM_0:0:556497': {
         name: '[H2K]BubbleAlan ʚϊɞ', 
         steamid: 'STEAM_0:0:556497',
@@ -896,11 +862,11 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    items: {},
-    healSpread: [],
     position: {},
-    weaponStats: {},
-    playerStats: {}
+    itemSpread: {},
+    healSpread: {},
+    weaponSpread: {},
+    playerSpread: {}
   });
   ++playerIndex;
   
