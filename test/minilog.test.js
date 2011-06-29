@@ -487,7 +487,7 @@ function checkPlayerStats(log) {
     assists: 0,
     longestKillStreak: 2,
     longestDeathStreak: 2,
-    headshots: 0,
+    headshots: 1,
     backstabs: 0,
     pointCaptures: 1,
     pointCaptureBlocks: 0,
@@ -663,7 +663,7 @@ function checkPlayerStats(log) {
     longestKillStreak: 3, //his death is a fake from DR
     longestDeathStreak: 0,
     headshots: 0,
-    backstabs: 0,
+    backstabs: 1,
     pointCaptures: 0,
     pointCaptureBlocks: 1,
     flagDefends: 0,

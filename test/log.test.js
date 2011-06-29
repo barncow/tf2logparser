@@ -67,7 +67,7 @@ module.exports = {
     
     //sunny case, should not return error
     try{
-      mylog.incrementStatToPlayer(player.steamid, 'damage', 10);
+      mylog.incrementStatToPlayer(player.steamid, 'damage', false, 10);
     }catch(err) {
       console.log(err); //shouldn't be a message here, if there is, output it.
       noError = false;
@@ -78,7 +78,7 @@ module.exports = {
     
     //invalid stat name, should return error
     try{
-      mylog.incrementStatToPlayer(player.steamid, 'asdfasfda', 10);
+      mylog.incrementStatToPlayer(player.steamid, 'asdfasfda', false, 10);
     }catch(err) {
       noError = false;
     }
@@ -87,7 +87,7 @@ module.exports = {
     
     //invalid steamid, should return error
     try{
-      mylog.incrementStatToPlayer('adfasfd', 'damage', 10);
+      mylog.incrementStatToPlayer('adfasfd', 'damage', false, 10);
     }catch(err) {
       noError = false;
     }
