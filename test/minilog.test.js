@@ -291,10 +291,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:6845279',
     team: 'Red',
     friendid: '76561197973956286',
-    roles: [{
-      key: 'scout',
-      name: 'Scout'
-    }],
     damage: 0,
     online: true,
     kills: 2,
@@ -318,6 +314,12 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {x: -1862, y: 1217, z: -244},
+    roleSpread: {
+      'scout': {
+        key: 'scout',
+        name: 'Scout'
+      }
+    },
     itemSpread: {},
     healSpread: {},
     weaponSpread: {
@@ -355,10 +357,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:16481274',
     team: 'Blue',
     friendid: '76561197993228277',
-    roles: [{
-        key: 'medic',
-        name: 'Medic'
-    }],
     damage: 0,
     online: true,
     kills: 0,
@@ -382,6 +380,12 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {
+      'medic': {
+        key: 'medic',
+        name: 'Medic'
+      }
+    },
     itemSpread: {},
     healSpread: {
       'STEAM_0:0:8581157': {
@@ -430,7 +434,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:8581157', 
     team: 'Blue',
     friendid: '76561197977428042',
-    roles: [],
     damage: 33,
     online: false,
     kills: 0,
@@ -454,6 +457,7 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {},
     itemSpread: {
       medkit_small: 2,
       medkit_medium: 1
@@ -470,16 +474,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:9852193', 
     team: 'Red',
     friendid: '76561197979970115',
-    roles: [
-      {
-        key: 'soldier',
-        name: 'Soldier'
-      },
-      {
-        key: 'sniper',
-        name: 'Sniper'
-      }
-    ],
     damage: 0,
     online: false,
     kills: 2,
@@ -503,6 +497,16 @@ function checkPlayerStats(log) {
     medPicksTotal: 1,
     medPicksDroppedUber: 1,
     position: {},
+    roleSpread: {
+      'soldier': {
+        key: 'soldier',
+        name: 'Soldier'
+      },
+      'sniper': {
+        key: 'sniper',
+        name: 'Sniper'
+      }
+    },
     itemSpread: {},
     healSpread: {},
     weaponSpread: {
@@ -556,10 +560,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:11710749',
     team: 'Red',
     friendid: '76561197983687226',
-    roles: [{
-        key: 'medic',
-        name: 'Medic'
-    }],
     damage: 0,
     online: true,
     kills: 0,
@@ -583,6 +583,12 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {
+      'medic': {
+        key: 'medic',
+        name: 'Medic'
+      }
+    },
     itemSpread: {},
     healSpread: {},
     weaponSpread: {
@@ -614,7 +620,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:12272740',
     team: 'Blue',
     friendid: '76561197984811208',
-    roles: [],
     damage: 0,
     online: true,
     kills: 0,
@@ -638,6 +643,7 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {},
     itemSpread: {},
     healSpread: {},
     weaponSpread: {},
@@ -651,10 +657,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:973270',
     team: 'Blue',
     friendid: '76561197962212268',
-    roles: [{
-      key: 'spy',
-      name: 'Spy'
-    }],
     damage: 0,
     online: true,
     kills: 3,
@@ -678,6 +680,12 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {
+      'spy': {
+        key: 'spy',
+        name: 'Spy'
+      }
+    },
     itemSpread: {},
     healSpread: {},
     weaponSpread: { 
@@ -709,7 +717,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:23384772',
     team: 'Spectator',
     friendid: '76561198007035273',
-    roles: [],
     damage: 0,
     online: true,
     kills: 0,
@@ -733,6 +740,7 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {},
     itemSpread: {},
     healSpread: {},
     weaponSpread: {},
@@ -746,10 +754,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:556497',
     team: 'Spectator',
     friendid: '76561197961378722',
-    roles: [{
-        key: 'medic',
-        name: 'Medic'
-    }],
     damage: 0,
     online: true,
     kills: 0,
@@ -773,6 +777,12 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {
+      'medic': {
+        key: 'medic',
+        name: 'Medic'
+      }
+    },
     itemSpread: {},
     healSpread: {},
     weaponSpread: { 
@@ -799,7 +809,6 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:23957009',
     team: 'Red',
     friendid: '76561198008179746',
-    roles: [],
     damage: 0,
     online: false,
     kills: 0,
@@ -823,6 +832,7 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
+    roleSpread: {},
     itemSpread: {},
     healSpread: {},
     weaponSpread: {},
