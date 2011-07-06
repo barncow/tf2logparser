@@ -819,7 +819,7 @@ function checkPlayerStats(log) {
       'medic': {
         key: 'medic',
         name: 'Medic',
-        secondsPlayed: 1666
+        secondsPlayed: 982
       }
     },
     itemSpread: {},
