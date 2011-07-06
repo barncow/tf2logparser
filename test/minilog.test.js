@@ -291,6 +291,10 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:6845279',
     team: 'Red',
     friendid: '76561197973956286',
+    role: {
+      key: 'scout',
+      name: 'Scout'
+    },
     damage: 0,
     online: true,
     kills: 2,
@@ -357,6 +361,10 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:16481274',
     team: 'Blue',
     friendid: '76561197993228277',
+    role: {
+      key: 'medic',
+      name: 'Medic'
+    },
     damage: 0,
     online: true,
     kills: 0,
@@ -434,6 +442,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:8581157', 
     team: 'Blue',
     friendid: '76561197977428042',
+    role: false,
     damage: 33,
     online: false,
     kills: 0,
@@ -474,6 +483,10 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:9852193', 
     team: 'Red',
     friendid: '76561197979970115',
+    role: {
+      key: 'sniper',
+      name: 'Sniper'
+    },
     damage: 0,
     online: false,
     kills: 2,
@@ -560,6 +573,10 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:11710749',
     team: 'Red',
     friendid: '76561197983687226',
+    role: {
+      key: 'medic',
+      name: 'Medic'
+    },
     damage: 0,
     online: true,
     kills: 0,
@@ -620,6 +637,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:12272740',
     team: 'Blue',
     friendid: '76561197984811208',
+    role: false,
     damage: 0,
     online: true,
     kills: 0,
@@ -657,6 +675,10 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:973270',
     team: 'Blue',
     friendid: '76561197962212268',
+    role: {
+      key: 'spy',
+      name: 'Spy'
+    },
     damage: 0,
     online: true,
     kills: 3,
@@ -717,6 +739,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:23384772',
     team: 'Spectator',
     friendid: '76561198007035273',
+    role: false,
     damage: 0,
     online: true,
     kills: 0,
@@ -754,6 +777,10 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:556497',
     team: 'Spectator',
     friendid: '76561197961378722',
+    role: {
+      key: 'medic',
+      name: 'Medic'
+    },
     damage: 0,
     online: true,
     kills: 0,
@@ -809,6 +836,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:23957009',
     team: 'Red',
     friendid: '76561198008179746',
+    role: false,
     damage: 0,
     online: false,
     kills: 0,
