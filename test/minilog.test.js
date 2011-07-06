@@ -321,7 +321,8 @@ function checkPlayerStats(log) {
     roleSpread: {
       'scout': {
         key: 'scout',
-        name: 'Scout'
+        name: 'Scout',
+        secondsPlayed: 1666
       }
     },
     itemSpread: {},
@@ -391,7 +392,8 @@ function checkPlayerStats(log) {
     roleSpread: {
       'medic': {
         key: 'medic',
-        name: 'Medic'
+        name: 'Medic',
+        secondsPlayed: 1666
       }
     },
     itemSpread: {},
@@ -513,11 +515,18 @@ function checkPlayerStats(log) {
     roleSpread: {
       'soldier': {
         key: 'soldier',
-        name: 'Soldier'
+        name: 'Soldier',
+        secondsPlayed: 211
+      },
+      'engineer': {
+        key: 'engineer',
+        name: 'Engineer',
+        secondsPlayed: 136
       },
       'sniper': {
         key: 'sniper',
-        name: 'Sniper'
+        name: 'Sniper',
+        secondsPlayed: 1045
       }
     },
     itemSpread: {},
@@ -603,7 +612,8 @@ function checkPlayerStats(log) {
     roleSpread: {
       'medic': {
         key: 'medic',
-        name: 'Medic'
+        name: 'Medic',
+        secondsPlayed: 1666
       }
     },
     itemSpread: {},
@@ -705,7 +715,8 @@ function checkPlayerStats(log) {
     roleSpread: {
       'spy': {
         key: 'spy',
-        name: 'Spy'
+        name: 'Spy',
+        secondsPlayed: 1666
       }
     },
     itemSpread: {},
@@ -807,7 +818,8 @@ function checkPlayerStats(log) {
     roleSpread: {
       'medic': {
         key: 'medic',
-        name: 'Medic'
+        name: 'Medic',
+        secondsPlayed: 1666
       }
     },
     itemSpread: {},
