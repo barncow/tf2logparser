@@ -25,7 +25,7 @@ module.exports = {
       else if(i == 1) line.should.eql('L 09/29/2010 - 19:05:47: server_cvar: "mp_falldamage" "0"');
       
       ++i;
-    }, function() {i.should.eql(78)});
+    }, function() {i.should.eql(81)});
   },
   
   'sets mapName correctly': function() {

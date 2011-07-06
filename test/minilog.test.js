@@ -291,6 +291,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:6845279',
     team: 'Red',
     friendid: '76561197973956286',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: {
       key: 'scout',
       name: 'Scout'
@@ -362,6 +363,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:16481274',
     team: 'Blue',
     friendid: '76561197993228277',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: {
       key: 'medic',
       name: 'Medic'
@@ -444,6 +446,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:8581157', 
     team: 'Blue',
     friendid: '76561197977428042',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: false,
     damage: 33,
     online: false,
@@ -485,6 +488,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:9852193', 
     team: 'Red',
     friendid: '76561197979970115',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: {
       key: 'sniper',
       name: 'Sniper'
@@ -582,6 +586,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:11710749',
     team: 'Red',
     friendid: '76561197983687226',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: {
       key: 'medic',
       name: 'Medic'
@@ -647,6 +652,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:12272740',
     team: 'Blue',
     friendid: '76561197984811208',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: false,
     damage: 0,
     online: true,
@@ -685,6 +691,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:973270',
     team: 'Blue',
     friendid: '76561197962212268',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: {
       key: 'spy',
       name: 'Spy'
@@ -750,6 +757,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:1:23384772',
     team: 'Spectator',
     friendid: '76561198007035273',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: false,
     damage: 0,
     online: true,
@@ -788,6 +796,7 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:556497',
     team: 'Spectator',
     friendid: '76561197961378722',
+    joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
     role: {
       key: 'medic',
       name: 'Medic'
@@ -848,7 +857,11 @@ function checkPlayerStats(log) {
     steamid: 'STEAM_0:0:23957009',
     team: 'Red',
     friendid: '76561198008179746',
-    role: false,
+    joinedGame: new Date(2010, 8, 29, 19, 27, 50, 0),
+    role: {
+      key: 'heavyweapons',
+      name: 'Heavy'
+    },
     damage: 0,
     online: false,
     kills: 0,
@@ -872,7 +885,13 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
-    roleSpread: {},
+    roleSpread: {
+      'heavyweapons': {
+        key: 'heavyweapons',
+        name: 'Heavy',
+        secondsPlayed: 258
+      }
+    },
     itemSpread: {},
     healSpread: {},
     weaponSpread: {},
