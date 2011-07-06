@@ -387,7 +387,7 @@ function checkPlayerStats(log) {
     extinguishes: 0,
     ubers: 1,
     droppedUbers: 1,
-    healing: 1800,
+    healing: 2310,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
