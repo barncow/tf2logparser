@@ -36,5 +36,18 @@ module.exports = {
       log.blueScore.should.eql(4);
       log.redScore.should.eql(0);
     });
+  },
+  'kothviaduct': function() {
+    var parser = LogParser.create();
+    parser.config.ignoreUnrecognizedLines = false;
+    parser.parseLogFile(FP+'/full_kothviaduct.log', function(err, log) {
+      if(err) console.log(err.stack);
+      should.not.exist(err);   
+      log.should.be.ok;
+      log.blueScore.should.eql(4);
+      log.redScore.should.eql(0);
+      log.playableSeconds.should.eql(1181);
+      log.players[8].kills.should.eql(31);
+    });
   }
 }
