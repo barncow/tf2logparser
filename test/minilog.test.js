@@ -17,8 +17,8 @@ module.exports = {
       log.should.be.ok;
       
       //broke out these assertions to help narrow down any potential problems.
-      log.blueScore.should.eql(0);
-      log.redScore.should.eql(1);
+      log.blueScore.should.eql(1);
+      log.redScore.should.eql(0);
       log.gameStartTimestamp.should.eql(new Date(2010, 8, 29, 19, 8, 56, 0));
       log.gameEndTimestamp.should.eql(new Date(2010, 8, 29, 19, 36, 42, 0));
       log.elapsedSeconds.should.eql(1666);
