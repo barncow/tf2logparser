@@ -242,12 +242,12 @@ module.exports = {
     
     parser.readFile(FP+'/line_team_currentscore.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getTeamScore(details).should.eql(0);
+      parsingUtils.getTeamScore(details).should.equal(0);
     });
     
     parser.readFile(FP+'/line_team_finalscore_9players.log', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
-      parsingUtils.getTeamScore(details).should.eql(2);
+      parsingUtils.getTeamScore(details).should.equal(2);
     });
   },
   

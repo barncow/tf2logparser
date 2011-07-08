@@ -42,7 +42,7 @@ module.exports = {
       {start: new Date(2010, 8, 29, 19, 8, 57, 0)},
       {end: new Date(2010, 8, 29, 19, 8, 58, 0)},
       {end: new Date(2010, 8, 29, 19, 8, 59, 0)}
-    ]).should.equal(3);
+    ]).should.equal(2);
   },
   
   'players are marked with isInMatch during log parsing': function() {
