@@ -76,8 +76,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 8, 58, 0),
     elapsedSeconds: 2,
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'soldier', name: 'Soldier' }},
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'soldier', name: 'Soldier' }},
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: { x: -3718, y: 1821, z: -540 }, role: { key: 'soldier', name: 'Soldier' }},
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: { x: -3718, y: 1821, z: -540 }, role: { key: 'soldier', name: 'Soldier' }},
     assister: false,
     weapon: 'tf_projectile_rocket', 
     customKill: 'suicide'
@@ -109,7 +109,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 12, 27, 0),
     elapsedSeconds: 211,
     type: 'builtobject', 
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'engineer', name: 'Engineer' }}, 
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: { x: -4015, y: 1821, z: -511 }, role: { key: 'engineer', name: 'Engineer' }}, 
     object: 'OBJ_SENTRYGUN'
   });
   ++eventIndex;
@@ -157,8 +157,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 20, 15, 0),
     elapsedSeconds: 679,
     type: 'exinguished', 
-    player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', role: { key: 'medic', name: 'Medic' }},
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', role: { key: 'spy', name: 'Spy' }},
+    player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: { x: -4192, y: 1397, z: -511 }, role: { key: 'medic', name: 'Medic' }},
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: { x: -4109, y: 1635, z: -511 }, role: { key: 'spy', name: 'Spy' }},
     weapon: 'tf_weapon_medigun'
   });
   ++eventIndex;
@@ -175,8 +175,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 25, 18, 0),
     elapsedSeconds: 982,
     type: 'kill',
-    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', role: { key: 'medic', name: 'Medic' }},
-    victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', role: { key: 'medic', name: 'Medic' }},
+    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', position: { x: -5072, y: 1286, z: -511 }, role: { key: 'medic', name: 'Medic' }},
+    victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', position: { x: -5072, y: 1286, z: -511 }, role: { key: 'medic', name: 'Medic' }},
     assister: false,
     weapon: 'world', 
     customKill: 'suicide', 
@@ -238,7 +238,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'builtobject', 
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', role: { key: 'spy', name: 'Spy' }}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: { x: 1457, y: 2273, z: 256 }, role: { key: 'spy', name: 'Spy' }}, 
     object: 'OBJ_ATTACHMENT_SAPPER'
   });
   ++eventIndex;
@@ -334,7 +334,7 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: {x: -1862, y: 1217, z: -244},
+    position: {x: 1514, y: 790, z: 257},
     roleSpread: {
       'scout': {
         key: 'scout',
@@ -406,7 +406,7 @@ function checkPlayerStats(log) {
     healing: 2310,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: { x: -1862, y: 1217, z: -244 },
+    position: { x: -3308, y: 1790, z: -220 },
     roleSpread: {
       'medic': {
         key: 'medic',
@@ -629,7 +629,7 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: {},
+    position: { x: -2605, y: 1596, z: -546 },
     roleSpread: {
       'medic': {
         key: 'medic',
@@ -692,7 +692,7 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: {},
+    position: { x: 136, y: 733, z: -183 },
     roleSpread: {},
     itemSpread: {},
     healSpread: {},
@@ -734,7 +734,7 @@ function checkPlayerStats(log) {
     healing: 0,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: {},
+    position: { x: -2419, y: 1637, z: -511 },
     roleSpread: {
       'spy': {
         key: 'spy',
@@ -839,7 +839,7 @@ function checkPlayerStats(log) {
     healing: 160,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: {},
+    position: { x: -5072, y: 1286, z: -511 },
     roleSpread: {
       'medic': {
         key: 'medic',
