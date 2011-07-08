@@ -48,9 +48,9 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
     elapsedSeconds: 1,
     type: 'kill',
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1862, y: 1217, z: -244}}, 
-    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', position: {x: -1837, y: 1073, z: -313}},
-    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}},
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1862, y: 1217, z: -244}, role: { key: 'scout', name: 'Scout' }}, 
+    victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', position: {x: -1837, y: 1073, z: -313}, role: { key: 'medic', name: 'Medic' }},
+    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
     weapon: 'scattergun', 
     customKill: false
   });
@@ -60,8 +60,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 8, 58, 0),
     elapsedSeconds: 2,
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'soldier', name: 'Soldier' }},
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'soldier', name: 'Soldier' }},
     assister: false,
     weapon: 'tf_projectile_rocket', 
     customKill: 'suicide'
@@ -72,8 +72,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 12, 2, 0),
     elapsedSeconds: 186,
     type: 'kill',
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -2419, y: 1637, z: -511}, role: { key: 'scout', name: 'Scout' }}, 
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2605, y: 1596, z: -546}, role: { key: 'soldier', name: 'Soldier' }}, 
     assister: false,
     weapon: 'scattergun', 
     customKill: false
@@ -84,8 +84,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 12, 2, 0),
     elapsedSeconds: 186,
     type: 'domination', 
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue'}, 
-    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'}
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', role: { key: 'scout', name: 'Scout' }}, 
+    victim: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'soldier', name: 'Soldier' }}
   });
   ++eventIndex;
   
@@ -93,7 +93,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 12, 27, 0),
     elapsedSeconds: 211,
     type: 'builtobject', 
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'}, 
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'engineer', name: 'Engineer' }}, 
     object: 'OBJ_SENTRYGUN'
   });
   ++eventIndex;
@@ -102,8 +102,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 14, 43, 0),
     elapsedSeconds: 347,
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}}, 
-    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -3308, y: 1790, z: -220}}, 
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}, role: { key: 'sniper', name: 'Sniper' }}, 
+    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -3308, y: 1790, z: -220}, role: { key: 'scout', name: 'Scout' }}, 
     assister: false,
     weapon: 'sniperrifle_hs', 
     customKill: 'headshot'
@@ -114,8 +114,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 14, 43, 0),
     elapsedSeconds: 347,
     type: 'revenge', 
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red'},
-    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue'}
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'sniper', name: 'Sniper' }},
+    victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', role: { key: 'scout', name: 'Scout' }}
   });
   ++eventIndex;
   
@@ -123,7 +123,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 18, 3, 0),
     elapsedSeconds: 547,
     type: 'say_team', 
-    player: {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue'},
+    player: {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', role: false},
     text: 'I can also play pyro. I have been doing that a lot on 2fort and doublecross.'
   });
   ++eventIndex;
@@ -132,7 +132,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 18, 3, 0),
     elapsedSeconds: 547,
     type: 'say', 
-    player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue'},
+    player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', role: { key: 'medic', name: 'Medic' }},
     text: 'FISTING!'
   });
   ++eventIndex;
@@ -141,8 +141,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 20, 15, 0),
     elapsedSeconds: 679,
     type: 'exinguished', 
-    player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red'},
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'},
+    player: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', role: { key: 'medic', name: 'Medic' }},
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', role: { key: 'spy', name: 'Spy' }},
     weapon: 'tf_weapon_medigun'
   });
   ++eventIndex;
@@ -151,7 +151,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 24, 18, 0),
     elapsedSeconds: 922,
     type: 'chargedeployed', 
-    player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue'}
+    player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', role: { key: 'medic', name: 'Medic' }}
   });
   ++eventIndex;
   
@@ -159,8 +159,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 25, 18, 0),
     elapsedSeconds: 982,
     type: 'kill',
-    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red'},
-    victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red'},
+    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', role: { key: 'medic', name: 'Medic' }},
+    victim: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Red', role: { key: 'medic', name: 'Medic' }},
     assister: false,
     weapon: 'world', 
     customKill: 'suicide', 
@@ -173,8 +173,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 25, 18, 0),
     elapsedSeconds: 982,
     type: 'kill',
-    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}},
-    victim: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', position: {x: -3308, y: 1790, z: -220}},
+    player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: {x: -2771, y: 1546, z: -295}, role: { key: 'sniper', name: 'Sniper' }},
+    victim: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', position: {x: -3308, y: 1790, z: -220}, role: { key: 'medic', name: 'Medic' }},
     assister: false,
     weapon: 'sniperrifle',
     customKill: false,
@@ -190,9 +190,9 @@ function checkEvents(log) {
     team: 'Blue',
     cpname: '#Gravelpit_cap_A',
     players: [
-      {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 234, y: 724, z: -183}},
-      {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', position: {x: -70, y: 411, z: -191}},
-      {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', position: {x: 136, y: 733, z: -183}}
+      {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 234, y: 724, z: -183}, role: { key: 'scout', name: 'Scout' }},
+      {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', position: {x: -70, y: 411, z: -191}, role: { key: 'sniper', name: 'Sniper' }},
+      {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', position: {x: 136, y: 733, z: -183}, role: false}
     ]
   });
   ++eventIndex;
@@ -201,7 +201,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'captureblocked',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -2440, y: 4826, z: -579}},
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -2440, y: 4826, z: -579}, role: { key: 'spy', name: 'Spy' }},
     cpname: '#Gravelpit_cap_B'
   });
   ++eventIndex;
@@ -210,8 +210,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'kill',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -1154, y: -245, z: 0}}, 
-    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -1081, y: -270, z: 0}}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: -1154, y: -245, z: 0}, role: { key: 'spy', name: 'Spy' }}, 
+    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -1081, y: -270, z: 0}, role: { key: 'medic', name: 'Medic' }}, 
     assister: false,
     weapon: 'knife_bs', 
     customKill: 'backstab'
@@ -222,7 +222,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'builtobject', 
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red'}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', role: { key: 'spy', name: 'Spy' }}, 
     object: 'OBJ_ATTACHMENT_SAPPER'
   });
   ++eventIndex;
@@ -231,7 +231,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'flagdefended', 
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}, role: { key: 'scout', name: 'Scout' }}
   });
   ++eventIndex;
   
@@ -239,7 +239,7 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'flagcaptured', 
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}}
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}, role: { key: 'scout', name: 'Scout' }}
   });
   ++eventIndex;
   
@@ -247,9 +247,9 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
     type: 'kill',
-    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 1514, y: 790, z: 257}}, 
-    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: 1732, y: 1214, z: 257}}, 
-    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}},
+    player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 1514, y: 790, z: 257}, role: { key: 'scout', name: 'Scout' }}, 
+    victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: 1732, y: 1214, z: 257}, role: { key: 'spy', name: 'Spy' }}, 
+    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
     weapon: 'scattergun', 
     customKill: 'feign_death'
   });
@@ -259,8 +259,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 9, 0),
     elapsedSeconds: 1393,
     type: 'kill',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
-    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}},
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}, role: { key: 'spy', name: 'Spy' }}, 
+    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}, role: { key: 'medic', name: 'Medic' }},
     assister: false,    
     weapon: 'sadfsgtghgher', 
     customKill: false
@@ -271,8 +271,8 @@ function checkEvents(log) {
     timestamp: new Date(2010, 8, 29, 19, 32, 9, 0),
     elapsedSeconds: 1393,
     type: 'kill',
-    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}}, 
-    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}}, 
+    player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Blue', position: {x: -2419, y: 1637, z: -511}, role: { key: 'spy', name: 'Spy' }}, 
+    victim: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: {x: -2605, y: 1596, z: -546}, role: { key: 'medic', name: 'Medic' }}, 
     assister: false,
     weapon: 'sadfsgtghgher', 
     customKill: false
