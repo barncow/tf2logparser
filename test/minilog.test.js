@@ -12,6 +12,7 @@ module.exports = {
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/mini.log', function(err, log) {
+      if(err && err.stack) console.log(err.stack);
       should.not.exist(err);
       
       log.should.be.ok;
@@ -32,6 +33,21 @@ module.exports = {
         'sniperrifle',
         'knife_bs',
         'sadfsgtghgher'
+      ]);
+      log.positions.should.eql([
+        {
+          timestamp: new Date(2010, 8, 29, 19, 8, 57, 0), 
+          elapsedSeconds: 1, 
+          player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', role: { key: 'scout', name: 'Scout' }}, 
+          position: {x: -1862, y: 1217, z: -244}, 
+          
+        },
+        {
+          timestamp: new Date(2010, 8, 29, 19, 24, 17, 0), 
+          elapsedSeconds: 921, 
+          player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', role: { key: 'medic', name: 'Medic' }}, 
+          position: {x: -1862, y: 1217, z: -244}, 
+        }
       ]);
       
       //doing these in separate functions to try and keep things clean.
@@ -390,7 +406,7 @@ function checkPlayerStats(log) {
     healing: 2310,
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
-    position: {},
+    position: { x: -1862, y: 1217, z: -244 },
     roleSpread: {
       'medic': {
         key: 'medic',
