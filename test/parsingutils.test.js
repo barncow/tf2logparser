@@ -1,6 +1,6 @@
 var should = require('should'),
-  parsingUtils = require('../lib/parsingutils'),
-  LogParser = require('../lib/tf2logparser'),
+  parsingUtils = require('parsingutils'),
+  LogParser = require('tf2logparser'),
   FIXTURE_PATH = FP = './test/fixtures';
 
 module.exports = {

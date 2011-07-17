@@ -58,8 +58,8 @@ The `events` property of the `log` object is an array of objects that represent 
     team: 'Red', //current team of the player
     position: {x: -2771, y: 1546, z: -295}, //the in-game coordinates of the player when the action occurred.
     role: { key: 'sniper', name: 'Sniper' } //the class of the player when performing the action. "key" is how the class is referred to in the log, and "name" is a more human-readable format.
-  }, 
-  victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -3308, y: 1790, z: -220}, role: { key: 'scout', name: 'Scout' }}, 
+  },
+  victim: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -3308, y: 1790, z: -220}, role: { key: 'scout', name: 'Scout' }},
   assister: false, //if false, there was no player that had an assist for this kill. Otherwise, there would be a full player object, just like the "player" and "victim" objects above.
   weapon: 'sniperrifle_hs', //the raw weapon name from the log, except that for headshots, "_hs" is appended, and for backstabs, "_bs" is appended. Use WeaponList.findWeapon() to translate to the actual weapon name and the class.
   customKill: 'headshot' //if false, no extra information. Otherwise this will be "headshot", "backstab", or "feign_death" (spy using Dead Ringer).
@@ -120,12 +120,12 @@ The `players` property of the `log` object is an array of objects that represent
   healSpread: { //the amount of healing done to each player
     'STEAM_0:0:8581157': {
       name: 'Cres',
-      steamid: 'STEAM_0:0:8581157', 
+      steamid: 'STEAM_0:0:8581157',
       healing: 72
     },
     'STEAM_0:0:6845279': {
       name: 'Target',
-      steamid: 'STEAM_0:0:6845279', 
+      steamid: 'STEAM_0:0:6845279',
       healing: 27
     }
   },
@@ -133,27 +133,27 @@ The `players` property of the `log` object is an array of objects that represent
     'scattergun': {
       key: 'scattergun',
       kills: 0,
-      deaths: 1 
+      deaths: 1
     },
-   'sniperrifle': { 
+   'sniperrifle': {
       key: 'sniperrifle',
       kills: 0,
-      deaths: 1 
+      deaths: 1
     }
   },
   playerSpread: { //players that this player killed and/or died from
-    'STEAM_0:0:6845279': { 
+    'STEAM_0:0:6845279': {
         name: 'Target',
         steamid: 'STEAM_0:0:6845279',
         kills: 0,
-        deaths: 1 
+        deaths: 1
     },
-    'STEAM_0:1:9852193': { 
+    'STEAM_0:1:9852193': {
       name: 'Ctrl+f Muffin!',
       steamid: 'STEAM_0:1:9852193',
       kills: 0,
       deaths: 1
-    } 
+    }
   }
 }
 ```
@@ -238,6 +238,13 @@ In the base directory, run the following commands:
 
 Once that is done, while still in the base directory, run:
 
-    expresso
+    expresso -I lib
 
 This will run everything in the test directory (well, the files named *.test.js).
+
+Also, you can do
+
+    expresso -c
+
+to get code coverage reports.
+

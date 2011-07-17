@@ -1,6 +1,6 @@
 var should = require('should'),
-  WeaponList = require('../lib/weaponlist');
-  
+  WeaponList = require('weaponlist');
+
 module.exports = {
   'can get valid weapon': function() {
     WeaponList.findWeapon('scattergun').should.eql({
@@ -9,7 +9,7 @@ module.exports = {
       role: 'scout'
     });
   },
-  
+
   'can get valid backstab weapon': function() {
     WeaponList.findWeapon('knife', 'backstab').should.eql({
       key: 'knife_bs',
@@ -17,7 +17,7 @@ module.exports = {
       role: 'spy'
     });
   },
-  
+
   'can get valid headshot weapon': function() {
     WeaponList.findWeapon('sniperrifle', 'headshot').should.eql({
       key: 'sniperrifle_hs',
@@ -25,7 +25,7 @@ module.exports = {
       role: 'sniper'
     });
   },
-  
+
   'weapon not found returns dummy object': function() {
     var dummyWeapon = 'argasgafsdfsdsdfsdsdf';
     WeaponList.findWeapon(dummyWeapon).should.eql({
@@ -35,3 +35,4 @@ module.exports = {
     });
   }
 }
+

@@ -1,6 +1,6 @@
 var should = require('should'),
-  RoleList = require('../lib/rolelist');
-  
+  RoleList = require('rolelist');
+
 module.exports = {
   'can get valid role': function() {
     RoleList.findRole('scout').should.eql({
@@ -8,8 +8,9 @@ module.exports = {
       name: 'Scout'
     });
   },
-  
+
   'role not found returns false': function() {
     RoleList.findRole('fgdfgdfg').should.not.be.ok;
   }
 }
+

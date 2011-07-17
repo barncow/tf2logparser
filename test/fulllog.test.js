@@ -1,5 +1,5 @@
 var should = require('should'),
-  LogParser = require('../lib/tf2logparser'),
+  LogParser = require('tf2logparser'),
   FIXTURE_PATH = FP = './test/fixtures';
 
 module.exports = {
