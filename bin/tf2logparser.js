@@ -7,7 +7,7 @@
 
 (function() {
   var path = require('path'), TF2LogParser = require('../lib/tf2logparser');
-  var helpText = "Must specify one file to parse.\nUse: tf2logparser mylog.log\nTo save the output: tf2logparser mylog.log > mylog.json\nBy default, the output is compressed. To make the output have whitespace, use after the filename to parse: --pretty or: -p";
+  var helpText = "Must specify one file to parse.\nUse: tf2logparser mylog.log\nTo save the output: tf2logparser mylog.log > mylog.json\nBy default, the output is compressed. To make the output have whitespace, use the following after the filename to parse: --pretty or: -p";
 
   if(process.argv.length < 3 || process.argv[2] == '-h' || process.argv[2] == '--help') {
     console.log(helpText);
