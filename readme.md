@@ -1,4 +1,4 @@
-# tf2logparser
+# tf2logparser v0.1.0
 
 A log parser for the game Team Fortress 2, written in Javascript for use with node.js. It retrieves stats and game events, and then outputs the data to JSON format.
 
@@ -24,6 +24,7 @@ This log parser ships with a `tf2logparser` binary that can be used to generate 
 The resulting JSON, by default, does not contain whitespace, to keep the file small. However, you can make it indented and pretty by doing:
 `tf2logparser mylog.log -p` and save it to a file by doing: `tf2logparser mylog.log -p > mylog.json`
 
+# A Note About This File
 The following documentation is a work in progress, and will change as time goes on. However, it should be enough to get you going. Also, the code is fairly well documented.
 
 # The `log` Object
