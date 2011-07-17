@@ -1,7 +1,7 @@
 {
   "author": "Brian Barnekow",
-  "contributors": [ 
-    { "name": "Brian Barnekow"}, 
+  "contributors": [
+    { "name": "Brian Barnekow"},
     { "name": "Nightgunner5"}
   ],
   "name": "tf2logparser",
@@ -21,5 +21,7 @@
   "devDependencies": {
     "expresso": ">=0.7.7",
     "should": ">=0.2.1"
-  }
+  },
+  "bin" : { "tf2logparser" : "bin/tf2logparser.js" }
 }
+

@@ -1,15 +1,15 @@
 var should = require('should'),
   LogParser = require('../lib/tf2logparser'),
   FIXTURE_PATH = FP = './test/fixtures';
-  
-module.exports = { 
+
+module.exports = {
  '1123dwidgranary': function() {
     //note - this log seems to start in the middle of a round. the first capture by red currently does not count until the "round_start"
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/full_1123dwidgranary.log', function(err, log) {
       if(err) console.log(err.stack);
-      should.not.exist(err);   
+      should.not.exist(err);
       log.should.be.ok;
       log.blueScore.should.eql(1);
       log.redScore.should.eql(4);
@@ -20,7 +20,7 @@ module.exports = {
     parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/full_ctfdoublecross.log', function(err, log) {
       if(err) console.log(err.stack);
-      should.not.exist(err);   
+      should.not.exist(err);
       log.should.be.ok;
       log.blueScore.should.eql(7);
       log.redScore.should.eql(2);
@@ -33,7 +33,7 @@ module.exports = {
     parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/full_plupward.log', function(err, log) {
       if(err) console.log(err.stack);
-      should.not.exist(err);   
+      should.not.exist(err);
       log.should.be.ok;
       log.blueScore.should.eql(4);
       log.redScore.should.eql(0);
@@ -44,7 +44,7 @@ module.exports = {
     parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/full_kothviaduct.log', function(err, log) {
       if(err) console.log(err.stack);
-      should.not.exist(err);   
+      should.not.exist(err);
       log.should.be.ok;
       log.blueScore.should.eql(4);
       log.redScore.should.eql(0);
@@ -59,25 +59,38 @@ module.exports = {
       This log file also includes a bogus round_win from a reached time limit game_over.
       The log has been edited to give a player some kills that should let us know that kills were not counted between halves.
       The log has also been edited so that the players will also switch sides.
-      
+
       KOTH and PL maps both depend on round_wins not proceeding right after a capture. This feature has been removed,
       and we will just suck up the extra round_win
-      
+
       Also testing game minutes calc across halves
     */
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
     parser.parseLogFile(FP+'/full_badlands_2halves.log', function(err, log) {
       if(err) console.log(err.stack);
-      should.not.exist(err);   
+      should.not.exist(err);
       log.should.be.ok;
       log.blueScore.should.eql(0);
       log.redScore.should.eql(5);
       log.playableSeconds.should.eql(2027);
-      
+
       //barncow
       //halftime intermission has 3 kills, plus barncow was given two kills on either half, so should only have 2 kills here.
       log.players[10].kills.should.eql(2);
     });
+  },
+  'freight': function() {
+    //note - this log file also had problems working with parsingUtils.getLogLineDetails. Removing the "$" at the end of the regexp fixed the issue.
+    var parser = LogParser.create();
+    parser.parseLogFile(FP+'/freight_vs_mixup.log', function(err, log) {
+      if(err) console.log(err.stack);
+      should.not.exist(err);
+      log.should.be.ok;
+      log.blueScore.should.eql(4);
+      log.redScore.should.eql(3);
+      //todo also test other things, such as seconds
+    });
   }
 }
+
