@@ -1,7 +1,10 @@
 var should = require('should')
   , LogParser = require('tf2logparser')
-  , readFile = require('readfile')
-  , FIXTURE_PATH = FP = './test/fixtures';
+  , ReadFile = require('readfile')
+  , FIXTURE_PATH = FP = './test/fixtures'
+  , onError = function(rf) { //function that takes a ReadFile instance and adds the error handler to it
+    rf.on('error', function(err){throw err;});
+  }
 
 module.exports = {
   'can get log': function() {
@@ -11,22 +14,27 @@ module.exports = {
   },
 
   'can get file from disk': function() {
-    var parser = LogParser.create();
-    readFile(FP+'/blah.log', function(line) {
+    var rf = ReadFile.create();
+    rf.on('line', function(line) {
       line.should.eql('blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah');
     });
+    onError(rf);
+    rf.readFile(FP+'/blah.log');
   },
 
   'is only getting one line at a time from file, and callbackWhenDone is called when done': function() {
-    var parser = LogParser.create(),
-      i = 0;
-    readFile(FP+'/mini.log', function(line) {
+    var i = 0;
+    var rf = ReadFile.create();
+    rf.on('line', function(line) {
       //if the first two lines are OK, we will assume this is working as intended.
       if(i == 0) line.should.eql('L 09/29/2010 - 19:05:47: Log file started (file "logs/L0929002.log") (game "/home/barncow/74.122.197.144-27015/srcds_l/orangebox/tf") (version "4317")');
       else if(i == 1) line.should.eql('L 09/29/2010 - 19:05:47: server_cvar: "mp_falldamage" "0"');
 
       ++i;
-    }, function() {i.should.eql(82)});
+    });
+    rf.on('done', function() {i.should.eql(82)});
+    onError(rf);
+    rf.readFile(FP+'/mini.log');
   },
 
   'sets mapName correctly': function() {
@@ -48,26 +56,30 @@ module.exports = {
 
   'players are marked with isInMatch during log parsing': function() {
     var parser = LogParser.create(), index = 0;
-    readFile(FP+'/mini.log', function(line) {
+    var rf = ReadFile.create();
+    rf.on('line', function(line) {
       parser.parseLine(line);
-	  var log = parser.getLog();
+	    var log = parser.getLog();
 
-	  if(index == 15) {
-		//testing that before the match starts, that players are entered
-		//and that they are marked with isInMatch == false.
-		log.players[0].name.should.eql('Target');
-		log.players[0].isInMatch.should.not.be.ok;
-		log.players[3].name.should.eql('do0t');
-		log.players[3].isInMatch.should.not.be.ok;
-	  } else if(index == 21) {
-		//testing that when the round has started, that the correct players
-		//have been marked with isInMatch == true;
-		log.players[0].name.should.eql('Target');
-		log.players[0].isInMatch.should.be.ok;
-	  }
+	    if(index == 15) {
+		  //testing that before the match starts, that players are entered
+		  //and that they are marked with isInMatch == false.
+		  log.players[0].name.should.eql('Target');
+		  log.players[0].isInMatch.should.not.be.ok;
+		  log.players[3].name.should.eql('do0t');
+		  log.players[3].isInMatch.should.not.be.ok;
+	    } else if(index == 21) {
+		  //testing that when the round has started, that the correct players
+		  //have been marked with isInMatch == true;
+		  log.players[0].name.should.eql('Target');
+		  log.players[0].isInMatch.should.be.ok;
+	    }
 
-	  ++index;
-    }, function(err) {if(err) throw err;});
+	    ++index;
+    });
+
+    onError(rf);
+    rf.readFile(FP+'/mini.log');
   }
 }
 
