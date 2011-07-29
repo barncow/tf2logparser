@@ -23,5 +23,6 @@
     "should": ">=0.2.1"
   },
   "bin" : { "tf2logparser" : "bin/tf2logparser.js" }
+  , "engines": ["node >= 0.4"]
 }
 
