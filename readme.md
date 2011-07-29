@@ -11,11 +11,25 @@ And in the code, use:
 ```javascript
 var TF2LogParser = require('tf2logparser').TF2LogParser;
 var parser = TF2LogParser.create(); //need to create a new instance, since this stores state between lines.
-parser.parseLogFile(FP+'/blah.log', function(err, log) {
-  //err, if not falsey, will contain any errors that occurred.
+
+//the 'done' event is thrown when processing is complete.
+parser.on('done', function(log) {
   //log is the final log object, that contains all stats.
   console.log("Blue Score: %d\nRed Score: %d", log.blueScore, log.redScore);
 });
+
+//the 'line' event is thrown when processing for a line is complete.
+parser.on('line', function(line) {
+  console.log(line);
+});
+
+//the 'error' event is thrown when an error is encountered.
+parser.on('error', function(err) {
+  throw err;
+});
+
+//start processing
+parser.parseLogFile(FP+'/blah.log');
 ```
 
 # The `tf2logparser` Command
@@ -28,7 +42,7 @@ The resulting JSON, by default, does not contain whitespace, to keep the file sm
 The following documentation is a work in progress, and will change as time goes on. However, it should be enough to get you going. Also, the code is fairly well documented.
 
 # The `log` Object
-The callback from `TF2LogParser.parseLogFile` returns a `log` object, which is an object that holds all data about the game that was played. The overall structure is listed below, along with comments. Some properties of the object have more explanation further below.
+The `done` event from `TF2LogParser.parseLogFile` returns a `log` object, which is an object that holds all data about the game that was played. The overall structure is listed below, along with comments. Some properties of the object have more explanation further below.
 
 ```javascript
 {

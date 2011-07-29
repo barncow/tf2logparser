@@ -11,10 +11,7 @@ module.exports = {
  'minilog stats are correct': function() {
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/mini.log', function(err, log) {
-      if(err && err.stack) console.log(err.stack);
-      should.not.exist(err);
-
+    parser.on('done', function(log) {
       log.should.be.ok;
 
       //broke out these assertions to help narrow down any potential problems.
@@ -54,6 +51,8 @@ module.exports = {
       checkEvents(log);
       checkPlayerStats(log);
     });
+    parser.on('error', function(err){throw err;});
+    parser.parseLogFile(FP+'/mini.log');
   }
 }
 

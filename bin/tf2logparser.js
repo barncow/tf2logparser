@@ -28,10 +28,11 @@
     }
 
     var parser = TF2LogParser.create();
-    parser.parseLogFile(filename, function(err, log) {
-      if(err) throw err;
+    parser.on('done', function(log) {
       console.log(JSON.stringify(log, null, spaces));
     });
+    parser.on('error', function(err){throw err;});
+    parser.parseLogFile(filename);
   });
 })();
 

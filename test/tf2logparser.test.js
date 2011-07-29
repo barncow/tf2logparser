@@ -2,9 +2,9 @@ var should = require('should')
   , LogParser = require('tf2logparser')
   , ReadFile = require('readfile')
   , FIXTURE_PATH = FP = './test/fixtures'
-  , onError = function(rf) { //function that takes a ReadFile instance and adds the error handler to it
-    rf.on('error', function(err){throw err;});
-  }
+  , onError = function(ee) { //function that takes a EventEmitter instance and adds the error handler to it
+    ee.on('error', function(err){throw err;});
+  };
 
 module.exports = {
   'can get log': function() {
@@ -39,9 +39,11 @@ module.exports = {
 
   'sets mapName correctly': function() {
     var parser = LogParser.create();
-    parser.parseLogFile(FP+'/full_udplog_granary.log', function(err, log){
+    parser.on('done', function(log){
       log.mapName.should.eql('cp_granary');
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/full_udplog_granary.log');
   },
 
   'gets playableSeconds correctly': function() {
@@ -56,30 +58,28 @@ module.exports = {
 
   'players are marked with isInMatch during log parsing': function() {
     var parser = LogParser.create(), index = 0;
-    var rf = ReadFile.create();
-    rf.on('line', function(line) {
-      parser.parseLine(line);
+    parser.on('line', function(line) {
 	    var log = parser.getLog();
 
 	    if(index == 15) {
-		  //testing that before the match starts, that players are entered
-		  //and that they are marked with isInMatch == false.
-		  log.players[0].name.should.eql('Target');
-		  log.players[0].isInMatch.should.not.be.ok;
-		  log.players[3].name.should.eql('do0t');
-		  log.players[3].isInMatch.should.not.be.ok;
-	    } else if(index == 21) {
-		  //testing that when the round has started, that the correct players
-		  //have been marked with isInMatch == true;
-		  log.players[0].name.should.eql('Target');
-		  log.players[0].isInMatch.should.be.ok;
+		    //testing that before the match starts, that players are entered
+		    //and that they are marked with isInMatch == false.
+		    log.players[0].name.should.eql('Target');
+		    log.players[0].isInMatch.should.not.be.ok;
+		    log.players[3].name.should.eql('do0t');
+		    log.players[3].isInMatch.should.not.be.ok;
+	      } else if(index == 21) {
+		    //testing that when the round has started, that the correct players
+		    //have been marked with isInMatch == true;
+		    log.players[0].name.should.eql('Target');
+		    log.players[0].isInMatch.should.be.ok;
 	    }
 
 	    ++index;
     });
 
-    onError(rf);
-    rf.readFile(FP+'/mini.log');
+    onError(parser);
+    parser.parseLogFile(FP+'/mini.log');
   }
 }
 

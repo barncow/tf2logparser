@@ -1,56 +1,59 @@
-var should = require('should'),
-  LogParser = require('tf2logparser'),
-  FIXTURE_PATH = FP = './test/fixtures';
+var should = require('should')
+  , LogParser = require('tf2logparser')
+  , FIXTURE_PATH = FP = './test/fixtures'
+  , onError = function(ee) { //function that takes a EventEmitter instance and adds the error handler to it
+    ee.on('error', function(err){throw err;});
+  };
 
 module.exports = {
  '1123dwidgranary': function() {
     //note - this log seems to start in the middle of a round. the first capture by red currently does not count until the "round_start"
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/full_1123dwidgranary.log', function(err, log) {
-      if(err) console.log(err.stack);
-      should.not.exist(err);
+    parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(1);
       log.redScore.should.eql(4);
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/full_1123dwidgranary.log');
   },
   'ctfdoublecross': function() {
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/full_ctfdoublecross.log', function(err, log) {
-      if(err) console.log(err.stack);
-      should.not.exist(err);
+    parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(7);
       log.redScore.should.eql(2);
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/full_ctfdoublecross.log');
   },
   'plupward': function() {
     //note, this file was changed from original to make sure at the end the teams are on opposite teams from the beginning.
     //this is to ensure that team switching is being found.
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/full_plupward.log', function(err, log) {
-      if(err) console.log(err.stack);
-      should.not.exist(err);
+    parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(4);
       log.redScore.should.eql(0);
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/full_plupward.log');
   },
   'kothviaduct': function() {
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/full_kothviaduct.log', function(err, log) {
-      if(err) console.log(err.stack);
-      should.not.exist(err);
+    parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(4);
       log.redScore.should.eql(0);
       log.playableSeconds.should.eql(1181); //minus humiliation rounds
       log.players[8].kills.should.eql(31); //target's kills, minus kills in humiliation
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/full_kothviaduct.log');
   },
   'badlands_2halves': function() {
     /**
@@ -67,9 +70,7 @@ module.exports = {
     */
     var parser = LogParser.create();
     parser.config.ignoreUnrecognizedLines = false;
-    parser.parseLogFile(FP+'/full_badlands_2halves.log', function(err, log) {
-      if(err) console.log(err.stack);
-      should.not.exist(err);
+    parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(0);
       log.redScore.should.eql(5);
@@ -79,13 +80,13 @@ module.exports = {
       //halftime intermission has 3 kills, plus barncow was given two kills on either half, so should only have 2 kills here.
       log.players[10].kills.should.eql(2);
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/full_badlands_2halves.log');
   },
   'freight': function() {
     //note - this log file also had problems working with parsingUtils.getLogLineDetails. Removing the "$" at the end of the regexp fixed the issue.
     var parser = LogParser.create();
-    parser.parseLogFile(FP+'/freight_vs_mixup.log', function(err, log) {
-      if(err) console.log(err.stack);
-      should.not.exist(err);
+    parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(4);
       log.redScore.should.eql(3);
@@ -107,6 +108,8 @@ module.exports = {
       wigglesKillEvent.healing.should.eql(916);
       wigglesKillEvent.ubercharge.should.not.be.ok;
     });
+    onError(parser);
+    parser.parseLogFile(FP+'/freight_vs_mixup.log');
   }
 }
 
