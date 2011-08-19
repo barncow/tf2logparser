@@ -13,6 +13,7 @@ module.exports = {
     parser.on('done', function(log) {
       testPlayerStats(log);
       testMedicStats(log);
+      testHealSpread(log);
     });
     onError(parser);
     parser.parseLogFile(FP+'/freight_vs_mixup.log');
@@ -87,4 +88,29 @@ var testMedicStats = function(log) {
   data[12].should.equal(2294.375);
   data[13].should.equal(926.76);
   data[14].should.equal(5);
+};
+
+var testHealSpread = function(log) {
+  var table = View.healSpread(log.players, log.playableSeconds);
+
+  table.should.be.ok;
+  table.thead.should.be.ok;
+  table.tbody.should.be.ok;
+
+  table.thead.should.eql([
+      { acronym: 'T', full: 'Team' }
+    , { acronym: null, full: 'Patient' }
+    , { name: 'aV. Angry Shrew Inc.', steamid: 'STEAM_0:1:8656857', friendid: '76561197977579443' }
+    , { name: 'mix^ blackymonster ♡', steamid: 'STEAM_0:0:16250003', friendid: '76561197992765734' }
+    , { name: 'Barncow - TF2Logs.com', steamid: 'STEAM_0:1:16481274', friendid: '76561197993228277' }
+    , { name: 'remix!', steamid: 'STEAM_0:1:10977141', friendid: '76561197982220011' }
+  ]);
+
+  var data = table.tbody[0];
+  data[0].should.eql('Blue');
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[2].should.eql(1582);
+  data[3].should.eql(84);
+  data[4].should.eql(0);
+  data[5].should.eql(0);
 };
