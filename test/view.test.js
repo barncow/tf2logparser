@@ -17,6 +17,7 @@ module.exports = {
       testWeaponSpread(log);
       testPlayerSpread(log);
       testItemSpread(log);
+      testChatLog(log);
     });
     onError(parser);
     parser.parseLogFile(FP+'/freight_vs_mixup.log');
@@ -275,4 +276,24 @@ var testItemSpread = function(log) {
   data[4].should.eql(12);
   data[5].should.eql(51);
   data[6].should.eql(7);
+};
+
+var testChatLog = function(log) {
+  var table = View.chatLog(log.events);
+
+  table.should.be.ok;
+  table.thead.should.be.ok;
+  table.tbody.should.be.ok;  
+
+  table.thead.should.eql(["Elapsed Time", "Name", "Message"]);
+
+  var data = table.tbody[0];
+  data[0].should.eql(113);
+  data[1].should.eql({ name: 'aV. Angry Shrew Inc.', userid: 6, steamid: 'STEAM_0:1:8656857', team: 'Blue', role: { key: 'medic', name: 'Medic' } });
+  data[2].should.eql({ text: '**USING UBER**', type: 'say_team' });
+
+  data = table.tbody[1];  
+  data[0].should.eql(134);
+  data[1].should.eql({ name: 'GrieVe', userid: 17, steamid: 'STEAM_0:1:16208935', team: 'Red', role: { key: 'spy', name: 'Spy' } });
+  data[2].should.eql({ text: 'n1 blacky', type: 'say' } );
 };
