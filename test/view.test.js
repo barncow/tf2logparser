@@ -11,10 +11,11 @@ module.exports = {
     //note - this log file also had problems working with parsingUtils.getLogLineDetails. Removing the "$" at the end of the regexp fixed the issue.
     var parser = LogParser.create();
     parser.on('done', function(log) {
-      testPlayerSpread(log);
+      testPlayerStats(log);
       testMedicSpread(log);
       testHealSpread(log);
       testWeaponSpread(log);
+      testPlayerSpread(log);
     });
     onError(parser);
     parser.parseLogFile(FP+'/freight_vs_mixup.log');
@@ -26,8 +27,8 @@ module.exports = {
   }
 }
 
-var testPlayerSpread = function(log) {
-  var table = View.playerSpread(log.players, log.playableSeconds);
+var testPlayerStats = function(log) {
+  var table = View.playerStats(log.players, log.playableSeconds);
 
   table.should.be.ok;
   table.thead.should.be.ok;
@@ -92,7 +93,7 @@ var testMedicSpread = function(log) {
 };
 
 var testHealSpread = function(log) {
-  var table = View.healSpread(log.players, log.playableSeconds);
+  var table = View.healSpread(log.players);
 
   table.should.be.ok;
   table.thead.should.be.ok;
@@ -191,4 +192,59 @@ var data = table.tbody[0];
   data[30].should.eql({ kills: 0, deaths: 0 });
   data[31].should.eql({ kills: 0, deaths: 0 });
   data[32].should.eql({ kills: 0, deaths: 0 });
+};
+
+var testPlayerSpread = function(log) {
+  var table = View.playerSpread(log.players);
+
+  table.should.be.ok;
+  table.thead.should.be.ok;
+  table.tbody.should.be.ok;  
+
+  table.thead.should.eql([
+      { acronym: 'T', full: 'Team' }
+    , { acronym: null, full: 'Name' }
+    , { name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701', team: 'Blue' }
+    , { name: 'aV. Angry Shrew Inc.', steamid: 'STEAM_0:1:8656857', friendid: '76561197977579443', team: 'Blue' }
+    , { name: 'mix^ Platinum', steamid: 'STEAM_0:0:206754', friendid: '76561197960679236', team: 'Blue' }
+    , { name: 'testify♡', steamid: 'STEAM_0:0:20079783', friendid: '76561198000425294', team: 'Red' }
+    , { name: 'aV. rr-', steamid: 'STEAM_0:0:13365050', friendid: '76561197986995828', team: 'Blue' }
+    , { name: 'aV. Dun', steamid: 'STEAM_0:0:14295714', friendid: '76561197988857156', team: 'Blue' }
+    , { name: 'mix^ blackymonster ♡', steamid: 'STEAM_0:0:16250003', friendid: '76561197992765734', team: 'Blue' }
+    , { name: 'Tte powah', steamid: 'STEAM_0:1:17186868', friendid: '76561197994639465', team: 'Blue' }
+    , { name: 'BLUES FOR THE RED SUN', steamid: 'STEAM_0:0:1300065', friendid: '76561197962865858', team: 'Blue' }
+    , { name: 'Wiggles', steamid: 'STEAM_0:0:1939017', friendid: '76561197964143762', team: 'Red' }
+    , { name: 'Barncow - TF2Logs.com', steamid: 'STEAM_0:1:16481274', friendid: '76561197993228277', team: 'Red' }
+    , { name: 'Scythe-Messiah', steamid: 'STEAM_0:0:946908', friendid: '76561197962159544', team: 'Red' }
+    , { name: 'Cres', steamid: 'STEAM_0:0:8581157', friendid: '76561197977428042', team: 'Red' }
+    , { name: 'Flak', steamid: 'STEAM_0:1:17557682', friendid: '76561197995381093', team: 'Red' }
+    , { name: 'remix!', steamid: 'STEAM_0:1:10977141', friendid: '76561197982220011', team: 'Red' }
+    , { name: 'GrieVe', steamid: 'STEAM_0:1:16208935', friendid: '76561197992683599', team: 'Red' }
+    , { name: 'Target', steamid: 'STEAM_0:0:6845279', friendid: '76561197973956286', team: 'Red' }
+    , { name: 'aV. ben', steamid: 'STEAM_0:1:12152866', friendid: '76561197984571461', team: 'Blue' }
+    , { name: 'INFUSED Greg', steamid: 'STEAM_0:0:521077', friendid: '76561197961307882', team: 'Blue' } 
+  ]);
+
+  var data = table.tbody[0];
+  data[0].should.eql('Blue');
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[2].should.eql(0);
+  data[3].should.eql(0);
+  data[4].should.eql(0);
+  data[5].should.eql(1);
+  data[6].should.eql(0);
+  data[7].should.eql(0);
+  data[8].should.eql(0);
+  data[9].should.eql(0);
+  data[10].should.eql(0);
+  data[11].should.eql(3);
+  data[12].should.eql(2);
+  data[13].should.eql(4);
+  data[14].should.eql(4);
+  data[15].should.eql(4);
+  data[16].should.eql(1);
+  data[17].should.eql(4);
+  data[18].should.eql(4);
+  data[19].should.eql(0);
+  data[20].should.eql(0);
 };
