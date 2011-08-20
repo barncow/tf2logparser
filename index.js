@@ -7,4 +7,4 @@ module.exports.ParsingUtils = require('./lib/parsingutils');
 module.exports.WeaponList = require('./lib/weaponlist');
 module.exports.RoleList = require('./lib/rolelist');
 module.exports.ReadFile = require('./lib/readfile');
-
+module.exports.View = require('./lib/view');
