@@ -16,6 +16,7 @@ module.exports = {
       testHealSpread(log);
       testWeaponSpread(log);
       testPlayerSpread(log);
+      testItemSpread(log);
     });
     onError(parser);
     parser.parseLogFile(FP+'/freight_vs_mixup.log');
@@ -247,4 +248,31 @@ var testPlayerSpread = function(log) {
   data[18].should.eql(4);
   data[19].should.eql(0);
   data[20].should.eql(0);
+};
+
+var testItemSpread = function(log) {
+  var table = View.itemSpread(log.players);
+
+  table.should.be.ok;
+  table.thead.should.be.ok;
+  table.tbody.should.be.ok;  
+
+  table.thead.should.eql([ 
+      { acronym: 'T', full: 'Team' }
+    , { acronym: null, full: 'Name' }
+    , 'medkit_medium'
+    , 'ammopack_medium'
+    , 'ammopack_small'
+    , 'tf_ammo_pack'
+    , 'medkit_small'
+  ]);
+
+  var data = table.tbody[0];
+  data[0].should.eql('Blue');
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[2].should.eql(7);
+  data[3].should.eql(8);
+  data[4].should.eql(12);
+  data[5].should.eql(51);
+  data[6].should.eql(7);
 };
