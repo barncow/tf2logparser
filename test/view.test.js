@@ -38,7 +38,7 @@ var testPlayerStats = function(log) {
 
   var data = table.tbody[0];
   data[0].should.eql('Blue');
-  data[1].should.eql({name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701'});
+  data[1].should.eql({name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701', team: 'Blue'});
   data[2].should.eql({ 
       pyro: { key: 'pyro', name: 'Pyro', secondsPlayed: 2983 }
     , spy: { key: 'spy', name: 'Spy', secondsPlayed: 735 }
@@ -78,7 +78,7 @@ var testMedicSpread = function(log) {
 
   var data = table.tbody[0];
   data[0].should.eql('Red');
-  data[1].should.eql({name: 'Barncow - TF2Logs.com', steamid: 'STEAM_0:1:16481274', friendid: '76561197993228277'});
+  data[1].should.eql({name: 'Barncow - TF2Logs.com', steamid: 'STEAM_0:1:16481274', friendid: '76561197993228277', team: 'Red'});
   data[2].should.equal(0); //using equal here to ensure that numbers, and not strings, are coming back
   data[3].should.equal(57);
   data[4].should.equal(24);
@@ -104,15 +104,15 @@ var testHealSpread = function(log) {
   table.thead.should.eql([
       { acronym: 'T', full: 'Team' }
     , { acronym: null, full: 'Patient' }
-    , { name: 'aV. Angry Shrew Inc.', steamid: 'STEAM_0:1:8656857', friendid: '76561197977579443' }
-    , { name: 'mix^ blackymonster ♡', steamid: 'STEAM_0:0:16250003', friendid: '76561197992765734' }
-    , { name: 'Barncow - TF2Logs.com', steamid: 'STEAM_0:1:16481274', friendid: '76561197993228277' }
-    , { name: 'remix!', steamid: 'STEAM_0:1:10977141', friendid: '76561197982220011' }
+    , { name: 'aV. Angry Shrew Inc.', steamid: 'STEAM_0:1:8656857', friendid: '76561197977579443', team: 'Blue' }
+    , { name: 'mix^ blackymonster ♡', steamid: 'STEAM_0:0:16250003', friendid: '76561197992765734', team: 'Blue' }
+    , { name: 'Barncow - TF2Logs.com', steamid: 'STEAM_0:1:16481274', friendid: '76561197993228277', team: 'Red' }
+    , { name: 'remix!', steamid: 'STEAM_0:1:10977141', friendid: '76561197982220011', team: 'Red' }
   ]);
 
   var data = table.tbody[0];
   data[0].should.eql('Blue');
-  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701', team: 'Blue' });
   data[2].should.eql(1582);
   data[3].should.eql(84);
   data[4].should.eql(0);
@@ -120,7 +120,7 @@ var testHealSpread = function(log) {
 };
 
 var testWeaponSpread = function(log) {
-  var table = View.weaponSpread(log.weapons, log.players);
+  var table = View.weaponSpread(log.players, log.weapons);
 
   table.should.be.ok;
   table.thead.should.be.ok;
@@ -162,7 +162,7 @@ var testWeaponSpread = function(log) {
 
 var data = table.tbody[0];
   data[0].should.eql('Blue');
-  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701', team: 'Blue' });
   data[2].should.eql({ kills: 0, deaths: 7 });
   data[3].should.eql({ kills: 0, deaths: 3 });
   data[4].should.eql({ kills: 4, deaths: 2 });
@@ -229,7 +229,7 @@ var testPlayerSpread = function(log) {
 
   var data = table.tbody[0];
   data[0].should.eql('Blue');
-  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701', team: 'Blue' });
   data[2].should.eql(0);
   data[3].should.eql(0);
   data[4].should.eql(0);
@@ -270,7 +270,7 @@ var testItemSpread = function(log) {
 
   var data = table.tbody[0];
   data[0].should.eql('Blue');
-  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701' });
+  data[1].should.eql({ name: 'aV. `shishy!', steamid: 'STEAM_0:1:15466986', friendid: '76561197991199701', team: 'Blue' });
   data[2].should.eql(7);
   data[3].should.eql(8);
   data[4].should.eql(12);
@@ -289,11 +289,11 @@ var testChatLog = function(log) {
 
   var data = table.tbody[0];
   data[0].should.eql(113);
-  data[1].should.eql({ name: 'aV. Angry Shrew Inc.', userid: 6, steamid: 'STEAM_0:1:8656857', team: 'Blue', role: { key: 'medic', name: 'Medic' } });
+  data[1].should.eql({ name: 'aV. Angry Shrew Inc.', steamid: 'STEAM_0:1:8656857', team: 'Blue' });
   data[2].should.eql({ text: '**USING UBER**', type: 'say_team' });
 
   data = table.tbody[1];  
   data[0].should.eql(134);
-  data[1].should.eql({ name: 'GrieVe', userid: 17, steamid: 'STEAM_0:1:16208935', team: 'Red', role: { key: 'spy', name: 'Spy' } });
+  data[1].should.eql({ name: 'GrieVe', steamid: 'STEAM_0:1:16208935', team: 'Red' });
   data[2].should.eql({ text: 'n1 blacky', type: 'say' } );
 };
