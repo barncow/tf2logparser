@@ -33,10 +33,10 @@ module.exports = {
   },
 
   'getLogLineDetails should return data': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
     var lineToView = 2; //1 indexed
     var lineIndex = 1;
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       if(lineIndex == lineToView) {
         parsingUtils.getLogLineDetails(line).should.eql('"Console<0><Console><Console>" say ""UGC HL TF2 beta Standard cfg v.06-20-11 executed, reload map once before start""');
@@ -64,10 +64,10 @@ module.exports = {
   },
 
   'isLogLineOfType (both cases because we are reading from files)': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
     //garbage data
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.isLogLineOfType(details, "blah").should.not.be.ok;
@@ -75,7 +75,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/blah.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
 
@@ -90,37 +90,37 @@ module.exports = {
   },
 
   'scrubLogLine sunny cases': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: Log file started (file "logs/L0929002.log") (game "/home/barncow/255.255.255.255-27015/srcds_l/orangebox/tf") (version "4317")');
     });
     onError(rf);
     rf.readFile(FP+'/line_initialline.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('');
     });
     onError(rf2);
     rf2.readFile(FP+'/line_rcon.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('');
     });
     onError(rf3);
     rf3.readFile(FP+'/line_player_say_sourcemod_command.log');
 
-    var rf4 = ReadFile.create();
+    var rf4 = new ReadFile();
     rf4.on('line', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('');
     });
     onError(rf4);
     rf4.readFile(FP+'/line_player_say_sourcemod_command_priv.log');
 
-    var rf5 = ReadFile.create();
+    var rf5 = new ReadFile();
     rf5.on('line', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:06:32: "Cres<49><STEAM_0:0:8581157><>" connected, address "255.255.255.255:27005"');
     });
@@ -129,9 +129,9 @@ module.exports = {
   },
 
   'scrubLogLine with no IP - should just return the line unchanged': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       parsingUtils.scrubLogLine(line).should.eql('L 09/29/2010 - 19:05:47: "Console<0><Console><Console>" say ""CEVO TF2 stopwatch config file loaded. 08/14/10""');
     });
@@ -140,9 +140,9 @@ module.exports = {
   },
 
   'getPlayerLineAction': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('say');
@@ -150,7 +150,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_console_say.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('entered the game');
@@ -158,7 +158,7 @@ module.exports = {
     onError(rf2);
     rf2.readFile(FP+'/line_player_enteredgame.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('killed');
@@ -166,7 +166,7 @@ module.exports = {
     onError(rf3);
     rf3.readFile(FP+'/line_player_kill.log');
 
-    var rf4 = ReadFile.create();
+    var rf4 = new ReadFile();
     rf4.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('disconnected');
@@ -174,7 +174,7 @@ module.exports = {
     onError(rf4);
     rf4.readFile(FP+'/line_player_disconnected.log');
 
-    var rf5 = ReadFile.create();
+    var rf5 = new ReadFile();
     rf5.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('connected, address');
@@ -182,7 +182,7 @@ module.exports = {
     onError(rf5);
     rf5.readFile(FP+'/line_player_connected.log');
 
-    var rf6 = ReadFile.create();
+    var rf6 = new ReadFile();
     rf6.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineAction(details).should.eql('picked up item');
@@ -192,7 +192,7 @@ module.exports = {
   },
 
   'getPlayerLineActionDetail': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('Blue');
@@ -200,7 +200,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_player_jointeam.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('kill assist');
@@ -208,7 +208,7 @@ module.exports = {
     onError(rf2);
     rf2.readFile(FP+'/line_player_triggered_killassist.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('scout');
@@ -216,7 +216,7 @@ module.exports = {
     onError(rf3);
     rf3.readFile(FP+'/line_player_changerole.log');
 
-    var rf4 = ReadFile.create();
+    var rf4 = new ReadFile();
     rf4.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('I can also play pyro. I have been doing that a lot on 2fort and doublecross.');
@@ -225,7 +225,7 @@ module.exports = {
     rf4.readFile(FP+'/line_player_teamsay.log');
 
     //make sure to grab all characters from say
-    var rf5 = ReadFile.create();
+    var rf5 = new ReadFile();
     rf5.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayerLineActionDetail(details).should.eql('"CEVO TF2 stopwatch config file loaded. 08/14/10"');
@@ -235,9 +235,9 @@ module.exports = {
   },
 
   'getParenValue': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getParenValue(details, 'ubercharge').should.eql('0');
@@ -246,7 +246,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_player_triggered_medicdeath.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getParenValue(details, 'ubercharge').should.not.be.ok;
@@ -257,7 +257,7 @@ module.exports = {
     //should not be able to get paren type substring (substring must be last portion before value in order to fit the case)
     //TODO Get this working!!
     /*
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getParenValue(details, 'position').should.not.be.ok;
@@ -268,9 +268,9 @@ module.exports = {
   },
 
   'didMedicDieWithUber': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.didMedicDieWithUber(details).should.not.be.ok;
@@ -278,7 +278,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_player_triggered_medicdeath.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.didMedicDieWithUber(details).should.be.ok;
@@ -286,7 +286,7 @@ module.exports = {
     onError(rf2);
     rf2.readFile(FP+'/line_player_triggered_medicdeath_withuber.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.didMedicDieWithUber(details).should.not.be.ok;
@@ -296,7 +296,7 @@ module.exports = {
   },
 
   'getWorldTriggerAction': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getWorldTriggerAction(details).should.eql("Round_Start");
@@ -306,7 +306,7 @@ module.exports = {
   },
 
   'getTeamFromTeamLine': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamFromTeamLine(details).should.eql("Red");
@@ -316,7 +316,7 @@ module.exports = {
   },
 
   'getTeamAction': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamAction(details).should.eql("triggered");
@@ -326,7 +326,7 @@ module.exports = {
   },
 
   'getTeamTriggerAction': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamTriggerAction(details).should.eql("pointcaptured");
@@ -336,7 +336,7 @@ module.exports = {
   },
 
   'getTeamScore': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamScore(details).should.equal(0);
@@ -344,7 +344,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_team_currentscore.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamScore(details).should.equal(2);
@@ -354,7 +354,7 @@ module.exports = {
   },
 
   'getTeamNumberPlayers': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamNumberPlayers(details).should.eql(0);
@@ -362,7 +362,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_team_currentscore_noplayers.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamNumberPlayers(details).should.eql(6);
@@ -370,7 +370,7 @@ module.exports = {
     onError(rf2);
     rf2.readFile(FP+'/line_team_currentscore.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getTeamNumberPlayers(details).should.eql(9);
@@ -380,7 +380,7 @@ module.exports = {
   },
 
   'getServerCvarName': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getServerCvarName(details).should.eql('mp_falldamage');
@@ -390,7 +390,7 @@ module.exports = {
   },
 
   'getServerCvarValue': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getServerCvarValue(details).should.eql(0);
@@ -400,7 +400,7 @@ module.exports = {
   },
 
   'getWeapon': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getWeapon(details).should.eql('scattergun');
@@ -408,7 +408,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_player_kill.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getWeapon(details).should.eql('tf_projectile_rocket');
@@ -416,7 +416,7 @@ module.exports = {
     onError(rf2);
     rf2.readFile(FP+'/line_player_suicide_rocket.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getWeapon(details).should.eql('pistol_scout');
@@ -424,7 +424,7 @@ module.exports = {
     onError(rf3);
     rf3.readFile(FP+'/line_player_killed_pistolscout.log');
 
-    var rf4 = ReadFile.create();
+    var rf4 = new ReadFile();
     rf4.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getWeapon(details).should.eql('scattergun');
@@ -439,7 +439,7 @@ module.exports = {
   },
 
   'getKillCoords': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getKillCoords(details, 'attacker').should.eql({x: -704, y: 1584, z: -464});
@@ -451,7 +451,7 @@ module.exports = {
 
   'getReportedPosition': function() {
     //sunny case
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getReportedPosition(details).should.eql({x: -1862, y: 1217, z: -244});
@@ -460,7 +460,7 @@ module.exports = {
     rf.readFile(FP+'/line_player_position.log');
 
     //incorrect line
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       //parsingUtils.getReportedPosition(details).should.not.be.ok; //todo make this pass
@@ -470,9 +470,9 @@ module.exports = {
   },
 
   'getCapturePointName': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getCapturePointName(details).should.eql('#Gravelpit_cap_A');
@@ -480,7 +480,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_team_triggered_pointcaptured.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getCapturePointName(details).should.eql('Cap A, The front door dock');
@@ -492,7 +492,7 @@ module.exports = {
   'getHealing': function() {
     //NOTE - using .equal instead of .eql to ensure that we are getting numbers, not strings.
 
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getHealing(details).should.equal(160);
@@ -500,7 +500,7 @@ module.exports = {
     onError(rf);
     rf.readFile(FP+'/line_player_triggered_medicdeath.log');
 
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getHealing(details).should.equal(510);
@@ -508,7 +508,7 @@ module.exports = {
     onError(rf2);
     rf2.readFile(FP+'/line_player_triggered_healed_superlogs.log');
 
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getHealing(details).should.equal(72);
@@ -516,7 +516,7 @@ module.exports = {
     onError(rf3);
     rf3.readFile(FP+'/line_player_triggered_healed.log');
 
-    var rf4 = ReadFile.create();
+    var rf4 = new ReadFile();
     rf4.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getHealing(details).should.equal(72);
@@ -529,7 +529,7 @@ module.exports = {
     //NOTE - using .equal instead of .eql to ensure that we are getting numbers, not strings.
 
     //superlogs damage
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getDamage(details).should.equal(375);
@@ -538,7 +538,7 @@ module.exports = {
     rf.readFile(FP+'/line_player_triggered_weaponstats_superlogs.log');
 
     //cinq's damage v1
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getDamage(details).should.equal(11);
@@ -547,7 +547,7 @@ module.exports = {
     rf2.readFile(FP+'/line_cinq_damage_v1.log');
 
     //cinq's damage v2 - changed so that damage is not "naked"
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getDamage(details).should.equal(11);
@@ -557,7 +557,7 @@ module.exports = {
   },
 
   'getFlagEvent': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getFlagEvent(details).should.eql('defended');
@@ -567,7 +567,7 @@ module.exports = {
   },
 
   'getRoundWinTeam': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getRoundWinTeam(details).should.eql('Red');
@@ -577,7 +577,7 @@ module.exports = {
   },
 
   'getCustomKill': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getCustomKill(details).should.eql('headshot');
@@ -587,7 +587,7 @@ module.exports = {
   },
 
   'getObjectFromBuiltObject': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getObjectFromBuiltObject(details).should.eql('OBJ_ATTACHMENT_SAPPER');
@@ -597,7 +597,7 @@ module.exports = {
   },
 
   'getPickedUpItemKeyName': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPickedUpItemKeyName(details).should.eql('medkit_small');
@@ -608,7 +608,7 @@ module.exports = {
 
   'getPlayers': function() {
     //console performing action
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.not.be.ok;
@@ -617,7 +617,7 @@ module.exports = {
     rf.readFile(FP+'/line_console_say.log');
 
     //bot performing action
-    var rf2 = ReadFile.create();
+    var rf2 = new ReadFile();
     rf2.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.eql([{
@@ -631,7 +631,7 @@ module.exports = {
     rf2.readFile(FP+'/line_bot_medic.log');
 
     //player join game, have null team
-    var rf3 = ReadFile.create();
+    var rf3 = new ReadFile();
     rf3.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.eql([{
@@ -645,7 +645,7 @@ module.exports = {
     rf3.readFile(FP+'/line_player_enteredgame.log');
 
     //player joined team, have Unassigned team
-    var rf4 = ReadFile.create();
+    var rf4 = new ReadFile();
     rf4.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.eql([{
@@ -659,7 +659,7 @@ module.exports = {
     rf4.readFile(FP+'/line_player_jointeam.log');
 
     //player joined server with <> characters in name
-    var rf5 = ReadFile.create();
+    var rf5 = new ReadFile();
     rf5.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.eql([{
@@ -673,7 +673,7 @@ module.exports = {
     rf5.readFile(FP+'/line_player_with_restrictedchars_steamid_validated.log');
 
     //player killed another player, be able to grab both in order.
-    var rf6 = ReadFile.create();
+    var rf6 = new ReadFile();
     rf6.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.eql([
@@ -694,7 +694,7 @@ module.exports = {
     onError(rf6);
     rf6.readFile(FP+'/line_player_kill.log');
 
-    var rf7 = ReadFile.create();
+    var rf7 = new ReadFile();
     rf7.on('line', function(line) {
       var details = parsingUtils.getLogLineDetails(line);
       parsingUtils.getPlayers(details).should.eql([{

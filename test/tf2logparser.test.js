@@ -8,13 +8,13 @@ var should = require('should')
 
 module.exports = {
   'can get log': function() {
-    var parser = LogParser.create(),
-      log = parser.getLog();
+    var parser = new LogParser(),
+      log = parser.getLogData();
     log.should.be.ok;
   },
 
   'can get file from disk': function() {
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       line.should.eql('blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah');
     });
@@ -24,7 +24,7 @@ module.exports = {
 
   'is only getting one line at a time from file, and callbackWhenDone is called when done': function() {
     var i = 0;
-    var rf = ReadFile.create();
+    var rf = new ReadFile();
     rf.on('line', function(line) {
       //if the first two lines are OK, we will assume this is working as intended.
       if(i == 0) line.should.eql('L 09/29/2010 - 19:05:47: Log file started (file "logs/L0929002.log") (game "/home/barncow/74.122.197.144-27015/srcds_l/orangebox/tf") (version "4317")');
@@ -38,7 +38,7 @@ module.exports = {
   },
 
   'sets mapName correctly': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.on('done', function(log){
       log.mapName.should.eql('cp_granary');
     });
@@ -47,7 +47,7 @@ module.exports = {
   },
 
   'gets playableSeconds correctly': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser._getPlayableSeconds([
       {start: new Date(2010, 8, 29, 19, 8, 56, 0)},
       {start: new Date(2010, 8, 29, 19, 8, 57, 0)},
@@ -57,9 +57,9 @@ module.exports = {
   },
 
   'players are marked with isInMatch during log parsing': function() {
-    var parser = LogParser.create(), index = 0;
+    var parser = new LogParser(), index = 0;
     parser.on('line', function(line) {
-	    var log = parser.getLog();
+	    var log = parser.getLogData();
 
 	    if(index == 15) {
 		    //testing that before the match starts, that players are entered

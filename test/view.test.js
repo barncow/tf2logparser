@@ -9,7 +9,7 @@ var should = require('should')
 module.exports = {
   'freight log 3390': function() {
     //note - this log file also had problems working with parsingUtils.getLogLineDetails. Removing the "$" at the end of the regexp fixed the issue.
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.on('done', function(log) {
       testPlayerStats(log);
       testMedicSpread(log);

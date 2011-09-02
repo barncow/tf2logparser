@@ -8,7 +8,7 @@ var should = require('should')
 module.exports = {
  '1123dwidgranary': function() {
     //note - this log seems to start in the middle of a round. the first capture by red currently does not count until the "round_start"
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.config.ignoreUnrecognizedLines = false;
     parser.on('done', function(log) {
       log.should.be.ok;
@@ -19,7 +19,7 @@ module.exports = {
     parser.parseLogFile(FP+'/full_1123dwidgranary.log');
   },
   'ctfdoublecross': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.config.ignoreUnrecognizedLines = false;
     parser.on('done', function(log) {
       log.should.be.ok;
@@ -32,7 +32,7 @@ module.exports = {
   'plupward': function() {
     //note, this file was changed from original to make sure at the end the teams are on opposite teams from the beginning.
     //this is to ensure that team switching is being found.
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.config.ignoreUnrecognizedLines = false;
     parser.on('done', function(log) {
       log.should.be.ok;
@@ -43,7 +43,7 @@ module.exports = {
     parser.parseLogFile(FP+'/full_plupward.log');
   },
   'kothviaduct': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.config.ignoreUnrecognizedLines = false;
     parser.on('done', function(log) {
       log.should.be.ok;
@@ -68,7 +68,7 @@ module.exports = {
 
       Also testing game minutes calc across halves
     */
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.config.ignoreUnrecognizedLines = false;
     parser.on('done', function(log) {
       log.should.be.ok;
@@ -85,7 +85,7 @@ module.exports = {
   },
   'freight': function() {
     //note - this log file also had problems working with parsingUtils.getLogLineDetails. Removing the "$" at the end of the regexp fixed the issue.
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.on('done', function(log) {
       log.should.be.ok;
       log.blueScore.should.eql(4);

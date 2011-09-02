@@ -4,19 +4,19 @@
 
 var should = require('should'),
   LogParser = require('tf2logparser'),
-  log = require('log'),
+  Log = require('log'),
   FIXTURE_PATH = FP = './test/fixtures';
 
 module.exports = {
  'addSayEvent': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
     parser.parseLogFile(FP+'/line_console_say.log', function(err, log) {
       log.events.should.be.empty;
     });
   },
 
   'addUpdatePlayer': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
     parser.parseLogFile(FP+'/line_world_triggered_roundstart.log');
     parser.parseLogFile(FP+'/line_player_enteredgame.log', function(err, log) {
@@ -39,7 +39,7 @@ module.exports = {
   },
 
   'addUpdatePlayer online is false': function() {
-    var parser = LogParser.create();
+    var parser = new LogParser();
 
     parser.parseLogFile(FP+'/line_world_triggered_roundstart.log');
     parser.parseLogFile(FP+'/line_player_disconnected.log', function(err, log) {
@@ -52,7 +52,7 @@ module.exports = {
   },
 
   'incrementStatForPlayer': function() {
-    var mylog = log.create();
+    var mylog = new Log();
     var player = {
       name: 'Target',
       userid: 46,
