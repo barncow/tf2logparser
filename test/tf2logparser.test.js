@@ -13,6 +13,17 @@ module.exports = {
     log.should.be.ok;
   },
 
+  'can set config params': function() {
+    var parser = new LogParser({
+        ignoreUnrecognizedLines: false
+      , ignoreBots: false
+      , isRealTime: true
+    });
+    parser.config.ignoreUnrecognizedLines.should.not.be.ok;
+    parser.config.ignoreBots.should.not.be.ok;
+    parser.config.isRealTime.should.be.ok;
+  },
+
   'can get file from disk': function() {
     var rf = new ReadFile();
     rf.on('line', function(line) {

@@ -9,8 +9,7 @@ var should = require('should'),
 
 module.exports = {
  'minilog stats are correct': function() {
-    var parser = new LogParser();
-    parser.config.ignoreUnrecognizedLines = false;
+    var parser = new LogParser({ignoreUnrecognizedLines: false});
     parser.on('done', function(log) {
       log.should.be.ok;
 
