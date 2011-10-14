@@ -29,14 +29,17 @@ module.exports = {
       if(lineNum === 38) {
         //say event
         delta.length.should.be.equal(1);
-        delta[0].type.should.be.eql('say');
+        delta[0].events[0].type.should.be.eql('say');
+      } else if(lineNum === 42 || lineNum == 22) {
+        //position report
+        delta.length.should.be.equal(1);
+        delta[0].positions[0].position.should.be.ok;
       } else if(lineNum === 20 || (
           lineNum != 32 //killed obj
           && lineNum != 33 //rcon
           && lineNum != 34 //killed obj
           && lineNum != 40 //join team
           && lineNum != 41 //change name
-          && lineNum != 42 //pos report
           && lineNum != 44 //healed
           && lineNum != 45 //healed
           && lineNum != 46 //medic_death
