@@ -3,56 +3,70 @@
   This will do the fine-grained values testing to ensure number of kills are counted correctly, etc.
 */
 
-var should = require('should'),
-  LogParser = require('tf2logparser'),
-  FIXTURE_PATH = FP = './test/fixtures';
+var should = require('should')
+  , LogParser = require('tf2logparser')
+  , ReadFile = require('readfile')
+  , FIXTURE_PATH = FP = './test/fixtures';
 
 module.exports = {
  'minilog stats are correct': function() {
     var parser = new LogParser({ignoreUnrecognizedLines: false});
-    parser.on('done', function(log) {
-      log.should.be.ok;
-
-      //broke out these assertions to help narrow down any potential problems.
-      log.blueScore.should.eql(1);
-      log.redScore.should.eql(0);
-      log.gameStartTimestamp.should.eql(new Date(2010, 8, 29, 19, 8, 56, 0));
-      log.gameEndTimestamp.should.eql(new Date(2010, 8, 29, 19, 36, 42, 0));
-      log.elapsedSeconds.should.eql(1666);
-      log.playableSeconds.should.eql(1656);
-      log.mapName.should.eql('ctf_2fort');
-      log.weapons.should.eql([
-        'scattergun',
-        'tf_projectile_rocket',
-        'sniperrifle_hs',
-        'world',
-        'sniperrifle',
-        'knife_bs',
-        'sadfsgtghgher'
-      ]);
-      log.positions.should.eql([
-        {
-          timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
-          elapsedSeconds: 1,
-          player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', role: { key: 'scout', name: 'Scout' }},
-          position: {x: -1862, y: 1217, z: -244},
-
-        },
-        {
-          timestamp: new Date(2010, 8, 29, 19, 24, 17, 0),
-          elapsedSeconds: 921,
-          player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', role: { key: 'medic', name: 'Medic' }},
-          position: {x: -1862, y: 1217, z: -244},
-        }
-      ]);
-
-      //doing these in separate functions to try and keep things clean.
-      checkEvents(log);
-      checkPlayerStats(log);
-    });
+    parser.on('done', checkLog);
     parser.on('error', function(err){throw err;});
     parser.parseLogFile(FP+'/mini.log');
   }
+  , 'minilog realtime': function() {
+    var parser = new LogParser({ignoreUnrecognizedLines: false, isRealTime: true});
+    parser.on('done', checkLog);
+
+    var rf = new ReadFile();
+    rf.on('error', function(err){throw err;});
+    rf.on('line', function(line) {
+      parser.parseLine(line);
+    });
+    rf.readFile(FP+'/mini.log');
+  }
+}
+
+function checkLog(log) {
+  log.should.be.ok;
+
+  //broke out these assertions to help narrow down any potential problems.
+  log.blueScore.should.eql(1);
+  log.redScore.should.eql(0);
+  log.gameStartTimestamp.should.eql(new Date(2010, 8, 29, 19, 8, 56, 0));
+  log.gameEndTimestamp.should.eql(new Date(2010, 8, 29, 19, 36, 42, 0));
+  log.elapsedSeconds.should.eql(1666);
+  log.playableSeconds.should.eql(1656);
+  log.mapName.should.eql('ctf_2fort');
+  log.weapons.should.eql([
+    'scattergun',
+    'tf_projectile_rocket',
+    'sniperrifle_hs',
+    'world',
+    'sniperrifle',
+    'knife_bs',
+    'sadfsgtghgher'
+  ]);
+  log.positions.should.eql([
+    {
+      timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
+      elapsedSeconds: 1,
+      player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', role: { key: 'scout', name: 'Scout' }},
+      position: {x: -1862, y: 1217, z: -244},
+
+    },
+    {
+      timestamp: new Date(2010, 8, 29, 19, 24, 17, 0),
+      elapsedSeconds: 921,
+      player: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', role: { key: 'medic', name: 'Medic' }},
+      position: {x: -1862, y: 1217, z: -244},
+    }
+  ]);
+
+  //doing these in separate functions to try and keep things clean.
+  checkEvents(log);
+  checkPlayerStats(log);
 }
 
 function checkEvents(log) {
