@@ -21,8 +21,20 @@ module.exports = {
 
     var rf = new ReadFile();
     rf.on('error', function(err){throw err;});
+
+    var lineNum = 0;
     rf.on('line', function(line) {
-      parser.parseLine(line);
+      var delta = parser.parseLine(line);
+
+      if(lineNum === 37) {
+        //say event
+        delta.length.should.be.equal(1);
+        delta[0].type.should.be.eql('say');
+      } else {
+        delta.length.should.be.equal(0);
+      }
+
+      ++lineNum;
     });
     rf.readFile(FP+'/mini.log');
   }
