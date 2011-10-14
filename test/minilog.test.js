@@ -22,14 +22,45 @@ module.exports = {
     var rf = new ReadFile();
     rf.on('error', function(err){throw err;});
 
-    var lineNum = 0;
+    var lineNum = 1; //1 - indexing to make it easier to check the file.
     rf.on('line', function(line) {
       var delta = parser.parseLine(line);
 
-      if(lineNum === 37) {
+      if(lineNum === 38) {
         //say event
         delta.length.should.be.equal(1);
         delta[0].type.should.be.eql('say');
+      } else if(lineNum === 20 || (
+          lineNum != 32 //killed obj
+          && lineNum != 33 //rcon
+          && lineNum != 34 //killed obj
+          && lineNum != 40 //join team
+          && lineNum != 41 //change name
+          && lineNum != 42 //pos report
+          && lineNum != 44 //healed
+          && lineNum != 45 //healed
+          && lineNum != 46 //medic_death
+          && lineNum != 48 //join team
+          && lineNum != 50 //medic_death
+          && lineNum != 52 //medic_death
+          && lineNum != 53 //join team
+          && lineNum != 54 //changed role
+          && lineNum != 61 //kill assist
+          && lineNum != 62 //discon
+          && lineNum != 63 //discon
+          && lineNum != 64 //corrupt line
+          && lineNum != 65 //discon
+          && lineNum != 66 //corrupt line
+          && lineNum != 67 //medic_death
+          && lineNum != 68 //sourcemod cmd
+          && lineNum != 69 //console say
+          && lineNum != 70 //bot entered game
+          && lineNum != 71 //join team
+          && lineNum != 74 //and 75 - bot action
+          && lineNum >= 28 && lineNum < 75)) {
+        //21 is kill assist
+        //22-27 are damage and item pickup - todo item pickups should be events, so should killed object, join team, entered game, change name, change role, discon
+        delta.length.should.be.equal(1);
       } else {
         delta.length.should.be.equal(0);
       }
