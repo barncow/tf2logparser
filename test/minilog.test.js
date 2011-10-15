@@ -35,9 +35,7 @@ module.exports = {
         delta.length.should.be.equal(1);
         delta[0].positions[0].position.should.be.ok;
       } else if(lineNum === 20 || (
-          lineNum != 32 //killed obj
-          && lineNum != 33 //rcon
-          && lineNum != 34 //killed obj
+          lineNum != 33 //rcon
           && lineNum != 40 //join team
           && lineNum != 41 //change name
           && lineNum != 44 //healed
@@ -168,7 +166,28 @@ function checkEvents(log) {
     elapsedSeconds: 211,
     type: 'builtobject',
     player: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', position: { x: -4015, y: 1821, z: -511 }, role: { key: 'engineer', name: 'Engineer' }},
+    object: 'OBJ_SENTRYGUN',
+    position: { x: -4015, y: 1821, z: -511 }
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({
+    timestamp: new Date(2010, 8, 29, 19, 12, 31, 0),
+    elapsedSeconds: 215,
+    type: 'killedobject',
+    owner: {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Red', role: { key: 'engineer', name: 'Engineer' }},
+    destroyer: {name: 'FSTNG! Barncow', userid: 53, steamid: 'STEAM_0:1:16481274', team: 'Blue', position: { x: -2715, y: 1945, z: -383}, role: false},
     object: 'OBJ_SENTRYGUN'
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({
+    timestamp: new Date(2010, 8, 29, 19, 12, 49, 0),
+    elapsedSeconds: 233,
+    type: 'killedobject',
+    owner: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', role: { key: 'engineer', name: 'Engineer' }},
+    destroyer: {name: 'perl', userid: 57, steamid: 'STEAM_0:0:11710749', team: 'Red', position: { x: -4234, y: 1128, z: -511 }, role: { key: 'engineer', name: 'Engineer' }},
+    object: 'OBJ_TELEPORTER'
   });
   ++eventIndex;
 
@@ -297,7 +316,8 @@ function checkEvents(log) {
     elapsedSeconds: 1392,
     type: 'builtobject',
     player: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: { x: 1457, y: 2273, z: 256 }, role: { key: 'spy', name: 'Spy' }},
-    object: 'OBJ_ATTACHMENT_SAPPER'
+    object: 'OBJ_ATTACHMENT_SAPPER',
+    position: { x: 1457, y: 2273, z: 256 }
   });
   ++eventIndex;
 
@@ -689,10 +709,15 @@ function checkPlayerStats(log) {
     medPicksDroppedUber: 0,
     position: { x: -2605, y: 1596, z: -546 },
     roleSpread: {
+      'engineer': {
+        key: 'engineer',
+        name: 'Engineer',
+        secondsPlayed: 679
+      },
       'medic': {
         key: 'medic',
         name: 'Medic',
-        secondsPlayed: 1666
+        secondsPlayed: 987
       }
     },
     itemSpread: {},
