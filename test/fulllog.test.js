@@ -95,13 +95,13 @@ module.exports = {
       log.mapName.should.eql('cp_freight_final1');
 
       //the healing and ubercharge stats from the 4th event were being placed in the third.
-      var scytheKillEvent = log.events[2];
+      var scytheKillEvent = log.events[4];
       scytheKillEvent.player.steamid.should.eql('STEAM_0:0:946908');
       scytheKillEvent.victim.steamid.should.eql('STEAM_0:0:13365050');
       scytheKillEvent.assister.steamid.should.eql('STEAM_0:1:16481274');
       should.not.exist(scytheKillEvent.healing);
       should.not.exist(scytheKillEvent.ubercharge);
-      var wigglesKillEvent = log.events[3];
+      var wigglesKillEvent = log.events[5];
       wigglesKillEvent.player.steamid.should.eql('STEAM_0:0:1939017');
       wigglesKillEvent.victim.steamid.should.eql('STEAM_0:1:8656857');
       wigglesKillEvent.assister.should.not.be.ok;
