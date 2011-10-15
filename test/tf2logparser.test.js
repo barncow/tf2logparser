@@ -43,7 +43,7 @@ module.exports = {
 
       ++i;
     });
-    rf.on('done', function() {i.should.eql(83)});
+    rf.on('done', function() {i.should.eql(84)});
     onError(rf);
     rf.readFile(FP+'/mini.log');
   },

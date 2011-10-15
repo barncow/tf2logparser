@@ -26,36 +26,36 @@ module.exports = {
     rf.on('line', function(line) {
       var delta = parser.parseLine(line);
 
-      if(lineNum === 38) {
+      if(lineNum === 39) {
         //say event
         delta.length.should.be.equal(1);
         delta[0].events[0].type.should.be.eql('say');
-      } else if(lineNum === 42 || lineNum == 22) {
+      } else if(lineNum === 43 || lineNum == 23) {
         //position report
         delta.length.should.be.equal(1);
         delta[0].positions[0].position.should.be.ok;
-      } else if(lineNum === 58) {
+      } else if(lineNum === 59) {
         delta.length.should.be.equal(3); //score reset - so blue/red score change + flag defense
-      } else if (lineNum === 59) {
+      } else if (lineNum === 60) {
         delta.length.should.be.equal(2); //flag capture + score
-      } else if((lineNum >= 18 && lineNum <= 20) || lineNum === 52 || lineNum === 79 || (
-          lineNum != 33 //rcon
-          && lineNum != 44 //healed
+      } else if((lineNum >= 18 && lineNum <= 21) || lineNum === 53 || lineNum === 80 || (
+          lineNum != 34 //rcon
           && lineNum != 45 //healed
-          && lineNum != 46 //medic_death
-          && lineNum != 50 //medic_death
-          && lineNum != 52 //medic_death
-          && lineNum != 61 //kill assist
-          && lineNum != 64 //corrupt line
-          && lineNum != 66 //corrupt line
-          && lineNum != 67 //medic_death
-          && lineNum != 68 //sourcemod cmd
-          && lineNum != 69 //console say
-          && lineNum != 70 //bot entered game
-          && lineNum != 74 //and 75 - bot action
-          && lineNum >= 25 && lineNum < 75)) {
-        //21 is kill assist
-        //23,24 are damage
+          && lineNum != 46 //healed
+          && lineNum != 47 //medic_death
+          && lineNum != 51 //medic_death
+          && lineNum != 53 //medic_death
+          && lineNum != 62 //kill assist
+          && lineNum != 65 //corrupt line
+          && lineNum != 67 //corrupt line
+          && lineNum != 68 //medic_death
+          && lineNum != 69 //sourcemod cmd
+          && lineNum != 70 //console say
+          && lineNum != 71 //bot entered game
+          && lineNum != 75 //and 76 - bot action
+          && lineNum >= 26 && lineNum < 76)) {
+        //22 is kill assist
+        //24,25 are damage
         delta.length.should.be.equal(1);
       } else {
         delta.length.should.be.equal(0);
@@ -125,13 +125,28 @@ function checkEvents(log) {
   });
   ++eventIndex;
 
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 8, 56, 0),
+    elapsedSeconds: 0,
+    type: 'spawnedas',
+    player: 
+    { name: 'Cres',
+       userid: 49,
+       steamid: 'STEAM_0:0:8581157',
+       team: 'Blue',
+       role: { key: 'soldier', name: 'Soldier' } 
+    },
+    role: { key: 'soldier', name: 'Soldier' }
+  });
+  ++eventIndex;
+
   log.events[eventIndex].should.eql({
     timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
     elapsedSeconds: 1,
     type: 'kill',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1862, y: 1217, z: -244}, role: { key: 'scout', name: 'Scout' }},
     victim: {name: 'FSTNG! Barncow', userid: 48, steamid: 'STEAM_0:1:16481274', team: 'Red', position: {x: -1837, y: 1073, z: -313}, role: { key: 'medic', name: 'Medic' }},
-    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
+    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: { key: 'soldier', name: 'Soldier' }},
     weapon: 'scattergun',
     customKill: false
   });
@@ -146,7 +161,7 @@ function checkEvents(log) {
        userid: 49,
        steamid: 'STEAM_0:0:8581157',
        team: 'Blue',
-       role: false },
+       role: { key: 'soldier', name: 'Soldier' } },
     item: 'medkit_small' 
   });
   ++eventIndex;
@@ -160,7 +175,7 @@ function checkEvents(log) {
        userid: 49,
        steamid: 'STEAM_0:0:8581157',
        team: 'Blue',
-       role: false },
+       role: { key: 'soldier', name: 'Soldier' } },
     item: 'medkit_medium' 
   });
   ++eventIndex;
@@ -174,7 +189,7 @@ function checkEvents(log) {
        userid: 49,
        steamid: 'STEAM_0:0:8581157',
        team: 'Blue',
-       role: false },
+       role: { key: 'soldier', name: 'Soldier' } },
     item: 'medkit_small' 
   });
   ++eventIndex;
@@ -496,7 +511,7 @@ function checkEvents(log) {
     type: 'kill',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: 1514, y: 790, z: 257}, role: { key: 'scout', name: 'Scout' }},
     victim: {name: '`yay!', userid: 52, steamid: 'STEAM_0:0:973270', team: 'Red', position: {x: 1732, y: 1214, z: 257}, role: { key: 'spy', name: 'Spy' }},
-    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
+    assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: { key: 'soldier', name: 'Soldier' }},
     weapon: 'scattergun',
     customKill: 'feign_death'
   });
@@ -525,7 +540,7 @@ function checkEvents(log) {
      userid: 49,
      steamid: 'STEAM_0:0:8581157',
      team: 'Blue',
-     role: false 
+     role: { key: 'soldier', name: 'Soldier' } 
     } 
   });
   ++eventIndex;
@@ -759,7 +774,7 @@ function checkPlayerStats(log) {
     team: 'Blue',
     friendid: '76561197977428042',
     joinedGame: new Date(2010, 8, 29, 19, 8, 56, 0),
-    role: false,
+    role: { key: 'soldier', name: 'Soldier' },
     damage: 33,
     online: false,
     kills: 0,
@@ -783,7 +798,12 @@ function checkPlayerStats(log) {
     medPicksTotal: 0,
     medPicksDroppedUber: 0,
     position: {},
-    roleSpread: {},
+    roleSpread: { 
+      'soldier': 
+      { key: 'soldier',
+        name: 'Soldier',
+        secondsPlayed: 1392 } 
+    },
     itemSpread: {
       medkit_small: 2,
       medkit_medium: 1
