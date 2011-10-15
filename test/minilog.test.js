@@ -49,7 +49,7 @@ module.exports = {
           && lineNum != 69 //console say
           && lineNum != 70 //bot entered game
           && lineNum != 74 //and 75 - bot action
-          && lineNum >= 28 && lineNum < 75)) {
+          && lineNum >= 25 && lineNum < 75)) {
         //21 is kill assist
         //22-27 are damage and item pickup - todo item pickups should be events, so should entered game
         delta.length.should.be.equal(1);
@@ -116,6 +116,48 @@ function checkEvents(log) {
     assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
     weapon: 'scattergun',
     customKill: false
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
+    elapsedSeconds: 1,
+    type: 'pickedupitem',
+    player: 
+     { name: 'Cres',
+       userid: 49,
+       steamid: 'STEAM_0:0:8581157',
+       team: 'Blue',
+       role: false },
+    item: 'medkit_small' 
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
+    elapsedSeconds: 1,
+    type: 'pickedupitem',
+    player: 
+     { name: 'Cres',
+       userid: 49,
+       steamid: 'STEAM_0:0:8581157',
+       team: 'Blue',
+       role: false },
+    item: 'medkit_medium' 
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
+    elapsedSeconds: 1,
+    type: 'pickedupitem',
+    player: 
+     { name: 'Cres',
+       userid: 49,
+       steamid: 'STEAM_0:0:8581157',
+       team: 'Blue',
+       role: false },
+    item: 'medkit_small' 
   });
   ++eventIndex;
 
