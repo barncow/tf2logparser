@@ -34,7 +34,7 @@ module.exports = {
         //position report
         delta.length.should.be.equal(1);
         delta[0].positions[0].position.should.be.ok;
-      } else if(lineNum === 20 || (
+      } else if(lineNum === 20 || lineNum === 52 || (
           lineNum != 33 //rcon
           && lineNum != 44 //healed
           && lineNum != 45 //healed
@@ -51,7 +51,7 @@ module.exports = {
           && lineNum != 74 //and 75 - bot action
           && lineNum >= 25 && lineNum < 75)) {
         //21 is kill assist
-        //22-27 are damage and item pickup - todo item pickups should be events, so should entered game
+        //23,24 are damage
         delta.length.should.be.equal(1);
       } else {
         delta.length.should.be.equal(0);
@@ -353,6 +353,19 @@ function checkEvents(log) {
       {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', position: {x: -70, y: 411, z: -191}, role: { key: 'sniper', name: 'Sniper' }},
       {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', position: {x: 136, y: 733, z: -183}, role: false}
     ]
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 27, 50, 0),
+    elapsedSeconds: 1134,
+    type: 'enteredgame',
+    player: 
+     { name: 'Bill',
+       userid: 16,
+       steamid: 'STEAM_0:0:23957009',
+       team: null,
+       role: { key: 'heavyweapons', name: 'Heavy' } } //todo not quite right, shouldn't have a role here, it's because the roles are being backfilled, prob shouldn't happen on players where joinedTime != gamestart time
   });
   ++eventIndex;
 
