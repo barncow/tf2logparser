@@ -41,7 +41,6 @@ module.exports = {
           && lineNum != 46 //medic_death
           && lineNum != 50 //medic_death
           && lineNum != 52 //medic_death
-          && lineNum != 54 //changed role todo event
           && lineNum != 61 //kill assist
           && lineNum != 62 //discon todo event
           && lineNum != 63 //discon todo event
@@ -329,6 +328,21 @@ function checkEvents(log) {
        team: 'Red',
        role: { key: 'heavyweapons', name: 'Heavy' } },
     team: 'Red' 
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 27, 50, 0),
+    elapsedSeconds: 1134,
+    type: 'changedrole',
+    player: 
+     { name: 'Bill',
+       userid: 16,
+       steamid: 'STEAM_0:0:23957009',
+       team: 'Red',
+       role: { key: 'heavyweapons', name: 'Heavy' }
+    },
+    role: { key: 'heavyweapons', name: 'Heavy' }
   });
   ++eventIndex;
 
