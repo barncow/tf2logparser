@@ -36,7 +36,6 @@ module.exports = {
         delta[0].positions[0].position.should.be.ok;
       } else if(lineNum === 20 || (
           lineNum != 33 //rcon
-          && lineNum != 41 //change name todo event
           && lineNum != 44 //healed
           && lineNum != 45 //healed
           && lineNum != 46 //medic_death
@@ -242,6 +241,21 @@ function checkEvents(log) {
     type: 'joinedteam',
     player: {name: 'ǤooB', userid: 54, steamid: 'STEAM_0:1:23384772', team: 'Unassigned', team: 'Spectator', role: false},
     team: 'Spectator'
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 23, 30, 0),
+    elapsedSeconds: 874,
+    type: 'changedname',
+    player: 
+     { name: 'ǤooB\'s name is brandon too!!',
+       userid: 54,
+       steamid: 'STEAM_0:1:23384772',
+       team: 'Spectator',
+       role: false },
+    oldName: 'ǤooB',
+    newName: 'ǤooB\'s name is brandon too!!' 
   });
   ++eventIndex;
 
@@ -895,7 +909,7 @@ function checkPlayerStats(log) {
   ++playerIndex;
 
   log.players[playerIndex].should.eql({
-    name: 'ǤooB',
+    name: 'ǤooB\'s name is brandon too!!',
     userid: 54,
     steamid: 'STEAM_0:1:23384772',
     team: 'Spectator',
