@@ -36,21 +36,21 @@ module.exports = {
         delta[0].positions[0].position.should.be.ok;
       } else if(lineNum === 20 || (
           lineNum != 33 //rcon
-          && lineNum != 40 //join team
-          && lineNum != 41 //change name
+          && lineNum != 40 //join team todo event
+          && lineNum != 41 //change name todo event
           && lineNum != 44 //healed
           && lineNum != 45 //healed
           && lineNum != 46 //medic_death
-          && lineNum != 48 //join team
+          && lineNum != 48 //join team todo event
           && lineNum != 50 //medic_death
           && lineNum != 52 //medic_death
-          && lineNum != 53 //join team
-          && lineNum != 54 //changed role
+          && lineNum != 53 //join team todo event
+          && lineNum != 54 //changed role todo event
           && lineNum != 61 //kill assist
-          && lineNum != 62 //discon
-          && lineNum != 63 //discon
+          && lineNum != 62 //discon todo event
+          && lineNum != 63 //discon todo event
           && lineNum != 64 //corrupt line
-          && lineNum != 65 //discon
+          && lineNum != 65 //discon todo event
           && lineNum != 66 //corrupt line
           && lineNum != 67 //medic_death
           && lineNum != 68 //sourcemod cmd
@@ -60,7 +60,7 @@ module.exports = {
           && lineNum != 74 //and 75 - bot action
           && lineNum >= 28 && lineNum < 75)) {
         //21 is kill assist
-        //22-27 are damage and item pickup - todo item pickups should be events, so should killed object, join team, entered game, change name, change role, discon
+        //22-27 are damage and item pickup - todo item pickups should be events, so should entered game
         delta.length.should.be.equal(1);
       } else {
         delta.length.should.be.equal(0);
