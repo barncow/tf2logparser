@@ -34,6 +34,10 @@ module.exports = {
         //position report
         delta.length.should.be.equal(1);
         delta[0].positions[0].position.should.be.ok;
+      } else if(lineNum === 58) {
+        delta.length.should.be.equal(3); //score reset - so blue/red score change + flag defense
+      } else if (lineNum === 59) {
+        delta.length.should.be.equal(2); //flag capture + score
       } else if(lineNum === 20 || lineNum === 52 || (
           lineNum != 33 //rcon
           && lineNum != 44 //healed
@@ -429,6 +433,24 @@ function checkEvents(log) {
   });
   ++eventIndex;
 
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
+    elapsedSeconds: 1392,
+    type: 'scorechange',
+    team: 'Red',
+    score: 0 
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
+    elapsedSeconds: 1392,
+    type: 'scorechange',
+    team: 'Blue',
+    score: 0 
+  });
+  ++eventIndex;
+
   log.events[eventIndex].should.eql({
     timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
     elapsedSeconds: 1392,
@@ -442,6 +464,15 @@ function checkEvents(log) {
     elapsedSeconds: 1392,
     type: 'flagcaptured',
     player: {name: 'Target', userid: 46, steamid: 'STEAM_0:0:6845279', team: 'Blue', position: {x: -1841, y: -1776, z: -30}, role: { key: 'scout', name: 'Scout' }}
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
+    elapsedSeconds: 1392,
+    type: 'scorechange',
+    team: 'Blue',
+    score: 1 
   });
   ++eventIndex;
 
