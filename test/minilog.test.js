@@ -36,15 +36,12 @@ module.exports = {
         delta[0].positions[0].position.should.be.ok;
       } else if(lineNum === 20 || (
           lineNum != 33 //rcon
-          && lineNum != 40 //join team todo event
           && lineNum != 41 //change name todo event
           && lineNum != 44 //healed
           && lineNum != 45 //healed
           && lineNum != 46 //medic_death
-          && lineNum != 48 //join team todo event
           && lineNum != 50 //medic_death
           && lineNum != 52 //medic_death
-          && lineNum != 53 //join team todo event
           && lineNum != 54 //changed role todo event
           && lineNum != 61 //kill assist
           && lineNum != 62 //discon todo event
@@ -56,7 +53,6 @@ module.exports = {
           && lineNum != 68 //sourcemod cmd
           && lineNum != 69 //console say
           && lineNum != 70 //bot entered game
-          && lineNum != 71 //join team
           && lineNum != 74 //and 75 - bot action
           && lineNum >= 28 && lineNum < 75)) {
         //21 is kill assist
@@ -241,6 +237,15 @@ function checkEvents(log) {
   ++eventIndex;
 
   log.events[eventIndex].should.eql({
+    timestamp: new Date(2010, 8, 29, 19, 20, 24, 0),
+    elapsedSeconds: 688,
+    type: 'joinedteam',
+    player: {name: 'ǤooB', userid: 54, steamid: 'STEAM_0:1:23384772', team: 'Unassigned', team: 'Spectator', role: false},
+    team: 'Spectator'
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({
     timestamp: new Date(2010, 8, 29, 19, 24, 18, 0),
     elapsedSeconds: 922,
     type: 'chargedeployed',
@@ -259,6 +264,15 @@ function checkEvents(log) {
     customKill: 'suicide',
     healing: 160,
     ubercharge: false
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({
+    timestamp: new Date(2010, 8, 29, 19, 25, 18, 0),
+    elapsedSeconds: 982,
+    type: 'joinedteam',
+    player: {name: '[H2K]BubbleAlan ʚϊɞ', userid: 55, steamid: 'STEAM_0:0:556497', team: 'Spectator', role: { key: 'medic', name: 'Medic' }},
+    team: 'Spectator'
   });
   ++eventIndex;
 
@@ -287,6 +301,20 @@ function checkEvents(log) {
       {name: 'Ctrl+f Muffin!', userid: 50, steamid: 'STEAM_0:1:9852193', team: 'Blue', position: {x: -70, y: 411, z: -191}, role: { key: 'sniper', name: 'Sniper' }},
       {name: '[!?] cheap', userid: 56, steamid: 'STEAM_0:0:12272740', team: 'Blue', position: {x: 136, y: 733, z: -183}, role: false}
     ]
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 27, 50, 0),
+    elapsedSeconds: 1134,
+    type: 'joinedteam',
+    player: 
+     { name: 'Bill',
+       userid: 16,
+       steamid: 'STEAM_0:0:23957009',
+       team: 'Red',
+       role: { key: 'heavyweapons', name: 'Heavy' } },
+    team: 'Red' 
   });
   ++eventIndex;
 
@@ -346,6 +374,22 @@ function checkEvents(log) {
     assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
     weapon: 'scattergun',
     customKill: 'feign_death'
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 9, 0),
+    elapsedSeconds: 1393,
+    type: 'joinedteam',
+    player: 
+     { 
+       name: 'Target',
+       userid: 46,
+       steamid: 'STEAM_0:0:6845279',
+       team: 'Red',
+       role: { key: 'scout', name: 'Scout' } 
+     },
+    team: 'Red' 
   });
   ++eventIndex;
 
