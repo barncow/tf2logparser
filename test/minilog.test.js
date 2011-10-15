@@ -42,10 +42,7 @@ module.exports = {
           && lineNum != 50 //medic_death
           && lineNum != 52 //medic_death
           && lineNum != 61 //kill assist
-          && lineNum != 62 //discon todo event
-          && lineNum != 63 //discon todo event
           && lineNum != 64 //corrupt line
-          && lineNum != 65 //discon todo event
           && lineNum != 66 //corrupt line
           && lineNum != 67 //medic_death
           && lineNum != 68 //sourcemod cmd
@@ -402,6 +399,48 @@ function checkEvents(log) {
     assister: {name: 'Cres', userid: 49, steamid: 'STEAM_0:0:8581157', team: 'Blue', position: {x: -2181, y: 821, z: -201}, role: false},
     weapon: 'scattergun',
     customKill: 'feign_death'
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
+    elapsedSeconds: 1392,
+    type: 'disconnected',
+    player: 
+     { name: 'Ctrl+f Muffin!',
+       userid: 50,
+       steamid: 'STEAM_0:1:9852193',
+       team: 'Red',
+       role: { key: 'sniper', name: 'Sniper' } 
+    } 
+  });
+  ++eventIndex; 
+  
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
+    elapsedSeconds: 1392,
+    type: 'disconnected',
+    player: 
+    { name: 'Cres',
+     userid: 49,
+     steamid: 'STEAM_0:0:8581157',
+     team: 'Blue',
+     role: false 
+    } 
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 32, 8, 0),
+    elapsedSeconds: 1392,
+    type: 'disconnected',
+    player: 
+    { name: 'Bill',
+     userid: 16,
+     steamid: 'STEAM_0:0:23957009',
+     team: 'Red',
+     role: { key: 'heavyweapons', name: 'Heavy' } 
+    } 
   });
   ++eventIndex;
 
