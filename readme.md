@@ -1,4 +1,4 @@
-# tf2logparser v0.1.0
+# tf2logparser v0.2.0
 
 A log parser for the game Team Fortress 2, written in Javascript for use with node.js. It retrieves stats and game events, and then outputs the data to JSON format.
 
@@ -10,7 +10,7 @@ And in the code, use:
 
 ```javascript
 var TF2LogParser = require('tf2logparser').TF2LogParser;
-var parser = TF2LogParser.create(); //need to create a new instance, since this stores state between lines.
+var parser = new TF2LogParser(); //need to create a new instance, since this stores state between lines.
 
 //the 'done' event is thrown when processing is complete.
 parser.on('done', function(log) {
@@ -29,8 +29,36 @@ parser.on('error', function(err) {
 });
 
 //start processing
-parser.parseLogFile(FP+'/blah.log');
+parser.parseLogFile('blah.log');
 ```
+
+# Real Time Mode
+Real time mode is a way for you to manually feed through lines to the parser. There are some differences between normal log file processing and real time:
+1. No line events are emitted. Since you have to manually call `parseLine`, it doesn't make sense to emit this event. The `done` event is still emitted.
+2. `parseLine` will return what events and positions were added from the given line, called "delta".
+3. The parseLogFile will consider the log file as a complete game, with multiple halves, etc. In real time, there is no good way to determine what should be considered a game, so the `done` event is fired when a game over occurs or `Log file closed` is sent to the parser.
+
+How to use:
+
+```javascript
+var TF2LogParser = require('tf2logparser').TF2LogParser;
+var parser = new TF2LogParser({isRealTime: true}); //need to create a new instance, since this stores state between lines.
+
+//the 'done' event is thrown when processing is complete.
+parser.on('done', function(log) {
+  //log is the final log object, that contains all stats.
+  console.log("Blue Score: %d\nRed Score: %d", log.blueScore, log.redScore);
+});
+
+//the 'error' event is thrown when an error is encountered.
+parser.on('error', function(err) {
+  throw err;
+});
+
+//send a line to the parser - do this for each line
+var deltas = parser.parseLine('L 07/11/2011 - 18:45:36: "Target<7><STEAM_0:0:6845279><Red>" spawned as "scout"');
+//deltas.events will have an array of event objects for events that occurred in that line.
+//deltas.positions will have an array of position objects for positions that occurred in that line.
 
 # The `tf2logparser` Command
 This log parser ships with a `tf2logparser` binary that can be used to generate JSON output from the command line.

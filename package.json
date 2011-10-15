@@ -7,7 +7,7 @@
   "name": "tf2logparser",
   "description": "A log parser for the game Team Fortress 2. It retrieves stats and game events and outputs the data to JSON format.",
   "keywords": ["tf2", "log", "parser", "team fortress", "team fortress 2", "stats", "tf2logs", "tf2logs.com", "pubcomp", "pubcomp.com"],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/barncow/tf2logparser",
   "repository": {
     "type": "git",
