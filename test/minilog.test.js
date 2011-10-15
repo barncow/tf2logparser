@@ -38,7 +38,7 @@ module.exports = {
         delta.length.should.be.equal(3); //score reset - so blue/red score change + flag defense
       } else if (lineNum === 59) {
         delta.length.should.be.equal(2); //flag capture + score
-      } else if(lineNum === 20 || lineNum === 52 || (
+      } else if((lineNum >= 18 && lineNum <= 20) || lineNum === 52 || lineNum === 79 || (
           lineNum != 33 //rcon
           && lineNum != 44 //healed
           && lineNum != 45 //healed
@@ -109,7 +109,21 @@ function checkLog(log) {
 }
 
 function checkEvents(log) {
-  var eventIndex = 0;
+  var eventIndex = 0;  
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 8, 56, 0),
+    elapsedSeconds: 0,
+    type: 'roundstart' 
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({ 
+    timestamp: new Date(2010, 8, 29, 19, 8, 56, 0),
+    elapsedSeconds: 0,
+    type: 'roundsetupbegin' 
+  });
+  ++eventIndex;
 
   log.events[eventIndex].should.eql({
     timestamp: new Date(2010, 8, 29, 19, 8, 57, 0),
@@ -567,6 +581,13 @@ function checkEvents(log) {
     assister: false,
     weapon: 'sadfsgtghgher',
     customKill: false
+  });
+  ++eventIndex;
+
+  log.events[eventIndex].should.eql({
+    timestamp: new Date(2010, 8, 29, 19, 36, 42, 0),
+    elapsedSeconds: 1666,
+    type: 'roundwin'
   });
   ++eventIndex;
 
