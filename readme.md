@@ -59,6 +59,7 @@ parser.on('error', function(err) {
 var deltas = parser.parseLine('L 07/11/2011 - 18:45:36: "Target<7><STEAM_0:0:6845279><Red>" spawned as "scout"');
 //deltas.events will have an array of event objects for events that occurred in that line.
 //deltas.positions will have an array of position objects for positions that occurred in that line.
+```
 
 # The `tf2logparser` Command
 This log parser ships with a `tf2logparser` binary that can be used to generate JSON output from the command line.
