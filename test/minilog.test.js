@@ -18,6 +18,9 @@ module.exports = {
   , 'minilog realtime': function() {
     var parser = new LogParser({ignoreUnrecognizedLines: false, isRealTime: true});
     parser.on('done', checkLog);
+    parser.on('start', function() {
+      lineNum.should.equal(18);
+    });
 
     var rf = new ReadFile();
     rf.on('error', function(err){throw err;});
