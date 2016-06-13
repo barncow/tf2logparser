@@ -21,7 +21,7 @@
     spaces = 2;
   }
 
-  path.exists(filename, function(exists){
+  fs.exists(filename, function(exists){
     if(!exists) {
       console.log('The file: "'+filename+'" could not be found.');
       process.exit(1);
